@@ -1,7 +1,7 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 'B - 🇯🇵 JP 09 TG: @nodpai'
+  name: 'B - 🇯🇵 JP 11 TG: @nodpai'
   port: 30806
   server: v6.hdacd.com
   type: vmess

@@ -21,13 +21,6 @@ proxies:
   uuid: 7cd96dbe-ecec-4937-9e05-87ab70af2f30
 - alterId: 0
   cipher: auto
-  name: 'B - 🇭🇰 HK 03 TG: @nodpai'
-  port: 7754
-  server: vm51544542.dns8656815.com
-  type: vmess
-  uuid: 7cd96dbe-ecec-4937-9e05-87ab70af2f30
-- alterId: 0
-  cipher: auto
   name: 'B - 🇭🇰 HK 04 TG: @nodpai'
   network: ws
   port: 443
@@ -38,9 +31,16 @@ proxies:
   uuid: 78f61544-3393-4e6b-9c77-5deaa0c7471d
   ws-opts:
     path: /
+- name: 'B - 🇭🇰 HK 06 TG: @nodpai'
+  password: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
+  port: 8443
+  server: 19016135-te7og0-tfo5nb-yjq0.hkt.cdnhuawei.com
+  tls: true
+  type: http
+  username: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
 - alterId: 0
   cipher: auto
-  name: 'B - 🇭🇰 HK 09 TG: @nodpai'
+  name: 'B - 🇭🇰 HK 10 TG: @nodpai'
   network: ws
   port: 20010
   server: 76c3.earthdraft.onezz.top
@@ -50,17 +50,8 @@ proxies:
     headers:
       Host: ithome.com
     path: /chat
-- flow: xtls-rprx-vision-udp443
-  name: 'B - 🇭🇰 HK 10 TG: @nodpai'
-  port: 443
-  security: tls
-  server: hk1.ap221.com
-  servername: hk.ap221.com
-  tls: true
-  type: vless
-  uuid: c71ab922-2c35-4f6e-abfe-4950658f7bce
 - client-fingerprint: chrome
-  name: 'B - 🇭🇰 HK 11 TG: @nodpai'
+  name: 'B - 🇭🇰 HK 12 TG: @nodpai'
   network: ws
   port: 80
   security: 'false'
@@ -71,7 +62,17 @@ proxies:
     headers:
       Host: us.xydcqd.workers.dev
     path: /@WireXnet?ed=2048
-- name: 'B - 🇭🇰 HK 13 TG: @nodpai'
+- name: 'B - 🇭🇰 HK 14 TG: @nodpai'
+  obfs: salamander
+  obfs-password: YmGRdMZ74sEC91FN
+  password: de8e0342-ea12-4f9d-bc2a-e62409e1913f
+  port: 20003
+  server: zz.66jc.xyz
+  skip-cert-verify: true
+  sni: hkzz.66jc.xyz
+  type: hysteria2
+  udp: true
+- name: 'B - 🇭🇰 HK 15 TG: @nodpai'
   network: ws
   port: 10201
   security: tls
@@ -83,45 +84,25 @@ proxies:
     headers:
       Host: 2026.hhhhh.eu.org
     path: /223.16.138.113:10201
-- flow: xtls-rprx-vision-udp443
-  name: 'C - 🇭🇰 HK 15 TG: @nodpai'
-  port: 443
-  security: tls
-  server: hk1.ap221.com
-  servername: hk.ap221.com
-  tls: true
-  type: vless
-  uuid: 9b1ec8dd-9c94-484a-b01f-a2946d18ce36
-- name: 'C - 🇭🇰 HK 16 TG: @nodpai'
+- name: 'B - 🇭🇰 HK 16 TG: @nodpai'
   network: ws
-  password: 13d29042-ab82-4195-9cd4-2bafc518e201
-  port: 443
-  server: 23.227.38.178
+  port: 17820
+  server: s5.db-link.in
+  servername: 48afa0c5c9.shopify.com
   skip-cert-verify: true
-  sni: q6clkp794liy3y90.hktimecsgo.xyz
-  tls: true
-  type: trojan
+  type: vless
+  uuid: 75d4d24d-ba8d-3676-a5c6-edd6ea6dbfb6
   ws-opts:
     headers:
-      Host: q6clkp794liy3y90.hktimecsgo.xyz
-    path: /images
+      Host: 48afa0c5c9.shopify.com
+    path: /db102448afa0c5c9fp=chromesecurity=tls
 - alterId: 2
   cipher: auto
-  name: 'C - 🇭🇰 HK 18 TG: @nodpai'
+  name: 'C - 🇭🇰 HK 19 TG: @nodpai'
   port: 30809
   server: v9.hdacd.com
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 'C - 🇭🇰 HK 19 TG: @nodpai'
-  network: ws
-  port: 8880
-  server: 50.62.175.253
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: joss.jak.biz.id
-    path: /Free-VPN-CF-Geo-Project/HK?ed=2560&https://t.me/WangCai2🇨🇳
 - name: 'C - 🇭🇰 HK 20 TG: @nodpai'
   network: ws
   password: 77b19c69-9840-443d-a66b-f08c81b6950a
@@ -134,8 +115,18 @@ proxies:
     headers:
       Host: hkefowhe04.hktimecsgo.xyz
     path: /images
+- name: 'C - 🇭🇰 HK 21 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 109.176.239.253
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: joss.jak.biz.id
+    path: /Free-VPN-CF-Geo-Project/HK?ed=2560&https://t.me/WangCai2🇨🇳
 - client-fingerprint: chrome
-  name: 'C - 🇭🇰 HK 22 TG: @nodpai'
+  name: 'C - 🇭🇰 HK 23 TG: @nodpai'
   port: 443
   security: tls
   server: 8.218.166.188
@@ -143,14 +134,7 @@ proxies:
   tls: true
   type: vless
   uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
-- alterId: 64
-  cipher: auto
-  name: 'D - 🇭🇰 HK 23 TG: @nodpai'
-  port: 54022
-  server: 103.181.164.145
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 'D - 🇭🇰 HK 25 TG: @nodpai'
+- name: 'D - 🇭🇰 HK 24 TG: @nodpai'
   network: ws
   port: 8880
   server: 160.153.136.253
@@ -161,7 +145,7 @@ proxies:
       Host: joss.jak.biz.id
     path: /Free-VPN-CF-Geo-Project/HK?ed=2560&https://t.me/WangCai2🇨🇳
 - encryption: none
-  name: 'D - 🇭🇰 HK 26 TG: @nodpai'
+  name: 'D - 🇭🇰 HK 25 TG: @nodpai'
   network: ws
   port: 80
   server: 104.17.150.99
@@ -171,6 +155,19 @@ proxies:
     headers:
       Host: sss.yaml7.ggff.net
     path: /?ed=2048
+- name: 'D - 🇭🇰 HK 26 TG: @nodpai'
+  network: ws
+  port: 443
+  security: tls
+  server: 207.65.189.9
+  servername: joss.jak.biz.id
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: joss.jak.biz.id
+    path: /Free-VPN-CF-Geo-Project/HK?ed=2560&https://t.me/WangCai2🇨🇳
 - alterId: 2
   cipher: auto
   name: 🇭🇰 香港|@ripaojiedian

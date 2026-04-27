@@ -8,13 +8,6 @@ proxies:
   uuid: 7cd96dbe-ecec-4937-9e05-87ab70af2f30
 - alterId: 0
   cipher: auto
-  name: 'B - 🇭🇰 HK 03 TG: @nodpai'
-  port: 7754
-  server: vm51544542.dns8656815.com
-  type: vmess
-  uuid: 7cd96dbe-ecec-4937-9e05-87ab70af2f30
-- alterId: 0
-  cipher: auto
   name: 'B - 🇭🇰 HK 04 TG: @nodpai'
   network: ws
   port: 443
@@ -27,7 +20,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 'B - 🇭🇰 HK 09 TG: @nodpai'
+  name: 'B - 🇭🇰 HK 10 TG: @nodpai'
   network: ws
   port: 20010
   server: 76c3.earthdraft.onezz.top
@@ -37,22 +30,9 @@ proxies:
     headers:
       Host: ithome.com
     path: /chat
-- name: 'C - 🇭🇰 HK 16 TG: @nodpai'
-  network: ws
-  password: 13d29042-ab82-4195-9cd4-2bafc518e201
-  port: 443
-  server: 23.227.38.178
-  skip-cert-verify: true
-  sni: q6clkp794liy3y90.hktimecsgo.xyz
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: q6clkp794liy3y90.hktimecsgo.xyz
-    path: /images
 - alterId: 2
   cipher: auto
-  name: 'C - 🇭🇰 HK 18 TG: @nodpai'
+  name: 'C - 🇭🇰 HK 19 TG: @nodpai'
   port: 30809
   server: v9.hdacd.com
   type: vmess
@@ -69,13 +49,6 @@ proxies:
     headers:
       Host: hkefowhe04.hktimecsgo.xyz
     path: /images
-- alterId: 64
-  cipher: auto
-  name: 'D - 🇭🇰 HK 23 TG: @nodpai'
-  port: 54022
-  server: 103.181.164.145
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 2
   cipher: auto
   name: 🇭🇰 香港|@ripaojiedian

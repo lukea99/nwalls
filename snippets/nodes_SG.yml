@@ -1,5 +1,5 @@
 proxies:
-- name: 'D - 🇸🇬 SG 26 TG: @nodpai'
+- name: 'D - 🇸🇬 SG 25 TG: @nodpai'
   network: ws
   password: '!!str 162534'
   port: 443

@@ -1,16 +1,19 @@
 proxies:
-- name: 'B - 🇺🇸 US 08 TG: @nodpai'
-  network: ws
-  password: 77b19c69-9840-443d-a66b-f08c81b6950a
-  port: 443
-  server: 23.227.38.166
-  sni: ni5qwas2a6ysde23.usgogo202510.top
-  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 'A - 🇺🇸 US 01 TG: @nodpai'
+  port: 39742
+  server: 38.207.177.134
+  type: vmess
   udp: true
-  ws-opts:
-    headers:
-      Host: ni5qwas2a6ysde23.usgogo202510.top
-    path: /images
+  uuid: 36cf6565-bc71-4f8c-9e30-a9cc6156e583
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇺🇸 US 05 TG: @nodpai'
+  port: 180
+  server: 82.198.246.214
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - name: 'B - 🇺🇸 US 09 TG: @nodpai'
   network: ws
   password: 77b19c69-9840-443d-a66b-f08c81b6950a
@@ -23,18 +26,69 @@ proxies:
     headers:
       Host: goog0419.bpusfaster2.top
     path: /images
-- name: 'C - 🇺🇸 US 14 TG: @nodpai'
+- name: 'B - 🇺🇸 US 11 TG: @nodpai'
   network: ws
   password: 77b19c69-9840-443d-a66b-f08c81b6950a
   port: 443
-  server: 23.227.38.43
-  sni: 0o3vr2n5k2.bpuk2026.top
+  server: 111.cloudflare.182682.xyz
+  sni: px8r9i1b4k.bpusfaster2.top
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: ehofhoe.bpuk2026.top
+      Host: px8r9i1b4k.bpusfaster2.top
     path: /images
+- name: 'B - 🇺🇸 US 13 TG: @nodpai'
+  network: ws
+  password: '!!str 1234567890'
+  port: 443
+  server: 109.120.134.104
+  sni: kfm-bn0.pages.dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /
+- name: 'C - 🇺🇸 US 14 TG: @nodpai'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 193.23.201.26
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 'C - 🇺🇸 US 16 TG: @nodpai'
+  network: ws
+  password: '!!str 1234567890'
+  port: 8443
+  server: 159.195.79.8
+  sni: kfm-bn0.pages.dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560&https://t.me/WangCai2🇨🇳
+- client-fingerprint: chrome
+  name: 'C - 🇺🇸 US 17 TG: @nodpai'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 185.102.136.201
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
 - name: 美国|@ripaojiedian
   network: tcp
   password: 69ecb45889d99f31b8ccc10bf8f76a72

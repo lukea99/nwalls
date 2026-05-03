@@ -1,25 +1,11 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 'C - 🇸🇬 SG 19 TG: @nodpai'
-  network: ws
+- name: 'B - 🇸🇬 SG 17 TG: @nodpai'
+  password: '!!str 162534'
   port: 443
-  server: 104.21.2.202
-  servername: tw53.cowjump.site
+  server: 134.209.103.4
+  sni: cchh2.pages.dev
   tls: true
-  type: vmess
-  uuid: 0bf1cead-bdd4-4692-b3d4-6866ccb9f37a
-  ws-opts:
-    headers:
-      Host: tw53.cowjump.site
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 'C - 🇸🇬 SG 21 TG: @nodpai'
-  port: 51556
-  server: 103.181.164.145
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  type: trojan
 - name: 新加坡2|@ripaojiedian
   network: tcp
   password: ba62c023f9bce796ae334fecb20ef7cc
@@ -36,3 +22,15 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🔴🇸🇬[🎬🤖📺🎭]_github.com/Ruk1ng001...
+  network: tcp
+  port: 30845
+  server: v45.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484

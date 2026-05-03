@@ -1,11 +1,4 @@
 proxies:
-- alterId: 64
-  cipher: auto
-  name: 'D - 🇭🇰 HK 10 TG: @nodpai'
-  port: 54022
-  server: 103.181.164.145
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 2
   cipher: auto
   name: 🇭🇰 香港|@ripaojiedian

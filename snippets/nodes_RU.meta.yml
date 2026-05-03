@@ -1,1 +1,24 @@
-proxies: []
+proxies:
+- flow: xtls-rprx-vision
+  name: 🇷🇺RU_1|1.2MB/s
+  network: tcp
+  port: 52006
+  server: 178.72.182.15
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 75807638-6f19-07d0-ae08-38492ee85c88
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇷🇺RU_2|1.2MB/s
+  network: tcp
+  port: 52006
+  server: 178.72.181.35
+  servername: cluster-europe-1.firstvideocdn.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 75807638-6f19-1f40-ae08-38492ee85c88
+  xudp: true

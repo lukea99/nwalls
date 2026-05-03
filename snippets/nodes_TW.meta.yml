@@ -1,8 +1,48 @@
 proxies:
-- alterId: 2
-  cipher: auto
-  name: 'B - 🇹🇼 TW 02 TG: @nodpai'
-  port: 30811
-  server: v11.zgtfqs.click
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- client-fingerprint: chrome
+  encryption: none
+  name: 'B - 🇹🇼 TW 05 TG: @nodpai'
+  network: ws
+  port: 6235
+  security: tls
+  server: 125.227.219.98
+  servername: baidu.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: f6ddddaf-dfd6-4134-9dae-03b93b03d150
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /xxxxhttp
+- client-fingerprint: chrome
+  name: 'B - 🇹🇼 TW 07 TG: @nodpai'
+  network: ws
+  port: 6235
+  security: tls
+  server: 125.227.219.98
+  servername: baidu.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: f6ddddaf-dfd6-4134-9dae-03b93b03d146
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /xxxxhttp
+- client-fingerprint: chrome
+  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
+  encryption: none
+  name: 'D - 🇹🇼 TW 10 TG: @nodpai'
+  network: ws
+  port: 26988
+  security: tls
+  server: 38.47.99.14
+  servername: tptpss.pages.dev
+  tls: true
+  type: vless
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  ws-opts:
+    headers:
+      Host: tptpss.pages.dev
+    path: /https://203.69.23.34:443

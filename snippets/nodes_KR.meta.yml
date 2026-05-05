@@ -1,32 +1,22 @@
 proxies:
-- alpn:
-  - 'http/1.1
-
-    '
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇰🇷KR_2|1.0MB/s|1.1MB/s
+- name: 🇰🇷 韩国 275|1.0MB/s
   network: ws
-  port: '12345'
-  server: 222.108.243.194
-  servername: yvl5fy.data-cache.chinam.indevs.in
+  port: 29015
+  server: 211.192.237.97
+  servername: ynwta9.api-edge.fgfw.qzz.io
   tls: true
   type: vless
   udp: true
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: yvl5fy.data-cache.chinam.indevs.in
-      User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
-        Chrome/12.0.742.100 Safari/534.30
-    path: /danfeng?ed=2560
-  xudp: true
+      Host: ynwta9.api-edge.fgfw.qzz.io
+    path: /danfeng
 - client-fingerprint: chrome
-  encryption: none
-  name: 🔴🇰🇷[🎬🤖📺🔍]_github.com/Ruk1ng001...
+  name: 🇰🇷KR_1|1.2MB/s
   network: ws
-  port: 10443
-  server: 115.94.182.76
+  port: '38699'
+  server: 121.154.97.193
   servername: xfxl35a.node-edge.gfw.hidns.co
   tls: true
   type: vless
@@ -35,34 +25,19 @@ proxies:
   ws-opts:
     headers:
       Host: xfxl35a.node-edge.gfw.hidns.co
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /danfeng?ed=2560
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/45.0.2454.101 Safari/537.36
+    path: /danfeng?ed=2560fp=firefox
   xudp: true
-- client-fingerprint: chrome
-  name: 🇰🇷KR_1|1.4MB/s
-  network: ws
-  port: 10001
-  server: 218.155.125.99
-  servername: ynwta9.api-edge.fgfw.qzz.io
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: ynwta9.api-edge.fgfw.qzz.io
-    path: /danfeng?ed=2560
-- client-fingerprint: chrome
+- client-fingerprint: firefox
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 🇰🇷KR_2|1.0MB/s
+  name: 🇰🇷 韩国-C1CE9C4D|1.0MB/s
   network: ws
-  port: 12300
-  server: 222.106.183.207
-  servername: ynwta9.api-edge.fgfw.qzz.io
+  port: 18005
+  server: 122.43.47.245
+  servername: xfxl35a.node-edge.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
   tls: true
@@ -70,28 +45,29 @@ proxies:
   udp: true
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: ynwta9.api-edge.fgfw.qzz.io
-    path: /danfeng?ed=2560
-- alpn:
-  - 'http/1.1
-
-    '
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇰🇷KR_3|1.4MB/s
+      Host: xfxl35a.node-edge.gfw.hidns.co
+    max-early-data: 2560
+    path: /danfeng
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 🇰🇷KR_2|1.1MB/s
   network: ws
-  port: '32770'
-  server: 119.200.244.99
-  servername: wzvh.panel-api.gfw.hidns.co
+  port: 30005
+  server: 183.104.118.33
+  servername: xfxl35a.node-edge.gfw.hidns.co
+  skip-cert-verify: false
+  tfo: false
   tls: true
   type: vless
   udp: true
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: wzvh.panel-api.gfw.hidns.co
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/58.0.3029.110 Safari/537.36
-    path: /danfeng?ed=2560
-  xudp: true
+      Host: xfxl35a.node-edge.gfw.hidns.co
+    max-early-data: 2560
+    path: /danfeng

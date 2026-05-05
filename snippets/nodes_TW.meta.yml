@@ -1,79 +1,66 @@
 proxies:
-- name: 'A - 🇹🇼 TW 02 TG: @nodpai'
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 1443
-  server: twmoon1-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- name: 'A - 🇹🇼 TW 04 TG: @nodpai'
+- name: 'A - 🇹🇼 TW 03 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
   server: 114.33.57.170
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
+  tls: true
   type: trojan
-  udp: true
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 'A - 🇹🇼 TW 05 TG: @nodpai'
-  password: mrwdfNTD8M79LCukCieldrqZWqs=
-  port: 1443
-  server: twmoon1-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
 - alterId: 2
   cipher: auto
-  name: 'B - 🇹🇼 TW 15 TG: @nodpai'
+  name: 'B - 🇹🇼 TW 12 TG: @nodpai'
   port: 30811
   server: v11.zgtfqs.click
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 'B - 🇹🇼 TW 16 TG: @nodpai'
+- client-fingerprint: chrome
+  name: 'B - 🇹🇼 TW 13 TG: @nodpai'
   network: ws
   port: 10443
-  security: tls
   server: 114.34.106.124
   servername: xfxl35a.node-edge.gfw.hidns.co
+  skip-cert-verify: true
   tls: true
   type: vless
+  udp: true
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
       Host: xfxl35a.node-edge.gfw.hidns.co
     path: /danfeng?ed=2560fp=firefox
-- name: 'B - 🇹🇼 TW 17 TG: @nodpai'
+- alpn:
+  - 'http/1.1
+
+    '
+  client-fingerprint: firefox
+  encryption: none
+  name: 'B - 🇹🇼 TW 16 TG: @nodpai'
   network: ws
-  port: 7438
+  port: 17009
   security: tls
-  server: 38.47.104.140
-  servername: tptpss.pages.dev
+  server: 166.0.198.153
+  servername: iuh1.auth-proxy.chinat.indevs.in
   tls: true
   type: vless
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: tptpss.pages.dev
-    path: /https://203.69.23.34:443fp=chrome
-- name: 'B - 🇹🇼 TW 19 TG: @nodpai'
-  network: ws
-  port: 10002
-  server: 211.199.27.72
-  servername: tptpss.pages.dev
-  type: vless
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  ws-opts:
-    headers:
-      Host: tptpss.pages.dev
-    path: /https://203.69.23.34:443fp=chromesecurity=tls
-- client-fingerprint: chrome
-  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
-  encryption: none
-  name: 'B - 🇹🇼 TW 20 TG: @nodpai'
+      Host: iuh1.auth-proxy.chinat.indevs.in
+    path: /danfeng?ed=2560
+- alterId: 2
+  cipher: auto
+  name: 'B - 🇹🇼 TW 17 TG: @nodpai'
+  port: 30811
+  server: 218.173.203.171
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 'B - 🇹🇼 TW 18 TG: @nodpai'
   network: ws
   port: 16396
   security: tls
@@ -85,51 +72,7 @@ proxies:
   ws-opts:
     headers:
       Host: tptpss.pages.dev
-    path: /https://203.69.23.34:443
-- client-fingerprint: chrome
-  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
-  encryption: none
-  name: 'B - 🇹🇼 TW 21 TG: @nodpai'
-  network: ws
-  port: 12025
-  security: tls
-  server: 38.55.110.29
-  servername: tptpss.pages.dev
-  tls: true
-  type: vless
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  ws-opts:
-    headers:
-      Host: tptpss.pages.dev
-    path: /https://203.69.23.34:443
-- encryption: none
-  name: 'C - 🇹🇼 TW 22 TG: @nodpai'
-  network: ws
-  port: 995
-  security: tls
-  server: 60.251.232.240
-  servername: snippet.fgfw.loc.cc
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: snippet.fgfw.loc.cc
-    path: /danfeng?ed=2560
-- client-fingerprint: chrome
-  name: 'C - 🇹🇼 TW 23 TG: @nodpai'
-  network: ws
-  port: 443
-  server: 38.54.107.227
-  servername: 3-bio.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  ws-opts:
-    headers:
-      Host: 3-bio.pages.dev
-    path: /socks5=gogo:gogo@185.184.70.120:50088
+    path: /https://203.69.23.34:443fp=chrome
 - client-fingerprint: firefox
   name: TW_speednode_0021
   network: ws

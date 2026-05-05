@@ -1,5 +1,5 @@
 proxies:
-- name: 'A - 🇹🇼 TW 03 TG: @nodpai'
+- name: 'A - 🇹🇼 TW 01 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -14,65 +14,18 @@ proxies:
     path: /trTelegram🇨🇳 @WangCai2
 - alterId: 2
   cipher: auto
-  name: 'B - 🇹🇼 TW 12 TG: @nodpai'
-  port: 30811
-  server: v11.zgtfqs.click
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  name: 'B - 🇹🇼 TW 13 TG: @nodpai'
-  network: ws
-  port: 10443
-  server: 114.34.106.124
-  servername: xfxl35a.node-edge.gfw.hidns.co
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: xfxl35a.node-edge.gfw.hidns.co
-    path: /danfeng?ed=2560fp=firefox
-- alpn:
-  - 'http/1.1
-
-    '
-  client-fingerprint: firefox
-  encryption: none
-  name: 'B - 🇹🇼 TW 16 TG: @nodpai'
-  network: ws
-  port: 17009
-  security: tls
-  server: 166.0.198.153
-  servername: iuh1.auth-proxy.chinat.indevs.in
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: iuh1.auth-proxy.chinat.indevs.in
-    path: /danfeng?ed=2560
-- alterId: 2
-  cipher: auto
-  name: 'B - 🇹🇼 TW 17 TG: @nodpai'
+  name: 'B - 🇹🇼 TW 03 TG: @nodpai'
   port: 30811
   server: 218.173.203.171
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 'B - 🇹🇼 TW 18 TG: @nodpai'
-  network: ws
-  port: 16396
-  security: tls
-  server: 38.207.160.213
-  servername: tptpss.pages.dev
-  tls: true
-  type: vless
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  ws-opts:
-    headers:
-      Host: tptpss.pages.dev
-    path: /https://203.69.23.34:443fp=chrome
+- alterId: 2
+  cipher: auto
+  name: 'B - 🇹🇼 TW 08 TG: @nodpai'
+  port: 30811
+  server: v11.zgtfqs.click
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: firefox
   name: TW_speednode_0021
   network: ws

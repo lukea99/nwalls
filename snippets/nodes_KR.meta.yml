@@ -1,12 +1,46 @@
 proxies:
 - client-fingerprint: chrome
+  name: 🇰🇷 韩国-C1CE9C4D|1.0MB/s|1.5MB/s
+  network: ws
+  port: '18005'
+  server: 122.43.47.245
+  servername: xfxl35a.node-edge.gfw.hidns.co
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: xfxl35a.node-edge.gfw.hidns.co
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J111M Build/LMY47V) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /danfengfp=firefox
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇰🇷KR_1|1.0MB/s
+  network: ws
+  port: '30005'
+  server: 183.104.118.33
+  servername: xfxl35a.node-edge.gfw.hidns.co
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: xfxl35a.node-edge.gfw.hidns.co
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; A37fw Build/LMY47V) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+    path: /danfengfp=chrome
+  xudp: true
+- client-fingerprint: chrome
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 🔴🇰🇷[🎬🤖📺🔍]_github.com/Ruk1ng001...
+  name: 🇰🇷KR_2|1.3MB/s
   network: ws
-  port: 27017
-  server: 121.151.210.54
+  port: 32677
+  server: 59.14.114.164
   servername: xfxl35a.node-edge.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -15,20 +49,43 @@ proxies:
   udp: true
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
       Host: xfxl35a.node-edge.gfw.hidns.co
-    path: /danfeng?ed=2560
+    max-early-data: 2560
+    path: /danfeng
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 🇰🇷KR_3|1.3MB/s
+  network: ws
+  port: 32771
+  server: 221.168.164.179
+  servername: xfxl35a.node-edge.gfw.hidns.co
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: xfxl35a.node-edge.gfw.hidns.co
+    max-early-data: 2560
+    path: /danfeng
 - alpn:
   - 'http/1.1
 
     '
-  client-fingerprint: chrome
+  client-fingerprint: firefox
   encryption: none
-  name: 🇰🇷KR_1|1.4MB/s
+  name: 🇰🇷KR_4|1.6MB/s
   network: ws
-  port: 14430
-  server: 119.195.0.158
-  servername: n63n17.mail.sh21.eu.org
+  port: 11001
+  server: 211.51.201.180
+  servername: mcbeaamn.relay-api.fgfw.qzz.io
   skip-cert-verify: false
   tls: true
   type: vless
@@ -37,74 +94,7 @@ proxies:
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: n63n17.mail.sh21.eu.org
+      Host: mcbeaamn.relay-api.fgfw.qzz.io
     max-early-data: 2560
     path: /danfeng
-  xudp: true
-- alpn:
-  - 'http/1.1
-
-    '
-  client-fingerprint: firefox
-  encryption: none
-  name: 🇰🇷 韩国-758B246B|1.1MB/s
-  network: ws
-  port: 10002
-  server: 59.1.19.92
-  servername: akrip7.beta-edge.fgfw.indevs.in
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: akrip7.beta-edge.fgfw.indevs.in
-    max-early-data: 2560
-    path: /danfeng
-  xudp: true
-- alpn:
-  - 'http/1.1
-
-    '
-  client-fingerprint: firefox
-  encryption: none
-  name: 🇰🇷KR_2|1.4MB/s
-  network: ws
-  port: '25010'
-  server: 121.155.96.19
-  servername: xw0d9r.cdn-edge-sg.chinam.indevs.in
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: xw0d9r.cdn-edge-sg.chinam.indevs.in
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J500M Build/MMB29M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /danfeng?ed=2560
-  xudp: true
-- alpn:
-  - 'http/1.1
-
-    '
-  client-fingerprint: firefox
-  encryption: none
-  name: 🇰🇷KR_3|1.4MB/s
-  network: ws
-  port: '11300'
-  server: 118.36.233.194
-  servername: pl4oj.mirror.fgfw.indevs.in
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: pl4oj.mirror.fgfw.indevs.in
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.132 Safari/537.36
-    path: /danfeng?ed=2560
   xudp: true

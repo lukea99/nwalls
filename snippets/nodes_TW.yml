@@ -1,26 +1,38 @@
 proxies:
-- client-fingerprint: chrome
-  name: 'A - 🇹🇼 TW 01 TG: @nodpai'
+- name: 'B - 🇹🇼 TW 01 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
   server: 114.33.57.170
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 'B - 🇹🇼 TW 06 TG: @nodpai'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 16443
+  server: 114.32.9.249
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
   type: trojan
   udp: true
   ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
 - alterId: 2
   cipher: auto
-  name: 'B - 🇹🇼 TW 06 TG: @nodpai'
+  name: 'B - 🇹🇼 TW 10 TG: @nodpai'
   port: 30811
   server: 218.173.203.171
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
-  name: 'B - 🇹🇼 TW 10 TG: @nodpai'
+  name: 'B - 🇹🇼 TW 11 TG: @nodpai'
   port: 30811
   server: v11.zgtfqs.click
   type: vmess

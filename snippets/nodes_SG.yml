@@ -1,9 +1,10 @@
 proxies:
-- name: 'B - 🇸🇬 SG 05 TG: @nodpai'
+- client-fingerprint: chrome
+  name: 'B - 🇸🇬 SG 02 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 139.180.222.3
+  server: 27.50.49.253
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -12,24 +13,36 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇸🇬 SG 06 TG: @nodpai'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 139.180.220.7
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇸🇬 SG 08 TG: @nodpai'
+- name: 'B - 🇸🇬 SG 04 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 8443
-  server: 207.148.125.245
+  server: 188.239.21.47
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 'B - 🇸🇬 SG 06 TG: @nodpai'
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 188.166.217.179
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+- name: 'B - 🇸🇬 SG 10 TG: @nodpai'
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 43.134.174.114
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+- name: 'B - 🇸🇬 SG 11 TG: @nodpai'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 159.65.143.223
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -37,12 +50,49 @@ proxies:
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
+    path: /trTelegram🇨🇳
 - name: 'B - 🇸🇬 SG 12 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 43.160.207.175
+  server: 129.212.232.171
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 'B - 🇸🇬 SG 14 TG: @nodpai'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 172.104.186.18
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳
+- name: 'B - 🇸🇬 SG 15 TG: @nodpai'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 194.87.10.77
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 'B - 🇸🇬 SG 16 TG: @nodpai'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 47.82.160.100
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -53,14 +103,12 @@ proxies:
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 209.97.171.87
+  server: 188.166.247.45
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
   ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
 - name: 'B - 🇸🇬 SG 18 TG: @nodpai'
   network: ws
@@ -76,22 +124,17 @@ proxies:
 - name: 'B - 🇸🇬 SG 20 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 139.162.61.34
+  port: 2053
+  server: 129.212.233.197
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
   ws-opts:
-    path: /trTelegram🇨🇳
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
 - name: 'B - 🇸🇬 SG 21 TG: @nodpai'
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 172.104.186.30
-  sni: 🔒
-  tls: true
-  type: trojan
-- name: 'B - 🇸🇬 SG 22 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -103,7 +146,20 @@ proxies:
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 'B - 🇸🇬 SG 23 TG: @nodpai'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 188.166.230.196
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
 - name: 新加坡|@ripaojiedian
   network: tcp
   password: ba62c023f9bce796ae334fecb20ef7cc

@@ -1,4 +1,11 @@
 proxies:
+- name: 🇬🇧GB_1|2.0MB/s
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-uk-002.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-uk-002.fastervpn.world
+  type: hysteria2
 - name: GB_speednode_0009
   network: ws
   port: 443

@@ -1,69 +1,61 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
+- alterId: 2
+  cipher: auto
   name: 'A - 🇹🇼 TW 01 TG: @nodpai'
-  port: 443
-  security: tls
-  server: edge-di.yuetong.online
-  servername: www.canon.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: c5ff9631-1d11-4298-8c79-27bc53e41a04
-- name: 'A - 🇹🇼 TW 08 TG: @nodpai'
+  port: 30813
+  server: v13.zgtfqs.click
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 'A - 🇹🇼 TW 05 TG: @nodpai'
+  network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
   server: 114.33.57.170
-  sni: 🔒
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
-- name: 'B - 🇹🇼 TW 19 TG: @nodpai'
-  network: ws
-  port: 443
-  security: tls
-  server: 60.249.21.29
-  servername: gogo3.kmj.qzz.io
-  tls: true
-  type: vless
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
   ws-opts:
-    headers:
-      Host: gogo3.kmj.qzz.io
-    path: /fp=chrome
-- name: 'B - 🇹🇼 TW 22 TG: @nodpai'
-  network: ws
-  port: 443
-  security: tls
-  server: 1.161.50.87
-  servername: gogo5.kmj.qzz.io
-  tls: true
-  type: vless
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  ws-opts:
-    headers:
-      Host: gogo5.kmj.qzz.io
-    path: /fp=chrome
-- name: 'B - 🇹🇼 TW 23 TG: @nodpai'
-  password: c5ff9631-1d11-4298-8c79-27bc53e41a04
-  port: 30933
-  server: edge-di.yuetong.online
-  sni: edge-di.yuetong.online
-  type: hysteria2
+    path: /trTelegram🇨🇳 @WangCai2
 - alterId: 0
   cipher: auto
-  name: 'B - 🇹🇼 TW 24 TG: @nodpai'
+  name: 'B - 🇹🇼 TW 10 TG: @nodpai'
   network: ws
   port: 16616
-  server: t.cnmjcn.cyou
+  server: m.cnmjin.net
   type: vmess
   uuid: f365630d-15b5-4bd4-ad55-aa6284d7be30
   ws-opts:
     headers:
       Host: 8a687da9458cc46e80abc85ec8d8ada7.mobgslb.tbcache.com
     path: /
+- name: 'B - 🇹🇼 TW 12 TG: @nodpai'
+  network: ws
+  port: 443
+  security: tls
+  server: 60.249.21.29
+  servername: gogo4.kmj.qzz.io
+  tls: true
+  type: vless
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  ws-opts:
+    headers:
+      Host: gogo4.kmj.qzz.io
+    path: /fp=chrome
+- name: 'B - 🇹🇼 TW 13 TG: @nodpai'
+  network: ws
+  port: 443
+  server: 1.161.50.87
+  servername: gogo5.kmj.qzz.io
+  type: vless
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  ws-opts:
+    headers:
+      Host: gogo5.kmj.qzz.io
+    path: /fp=chromesecurity=tls
 - alterId: 0
   cipher: auto
-  name: 'B - 🇹🇼 TW 25 TG: @nodpai'
+  name: 'B - 🇹🇼 TW 16 TG: @nodpai'
   network: ws
   port: 16616
   server: planb.mojcn.com
@@ -73,12 +65,19 @@ proxies:
     headers:
       Host: 8a687da9458cc46e80abc85ec8d8ada7.mobgslb.tbcache.com
     path: /
+- alterId: 2
+  cipher: auto
+  name: 'B - 🇹🇼 TW 20 TG: @nodpai'
+  port: 30811
+  server: v11.zgtfqs.click
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: 'B - 🇹🇼 TW 26 TG: @nodpai'
+  name: 'B - 🇹🇼 TW 21 TG: @nodpai'
   network: ws
   port: 16616
-  server: m.cnmjin.net
+  server: t.cnmjcn.cyou
   type: vmess
   uuid: f365630d-15b5-4bd4-ad55-aa6284d7be30
   ws-opts:

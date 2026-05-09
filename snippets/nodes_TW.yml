@@ -1,5 +1,5 @@
 proxies:
-- name: 'A - 🇹🇼 TW 01 TG: @nodpai'
+- name: 'A - 🇹🇼 TW 02 TG: @nodpai'
   password: 8r<[9'l6hAO#8ZQi
   port: 443
   server: 114.33.57.170
@@ -8,7 +8,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: 'B - 🇹🇼 TW 06 TG: @nodpai'
+  name: 'B - 🇹🇼 TW 09 TG: @nodpai'
   port: 30813
   server: v13.zgtfqs.click
   type: vmess

@@ -1,4 +1,16 @@
 proxies:
+- down: ''
+  fingerprint: ''
+  name: 🇰🇷KR_1|3.5MB/s
+  obfs: ''
+  obfs-password: ''
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-kr-003.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-kr-003.fastervpn.world
+  type: hysteria2
+  up: ''
 - name: KR_speednode_0012
   network: ws
   port: 10443

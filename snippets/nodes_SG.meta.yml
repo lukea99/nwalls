@@ -1,63 +1,62 @@
 proxies:
+- client-fingerprint: chrome
+  encryption: none
+  name: 'B - 🇸🇬 SG 01 TG: @nodpai'
+  network: ws
+  port: 443
+  security: tls
+  server: 151.245.106.81
+  servername: gogo9.kmj.qzz.io
+  tls: true
+  type: vless
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  ws-opts:
+    headers:
+      Host: gogo9.kmj.qzz.io
+    path: /
 - alterId: 0
   cipher: auto
-  name: 'A - 🇸🇬 SG 01 TG: @nodpai'
+  name: 'B - 🇸🇬 SG 02 TG: @nodpai'
+  network: ws
+  port: 443
+  server: node32.ourfast.asia
+  servername: node32.ourfast.asia
+  tls: true
+  type: vmess
+  uuid: 360470f4-8c38-4934-b690-4458c0834604
+  ws-opts:
+    headers:
+      Host: node32.ourfast.asia
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇸🇬 SG 03 TG: @nodpai'
   network: ws
   port: 443
   server: node33.ourfast.asia
-  servername: node33.ourfast.asia
   tls: true
   type: vmess
-  uuid: 39b4f912-f1b0-444e-bbf9-ab7b52e0fa2e
+  uuid: 360470f4-8c38-4934-b690-4458c0834604
   ws-opts:
     headers:
       Host: node33.ourfast.asia
     path: /
-- client-fingerprint: chrome
-  name: 'B - 🇸🇬 SG 02 TG: @nodpai'
-  network: ws
-  port: 8443
-  server: 172.67.76.180
-  servername: kalami-eew.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: df862b4c-2150-4b36-81ac-405036cf9ff6
-  ws-opts:
-    headers:
-      Host: kalami-eew.pages.dev
-    path: /
-- name: 'B - 🇸🇬 SG 03 TG: @nodpai'
-  network: ws
-  port: 2053
-  security: tls
-  server: 104.18.34.60
-  tls: true
-  type: vless
-  uuid: df862b4c-2150-4b36-81ac-405036cf9ff6
-  ws-opts:
-    headers:
-      Host: kalami-eew.pages.dev
-    path: /fp
 - name: 'B - 🇸🇬 SG 04 TG: @nodpai'
   network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 47.82.155.79
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
+  port: 8880
+  server: 92.53.188.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇸🇬 SG 05 TG: @nodpai'
+      Host: vms.lifetime18.workers.dev
+    path: /
+- client-fingerprint: chrome
+  name: 'B - 🇸🇬 SG 05 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 139.180.220.7
+  port: 57606
+  server: 89.34.227.238
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -70,7 +69,7 @@ proxies:
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 47.236.119.109
+  server: 139.180.220.7
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -79,13 +78,12 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- client-fingerprint: chrome
-  encryption: none
+- encryption: none
   name: 'B - 🇸🇬 SG 07 TG: @nodpai'
   network: ws
-  port: 2053
+  port: 8443
   security: tls
-  server: 198.41.223.162
+  server: 198.41.223.84
   servername: kalami-eew.pages.dev
   tls: true
   type: vless
@@ -94,103 +92,104 @@ proxies:
     headers:
       Host: kalami-eew.pages.dev
     path: /
-- name: 'B - 🇸🇬 SG 08 TG: @nodpai'
+- client-fingerprint: chrome
+  encryption: none
+  name: 'B - 🇸🇬 SG 08 TG: @nodpai'
   network: ws
   port: 443
   security: tls
-  server: 104.26.7.180
+  server: 104.26.9.63
+  servername: kalami-eew.pages.dev
   tls: true
   type: vless
   uuid: df862b4c-2150-4b36-81ac-405036cf9ff6
   ws-opts:
     headers:
       Host: kalami-eew.pages.dev
-    path: /fp
-- name: 'B - 🇸🇬 SG 09 TG: @nodpai'
+    path: /
+- encryption: none
+  name: 'B - 🇸🇬 SG 09 TG: @nodpai'
   network: ws
-  port: 80
-  server: 141.193.213.21
-  type: vless
-  uuid: fac62eac-1eec-4260-a991-0cac2f8745a3
-  ws-opts:
-    headers:
-      Host: free-server.techsonic.ggff.net
-    path: /@Tech_Sonic
-- name: 'B - 🇸🇬 SG 10 TG: @nodpai'
-  network: ws
-  port: 74
+  port: 443
   security: tls
-  server: 157.245.159.88
-  servername: nisav2de2t0ai8p-hd0.misa.cc.cd
+  server: 104.26.4.181
+  servername: kalami-eew.pages.dev
   tls: true
   type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
+  uuid: df862b4c-2150-4b36-81ac-405036cf9ff6
   ws-opts:
     headers:
-      Host: nisav2de2t0ai8p-hd0.misa.cc.cd
-    path: /@Marisa_kristifp=chrome
-- name: 'B - 🇸🇬 SG 11 TG: @nodpai'
+      Host: kalami-eew.pages.dev
+    path: /fp=chrome
+- client-fingerprint: chrome
+  name: 'B - 🇸🇬 SG 10 TG: @nodpai'
   network: ws
-  password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 5.34.176.240
+  server: 172.67.73.181
+  servername: kalami-eew.pages.dev
   skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
   tls: true
-  type: trojan
+  type: vless
+  udp: true
+  uuid: df862b4c-2150-4b36-81ac-405036cf9ff6
   ws-opts:
     headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇸🇬 SG 12 TG: @nodpai'
-  password: 8r%3C%5B9%27l6hAO%238ZQi
+      Host: kalami-eew.pages.dev
+    path: /
+- client-fingerprint: firefox
+  name: 'B - 🇸🇬 SG 11 TG: @nodpai'
+  network: ws
   port: 443
-  server: 165.22.104.36
-  skip-cert-verify: false
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
+  server: nexusmods.com
+  servername: gddy.hhlfy.de5.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 5b9fa73b-b549-480b-add9-c45e650d236f
+  ws-opts:
+    headers:
+      Host: gddy.hhlfy.de5.net
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  name: 'B - 🇸🇬 SG 12 TG: @nodpai'
+  network: ws
+  port: 443
+  security: tls
+  server: 172.67.72.62
+  servername: kalami-eew.pages.dev
+  tls: true
+  type: vless
+  uuid: df862b4c-2150-4b36-81ac-405036cf9ff6
+  ws-opts:
+    headers:
+      Host: kalami-eew.pages.dev
+    path: /
 - name: 'B - 🇸🇬 SG 13 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 178.128.97.53
+  server: 185.151.146.73
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
-  tls: true
   type: trojan
   ws-opts:
-    path: /trTelegram🇨🇳
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
 - name: 'B - 🇸🇬 SG 14 TG: @nodpai'
-  network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 129.212.231.216
-  skip-cert-verify: true
+  server: 159.89.207.154
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇸🇬 SG 15 TG: @nodpai'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 47.82.160.100
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇸🇬 SG 16 TG: @nodpai'
+- encryption: none
+  name: 'B - 🇸🇬 SG 15 TG: @nodpai'
   network: ws
   port: 2087
   security: tls
-  server: 8.35.211.116
+  server: 172.67.77.181
   tls: true
   type: vless
   uuid: df862b4c-2150-4b36-81ac-405036cf9ff6
@@ -198,38 +197,13 @@ proxies:
     headers:
       Host: kalami-eew.pages.dev
     path: /
-- name: 'B - 🇸🇬 SG 17 TG: @nodpai'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 167.71.222.177
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇸🇬 SG 18 TG: @nodpai'
-  network: ws
-  port: 2053
-  security: tls
-  server: 198.41.223.148
-  tls: true
-  type: vless
-  uuid: df862b4c-2150-4b36-81ac-405036cf9ff6
-  ws-opts:
-    headers:
-      Host: kalami-eew.pages.dev
-    path: /fp
 - client-fingerprint: chrome
   encryption: none
-  name: 'B - 🇸🇬 SG 19 TG: @nodpai'
+  name: 'B - 🇸🇬 SG 16 TG: @nodpai'
   network: ws
-  port: 2053
+  port: 2083
   security: tls
-  server: 198.41.223.38
+  server: 172.64.147.45
   servername: kalami-eew.pages.dev
   tls: true
   type: vless
@@ -240,41 +214,83 @@ proxies:
     path: /
 - client-fingerprint: chrome
   encryption: none
-  name: 'B - 🇸🇬 SG 20 TG: @nodpai'
+  name: 'B - 🇸🇬 SG 17 TG: @nodpai'
   network: ws
-  port: 443
+  port: 2096
   security: tls
-  server: cdn.tzpro.xyz
-  servername: juzi.qea.ccwu.cc
+  server: 104.18.44.159
+  servername: cocobaby.pages.dev
   tls: true
   type: vless
-  uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
+  uuid: b818576e-951a-4a9c-879a-d32611b977ad
   ws-opts:
     headers:
-      Host: juzi.qea.ccwu.cc
-    path: /?ed=2048
-- name: 'C - 🇸🇬 SG 21 TG: @nodpai'
+      Host: cocobaby.pages.dev
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  name: 'B - 🇸🇬 SG 18 TG: @nodpai'
   network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 62.72.44.6
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
+  port: 2053
+  security: tls
+  server: 173.245.59.39
+  servername: cocobaby.pages.dev
   tls: true
-  type: trojan
+  type: vless
+  uuid: b818576e-951a-4a9c-879a-d32611b977ad
   ws-opts:
     headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
+      Host: cocobaby.pages.dev
+    path: /
+- client-fingerprint: firefox
+  name: 'B - 🇸🇬 SG 19 TG: @nodpai'
+  network: ws
+  port: 443
+  server: 162.159.34.173
+  servername: gddy.hhlfy.de5.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 5b9fa73b-b549-480b-add9-c45e650d236f
+  ws-opts:
+    headers:
+      Host: gddy.hhlfy.de5.net
+    path: /
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 'B - 🇸🇬 SG 20 TG: @nodpai'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: ZHEMPjSWslk6_qD2JNQzd5enUPz8nY9mYRRuM6NkZmU
+  security: reality
+  server: 46.149.71.46
+  servername: www.avito.ru
+  tls: true
+  type: vless
+  uuid: ae8ddd8e-00af-48e5-bd57-05074a1bbffb
+- encryption: none
+  name: 'B - 🇸🇬 SG 21 TG: @nodpai'
+  network: ws
+  port: 2083
+  security: tls
+  server: 8.35.211.141
+  servername: kalami-eew.pages.dev
+  tls: true
+  type: vless
+  uuid: df862b4c-2150-4b36-81ac-405036cf9ff6
+  ws-opts:
+    headers:
+      Host: kalami-eew.pages.dev
+    path: /fp=chrome
 - client-fingerprint: chrome
   encryption: none
   name: 'C - 🇸🇬 SG 22 TG: @nodpai'
   network: ws
-  port: 443
+  port: 2083
   security: tls
-  server: 198.41.223.124
+  server: 162.159.35.122
   servername: kalami-eew.pages.dev
-  skip-cert-verify: true
   tls: true
   type: vless
   uuid: df862b4c-2150-4b36-81ac-405036cf9ff6
@@ -288,7 +304,61 @@ proxies:
   network: ws
   port: 2087
   security: tls
-  server: 8.35.211.50
+  server: 172.64.144.36
+  servername: cocobaby.pages.dev
+  tls: true
+  type: vless
+  uuid: b818576e-951a-4a9c-879a-d32611b977ad
+  ws-opts:
+    headers:
+      Host: cocobaby.pages.dev
+    path: /
+- name: 'C - 🇸🇬 SG 24 TG: @nodpai'
+  network: ws
+  port: 2096
+  security: tls
+  server: 172.67.67.63
+  tls: true
+  type: vless
+  uuid: df862b4c-2150-4b36-81ac-405036cf9ff6
+  ws-opts:
+    headers:
+      Host: kalami-eew.pages.dev
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  name: 'C - 🇸🇬 SG 25 TG: @nodpai'
+  network: ws
+  port: 2083
+  security: tls
+  server: 173.245.59.211
+  servername: cocobaby.pages.dev
+  tls: true
+  type: vless
+  uuid: b818576e-951a-4a9c-879a-d32611b977ad
+  ws-opts:
+    headers:
+      Host: cocobaby.pages.dev
+    path: /
+- client-fingerprint: firefox
+  name: 'C - 🇸🇬 SG 26 TG: @nodpai'
+  network: ws
+  port: 443
+  server: store.ubi.com
+  servername: gddy.hhlfy.de5.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 5b9fa73b-b549-480b-add9-c45e650d236f
+  ws-opts:
+    headers:
+      Host: gddy.hhlfy.de5.net
+    path: /
+- name: 'C - 🇸🇬 SG 27 TG: @nodpai'
+  network: ws
+  port: 8443
+  security: tls
+  server: 172.64.146.242
   servername: kalami-eew.pages.dev
   tls: true
   type: vless
@@ -296,25 +366,13 @@ proxies:
   ws-opts:
     headers:
       Host: kalami-eew.pages.dev
-    path: /
-- name: 'C - 🇸🇬 SG 24 TG: @nodpai'
-  network: ws
-  port: 8443
-  security: tls
-  server: 104.18.39.57
-  tls: true
-  type: vless
-  uuid: df862b4c-2150-4b36-81ac-405036cf9ff6
-  ws-opts:
-    headers:
-      Host: kalami-eew.pages.dev
-    path: /
+    path: /fp=chrome
 - encryption: none
-  name: 'C - 🇸🇬 SG 25 TG: @nodpai'
+  name: 'C - 🇸🇬 SG 28 TG: @nodpai'
   network: ws
-  port: 2053
+  port: 443
   security: tls
-  server: 91.192.81.154
+  server: 172.104.186.30
   servername: sn1.skylee5.cloudns.ch
   tls: true
   type: vless
@@ -323,18 +381,36 @@ proxies:
     headers:
       Host: sn1.skylee5.cloudns.ch
     path: /proxyip=proxyip.cmliussss.net
-- name: 'C - 🇸🇬 SG 26 TG: @nodpai'
+- client-fingerprint: chrome
+  encryption: none
+  name: 'C - 🇸🇬 SG 29 TG: @nodpai'
   network: ws
-  port: 2083
+  port: 2053
   security: tls
-  server: 172.64.146.50
+  server: 162.159.32.23
+  servername: cocobaby.pages.dev
+  tls: true
+  type: vless
+  uuid: b818576e-951a-4a9c-879a-d32611b977ad
+  ws-opts:
+    headers:
+      Host: cocobaby.pages.dev
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  name: 'C - 🇸🇬 SG 30 TG: @nodpai'
+  network: ws
+  port: 443
+  security: tls
+  server: 104.18.37.225
+  servername: kalami-eew.pages.dev
   tls: true
   type: vless
   uuid: df862b4c-2150-4b36-81ac-405036cf9ff6
   ws-opts:
     headers:
       Host: kalami-eew.pages.dev
-    path: /fp
+    path: /
 - name: 新加坡|@ripaojiedian
   network: tcp
   password: 7ebc402f3383366fe4f554abd8625439

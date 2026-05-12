@@ -1,58 +1,61 @@
 proxies:
 - client-fingerprint: chrome
-  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
   encryption: none
   name: 'A - 🇸🇬 SG 01 TG: @nodpai'
   network: ws
   port: 443
   security: tls
-  server: 47.236.112.215
-  servername: gogo.qzzio.dpdns.org
+  server: 185.243.240.111
+  servername: gogo6.kmj.qzz.io
   tls: true
   type: vless
   uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
   ws-opts:
     headers:
-      Host: gogo.qzzio.dpdns.org
+      Host: gogo6.kmj.qzz.io
     path: /
-- client-fingerprint: chrome
+- name: 'A - 🇸🇬 SG 02 TG: @nodpai'
+  network: ws
+  port: 14430
+  security: tls
+  server: 59.2.156.1
+  servername: vyp5slzk.cdn-edge-02.chinat.indevs.in
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: vyp5slzk.cdn-edge-02.chinat.indevs.in
+    path: /danfeng?ed=2560fp=firefox
+- client-fingerprint: firefox
   ech-opts:
     enable: true
-    query-server-name: cloudflare-ech.com
-  name: 'A - 🇸🇬 SG 02 TG: @nodpai'
+    query-server-name: encryptedsni.com
+  name: 'A - 🇸🇬 SG 03 TG: @nodpai'
   network: ws
-  port: 443
-  server: 8.223.63.189
-  servername: gogo.onetap.qzz.io
+  port: 7443
+  server: 168.110.110.114
+  servername: vyp5slzk.cdn-edge-02.chinat.indevs.in
   skip-cert-verify: false
+  tfo: false
   tls: true
   type: vless
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: gogo.onetap.qzz.io
-    path: /
-- name: 'A - 🇸🇬 SG 03 TG: @nodpai'
-  network: ws
-  port: 443
-  security: tls
-  server: 23.151.104.198
-  servername: gogo.wknm.qzz.io
-  tls: true
-  type: vless
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  ws-opts:
-    headers:
-      Host: gogo.wknm.qzz.io
-    path: /fp=chrome
+      Host: vyp5slzk.cdn-edge-02.chinat.indevs.in
+    max-early-data: 2560
+    path: /danfeng
 - client-fingerprint: firefox
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
   name: 'A - 🇸🇬 SG 04 TG: @nodpai'
   network: ws
-  port: 14430
-  server: 59.2.156.1
+  port: 10909
+  server: 119.200.94.178
   servername: vyp5slzk.cdn-edge-02.chinat.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -64,148 +67,114 @@ proxies:
     headers:
       Host: vyp5slzk.cdn-edge-02.chinat.indevs.in
     path: /danfeng?ed=2560
-- client-fingerprint: firefox
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 'A - 🇸🇬 SG 05 TG: @nodpai'
-  network: ws
-  port: 443
-  server: 64.186.255.128
-  servername: vyp5slzk.cdn-edge-02.chinat.indevs.in
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: vyp5slzk.cdn-edge-02.chinat.indevs.in
-    path: /danfeng?ed=2560
-- client-fingerprint: firefox
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 'A - 🇸🇬 SG 06 TG: @nodpai'
+- name: 'A - 🇸🇬 SG 05 TG: @nodpai'
   network: ws
   port: 39738
+  security: tls
   server: 38.244.5.53
   servername: vyp5slzk.cdn-edge-02.chinat.indevs.in
-  skip-cert-verify: false
-  tfo: false
   tls: true
   type: vless
-  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: vyp5slzk.cdn-edge-02.chinat.indevs.in
+    path: /danfeng?ed=2560fp=firefox
+- client-fingerprint: firefox
+  encryption: none
+  name: 'B - 🇸🇬 SG 06 TG: @nodpai'
+  network: ws
+  port: 8443
+  security: tls
+  server: 23.227.38.74
+  servername: vyp5slzk.cdn-edge-02.chinat.indevs.in
+  tls: true
+  type: vless
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
       Host: vyp5slzk.cdn-edge-02.chinat.indevs.in
     path: /danfeng?ed=2560
 - client-fingerprint: chrome
-  name: 'A - 🇸🇬 SG 07 TG: @nodpai'
+  encryption: none
+  name: 'B - 🇸🇬 SG 07 TG: @nodpai'
   network: ws
-  port: 443
-  server: 124.244.50.35
-  servername: gogo.qzzio.dpdns.org
-  skip-cert-verify: true
+  port: 2083
+  security: tls
+  server: 173.245.59.211
+  servername: cocobaby.pages.dev
   tls: true
   type: vless
-  udp: true
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  uuid: b818576e-951a-4a9c-879a-d32611b977ad
   ws-opts:
     headers:
-      Host: gogo.qzzio.dpdns.org
+      Host: cocobaby.pages.dev
     path: /
-- client-fingerprint: chrome
-  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
+- client-fingerprint: firefox
   encryption: none
   name: 'B - 🇸🇬 SG 08 TG: @nodpai'
   network: ws
   port: 443
   security: tls
-  server: 70.39.206.152
-  servername: gogo.wknm.dpdns.org
-  tls: true
-  type: vless
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  ws-opts:
-    headers:
-      Host: gogo.wknm.dpdns.org
-    path: /
-- name: 'B - 🇸🇬 SG 09 TG: @nodpai'
-  network: ws
-  port: 443
-  server: 34.143.213.202
-  servername: gogo.wknm.dpdns.org
-  type: vless
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  ws-opts:
-    headers:
-      Host: gogo.wknm.dpdns.org
-    path: /fp=chromesecurity=tls
-- client-fingerprint: firefox
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 'B - 🇸🇬 SG 10 TG: @nodpai'
-  network: ws
-  port: 25000
-  server: 220.121.29.211
+  server: 91.84.107.137
   servername: vyp5slzk.cdn-edge-02.chinat.indevs.in
-  skip-cert-verify: false
-  tfo: false
   tls: true
   type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: vyp5slzk.cdn-edge-02.chinat.indevs.in
-    path: /danfeng?ed=2560
-- client-fingerprint: firefox
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 'B - 🇸🇬 SG 11 TG: @nodpai'
-  network: ws
-  port: 10909
-  server: 221.144.70.202
-  servername: vyp5slzk.cdn-edge-02.chinat.indevs.in
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
       Host: vyp5slzk.cdn-edge-02.chinat.indevs.in
     path: /danfeng?ed=2560
 - client-fingerprint: chrome
-  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
-  encryption: none
+  name: 'B - 🇸🇬 SG 09 TG: @nodpai'
+  network: ws
+  port: 443
+  server: 20.17.97.232
+  servername: gogo.vks.dpdns.org
+  tls: true
+  type: vless
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: gogo.vks.dpdns.org
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  name: 'B - 🇸🇬 SG 10 TG: @nodpai'
+  network: ws
+  port: 2083
+  security: tls
+  server: v1.dabache.top
+  servername: wk1.f1w.de5.net
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: wk1.f1w.de5.net
+    path: /?ed=2560
+- name: 'B - 🇸🇬 SG 11 TG: @nodpai'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 22000
+  server: 47.79.237.236
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
   name: 'B - 🇸🇬 SG 12 TG: @nodpai'
   network: ws
   port: 443
-  security: tls
-  server: 172.188.241.82
-  servername: gogo.qzzio.dpdns.org
-  tls: true
-  type: vless
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  ws-opts:
-    headers:
-      Host: gogo.qzzio.dpdns.org
-    path: /
-- client-fingerprint: firefox
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 'B - 🇸🇬 SG 13 TG: @nodpai'
-  network: ws
-  port: 40466
-  server: 62.76.239.45
+  server: 95.85.11.163
   servername: vyp5slzk.cdn-edge-02.chinat.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -214,81 +183,95 @@ proxies:
   udp: true
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: vyp5slzk.cdn-edge-02.chinat.indevs.in
+    max-early-data: 2560
+    path: /danfeng
+- client-fingerprint: firefox
+  encryption: none
+  name: 'B - 🇸🇬 SG 13 TG: @nodpai'
+  network: ws
+  port: 443
+  security: tls
+  server: 161.35.195.134
+  servername: vyp5slzk.cdn-edge-02.chinat.indevs.in
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
     headers:
       Host: vyp5slzk.cdn-edge-02.chinat.indevs.in
     path: /danfeng?ed=2560
 - client-fingerprint: chrome
   encryption: none
+  flow: xtls-rprx-vision
   name: 'B - 🇸🇬 SG 14 TG: @nodpai'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: o8Ne4dsatUimeCfmnHHBKv0rdfs6rWicF3ZDyQrjAnE
+  security: reality
+  server: 43.153.215.3
+  servername: www.tesla.com
+  tls: true
+  type: vless
+  uuid: 29249aae-edc1-483f-98b3-f70dec2068e9
+- encryption: none
+  name: 'B - 🇸🇬 SG 15 TG: @nodpai'
   network: ws
   port: 443
   security: tls
-  server: 140.235.9.68
-  servername: gogo.onetap.qzz.io
+  server: node1.jjjjjj.eu.cc
+  servername: sg1.jjjjjj.eu.cc
   tls: true
   type: vless
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  uuid: df230a7c-a9ba-4efc-8f9f-ee03bffc4303
   ws-opts:
     headers:
-      Host: gogo.onetap.qzz.io
-    path: /
-- down: ''
-  fingerprint: ''
-  name: 'B - 🇸🇬 SG 15 TG: @nodpai'
-  obfs: ''
-  obfs-password: ''
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-sg-003.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-sg-003.fastervpn.world
-  type: hysteria2
-  up: ''
-- client-fingerprint: chrome
-  name: 'B - 🇸🇬 SG 16 TG: @nodpai'
+      Host: sg1.jjjjjj.eu.cc
+    path: /jige?ed=2048fp=chrome
+- name: 'B - 🇸🇬 SG 16 TG: @nodpai'
   network: ws
+  password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 119.246.150.50
-  servername: gogo.wknm.dpdns.org
+  server: 209.97.163.209
   skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
   tls: true
-  type: vless
-  udp: true
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  type: trojan
   ws-opts:
     headers:
-      Host: gogo.wknm.dpdns.org
-    path: /fp=chrome
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
 - name: 'B - 🇸🇬 SG 17 TG: @nodpai'
   network: ws
-  password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 43.160.195.223
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
+  security: tls
+  server: 45.89.107.125
+  servername: vyp5slzk.cdn-edge-02.chinat.indevs.in
   tls: true
-  type: trojan
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
-    path: /trTelegram🇨🇳 @WangCai2
+    headers:
+      Host: vyp5slzk.cdn-edge-02.chinat.indevs.in
+    path: /danfeng?ed=2560fp=firefox
 - name: 'B - 🇸🇬 SG 18 TG: @nodpai'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
+  password: 8r%3C%5B9%27l6hAO%238ZQi
   port: 443
-  server: 43.160.247.81
-  skip-cert-verify: true
+  server: 47.236.119.109
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
-  ws-opts:
-    path: /trTelegram🇨🇳 @WangCai2
 - client-fingerprint: firefox
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
   name: 'B - 🇸🇬 SG 19 TG: @nodpai'
   network: ws
-  port: 443
-  server: 137.220.33.177
+  port: 8443
+  server: 38.146.25.162
   servername: vyp5slzk.cdn-edge-02.chinat.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -297,14 +280,16 @@ proxies:
   udp: true
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
       Host: vyp5slzk.cdn-edge-02.chinat.indevs.in
-    path: /danfeng?ed=2560
+    max-early-data: 2560
+    path: /danfeng
 - name: 'B - 🇸🇬 SG 20 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 178.128.101.67
+  server: 167.71.221.62
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -319,8 +304,8 @@ proxies:
     query-server-name: encryptedsni.com
   name: 'B - 🇸🇬 SG 21 TG: @nodpai'
   network: ws
-  port: 443
-  server: 45.89.107.125
+  port: 2053
+  server: 46.101.253.244
   servername: vyp5slzk.cdn-edge-02.chinat.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -329,17 +314,19 @@ proxies:
   udp: true
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
       Host: vyp5slzk.cdn-edge-02.chinat.indevs.in
-    path: /danfeng?ed=2560
+    max-early-data: 2560
+    path: /danfeng
 - client-fingerprint: firefox
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
   name: 'B - 🇸🇬 SG 22 TG: @nodpai'
   network: ws
-  port: 4433
-  server: 59.60.4.81
+  port: 443
+  server: 107.173.153.21
   servername: vyp5slzk.cdn-edge-02.chinat.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -355,7 +342,7 @@ proxies:
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 178.128.97.53
+  server: 5.34.176.240
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -363,12 +350,12 @@ proxies:
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
+    path: /trTelegram🇨🇳
 - name: 'B - 🇸🇬 SG 24 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 159.65.143.223
+  server: 47.82.178.58
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -378,17 +365,23 @@ proxies:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
 - name: 'B - 🇸🇬 SG 25 TG: @nodpai'
-  password: 8r<[9'l6hAO#8ZQi
+  network: ws
+  password: '!!str 162534'
   port: 443
-  server: 159.223.50.79
-  sni: Koma-YT.PAGeS.Dev
+  server: 138.124.111.115
+  skip-cert-verify: true
+  sni: cchh2.pages.dev
   tls: true
   type: trojan
+  ws-opts:
+    headers:
+      Host: cchh2.pages.dev
+    path: /?ed=2560
 - name: 'B - 🇸🇬 SG 26 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 194.87.10.77
+  port: 2053
+  server: 129.212.233.197
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -397,19 +390,60 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 'C - 🇸🇬 SG 27 TG: @nodpai'
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 'B - 🇸🇬 SG 27 TG: @nodpai'
+  network: ws
+  port: 443
+  server: 103.70.13.72
+  servername: vyp5slzk.cdn-edge-02.chinat.indevs.in
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: vyp5slzk.cdn-edge-02.chinat.indevs.in
+    path: /danfeng?ed=2560
+- client-fingerprint: chrome
+  name: 'B - 🇸🇬 SG 28 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 62.72.44.6
+  port: 443
+  server: 178.128.60.89
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/64.0.3282.186 Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 'B - 🇸🇬 SG 29 TG: @nodpai'
+  network: ws
+  password: '!!str 162534'
+  port: 443
+  server: 134.209.103.4
+  skip-cert-verify: true
+  sni: cchh2.pages.dev
   tls: true
   type: trojan
   ws-opts:
     headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
+      Host: cchh2.pages.dev
+    path: /?ed=2560&https://t.me/WangCai2🇨🇳
+- name: 'B - 🇸🇬 SG 30 TG: @nodpai'
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  port: 443
+  server: 194.233.67.84
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
 - name: 新加坡|@ripaojiedian
   network: tcp
   password: 7ebc402f3383366fe4f554abd8625439
@@ -436,47 +470,43 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   encryption: none
-  name: 🇸🇬SG_1|4.2MB/s
+  name: 🇸🇬SG_1|4.6MB/s
   network: ws
   port: 443
-  server: 52.221.240.157
-  servername: gogo.wknm.qzz.io
+  server: 18.142.9.51
+  servername: gogo.wknm.dpdns.org
   tls: true
   type: vless
   udp: true
   uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
   ws-opts:
     headers:
-      Host: gogo.wknm.qzz.io
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.117 Safari/537.36
+      Host: gogo.wknm.dpdns.org
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/69.0.3497.100 Safari/537.36
     path: /
   xudp: true
-- name: 🇸🇬SG_2|1.8MB/s
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 🇸🇬SG_3|3.5MB/s
   network: ws
-  password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 173.245.59.253
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
+  server: 103.26.8.186
+  servername: vyp5slzk.cdn-edge-02.chinat.indevs.in
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
   udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 🇸🇬SG_3|2.1MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2083
-  server: 64.176.38.23
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳
+      Host: vyp5slzk.cdn-edge-02.chinat.indevs.in
+    max-early-data: 2560
+    path: /danfeng
 - name: SG_speednode_0049
   network: ws
   port: 36089

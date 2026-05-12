@@ -1,17 +1,5 @@
 proxies:
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇷🇺RU_1|2.1MB/s
-  network: tcp
-  port: '52006'
-  server: 82.202.249.3
-  servername: cluster-russia-1.firstvideocdn.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 75807638-6f19-07d0-ae08-38492ee85c88
-  xudp: true
-- client-fingerprint: chrome
   name: RU_speednode_0045
   network: ws
   port: 443

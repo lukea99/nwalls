@@ -1,13 +1,14 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇩🇪DE_1|1.3MB/s
+  name: US_speednode_0064
   port: 443
   reality-opts:
     public-key: ZHEMPjSWslk6_qD2JNQzd5enUPz8nY9mYRRuM6NkZmU
     short-id: '!!str 0123456789abcdef'
   server: 144.31.157.163
   servername: www.deepl.com
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true

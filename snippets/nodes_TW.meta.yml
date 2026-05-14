@@ -3,24 +3,37 @@ proxies:
   - h2
   grpc-opts:
     grpc-service-name: db
-  name: 'A - 🇹🇼 TW 03 TG: @nodpai'
+  name: 'B - 🇹🇼 TW 02 TG: @nodpai'
   network: grpc
   password: 3f5bc61547b1f0d9
   port: 443
-  server: 125.227.86.46
+  server: 125.227.86.47
   skip-cert-verify: true
   sni: TG.freecodes
   tls: true
   type: trojan
+- name: 'B - 🇹🇼 TW 04 TG: @nodpai'
+  network: ws
+  port: 443
+  security: tls
+  server: 60.249.21.29
+  servername: gogo3.kmj.qzz.io
+  tls: true
+  type: vless
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  ws-opts:
+    headers:
+      Host: gogo3.kmj.qzz.io
+    path: /fp=chrome
 - alpn:
   - h2
   grpc-opts:
     grpc-service-name: db
-  name: 'A - 🇹🇼 TW 04 TG: @nodpai'
+  name: 'B - 🇹🇼 TW 05 TG: @nodpai'
   network: grpc
   password: 0a9f1f5a397bd427
   port: 443
-  server: 125.227.86.46
+  server: 125.227.86.45
   skip-cert-verify: true
   sni: TG.freecodes
   tls: true
@@ -36,11 +49,24 @@ proxies:
   - h2
   grpc-opts:
     grpc-service-name: db
-  name: 'B - 🇹🇼 TW 08 TG: @nodpai'
+  name: 'B - 🇹🇼 TW 07 TG: @nodpai'
   network: grpc
   password: 3f5bc61547b1f0d9
   port: 443
-  server: 125.227.86.48
+  server: 125.227.86.46
+  skip-cert-verify: true
+  sni: TG.freecodes
+  tls: true
+  type: trojan
+- alpn:
+  - h2
+  grpc-opts:
+    grpc-service-name: db
+  name: 'B - 🇹🇼 TW 08 TG: @nodpai'
+  network: grpc
+  password: 0a9f1f5a397bd427
+  port: 443
+  server: 125.227.86.46
   skip-cert-verify: true
   sni: TG.freecodes
   tls: true
@@ -51,35 +77,9 @@ proxies:
     grpc-service-name: db
   name: 'B - 🇹🇼 TW 09 TG: @nodpai'
   network: grpc
-  password: 0a9f1f5a397bd427
-  port: 443
-  server: 125.227.86.45
-  skip-cert-verify: true
-  sni: TG.freecodes
-  tls: true
-  type: trojan
-- alpn:
-  - h2
-  grpc-opts:
-    grpc-service-name: db
-  name: 'B - 🇹🇼 TW 10 TG: @nodpai'
-  network: grpc
-  password: 0a9f1f5a397bd427
-  port: 443
-  server: 125.227.86.47
-  skip-cert-verify: true
-  sni: TG.freecodes
-  tls: true
-  type: trojan
-- alpn:
-  - h2
-  grpc-opts:
-    grpc-service-name: db
-  name: 'B - 🇹🇼 TW 11 TG: @nodpai'
-  network: grpc
   password: 3f5bc61547b1f0d9
   port: 443
-  server: 125.227.86.47
+  server: 125.227.86.48
   skip-cert-verify: true
   sni: TG.freecodes
   tls: true

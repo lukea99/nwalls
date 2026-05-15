@@ -1,5 +1,5 @@
 proxies:
-- name: 'B - 🇯🇵 JP 04 TG: @nodpai'
+- name: 'A - 🇯🇵 JP 04 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 17222
@@ -10,44 +10,53 @@ proxies:
   type: trojan
   ws-opts:
     path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇯🇵 JP 05 TG: @nodpai'
+- alterId: 2
+  cipher: auto
+  name: 'B - 🇯🇵 JP 05 TG: @nodpai'
+  port: 30806
+  server: v6.hdacd.com
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- client-fingerprint: chrome
+  name: 'B - 🇯🇵 JP 07 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 185.130.46.81
+  port: 18122
+  server: 155.248.168.35
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
-  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.94 Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 'B - 🇯🇵 JP 08 TG: @nodpai'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 44004
+  server: 45.11.1.118
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
   type: trojan
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇯🇵 JP 07 TG: @nodpai'
+- name: 'B - 🇯🇵 JP 10 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 8443
   server: 176.97.70.51
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
-  tls: true
   type: trojan
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇯🇵 JP 08 TG: @nodpai'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 64.110.104.30
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇯🇵 JP 09 TG: @nodpai'
+- name: 'B - 🇯🇵 JP 11 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -60,31 +69,22 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇯🇵 JP 10 TG: @nodpai'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 168.138.46.67
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇯🇵 JP 11 TG: @nodpai'
+- client-fingerprint: chrome
+  name: 'B - 🇯🇵 JP 12 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 50888
   server: 103.150.8.160
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
-  tls: true
   type: trojan
+  udp: true
   ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.181 Safari/537.36
     path: /trTelegram🇨🇳 @WangCai2
-- client-fingerprint: chrome
-  name: 'B - 🇯🇵 JP 12 TG: @nodpai'
+- name: 'B - 🇯🇵 JP 13 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -97,18 +97,21 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵JP_3|1.2MB/s
+- client-fingerprint: chrome
+  name: 'B - 🇯🇵 JP 14 TG: @nodpai'
   network: ws
-  port: 16617
-  server: m.cnmjin.net
-  type: vmess
-  uuid: ccb2a1ea-285f-4dda-b798-6ad925aa784b
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 172.238.6.57
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
   ws-opts:
     headers:
-      Host: 4c38377a449c350ad3b4c6858225defb.mobgslb.tbcache.com
-    path: /
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -146,3 +149,15 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵JP_3|1.2MB/s
+  network: ws
+  port: 16617
+  server: m.cnmjin.net
+  type: vmess
+  uuid: ccb2a1ea-285f-4dda-b798-6ad925aa784b
+  ws-opts:
+    headers:
+      Host: 4c38377a449c350ad3b4c6858225defb.mobgslb.tbcache.com
+    path: /

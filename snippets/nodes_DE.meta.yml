@@ -1,11 +1,4 @@
 proxies:
-- name: "\0\0\0\0\0\0\0\0\0\0\0рҹҮ·рҹҮә+MELISA_HAA..."
-  password: rstnnl
-  port: 443
-  server: 185.73.126.28
-  sni: healthpp.ppnorma.ru
-  tls: false
-  type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇩🇪DE_1|1.3MB/s
@@ -53,22 +46,6 @@ proxies:
       User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto G (5) Build/NPPS25.137-93-14)
         AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /trTelegram🇨🇳 @WangCai2
-- client-fingerprint: chrome
-  name: 🇩🇪DE_4|1.2MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    _spider-x: /
-    public-key: udIQmQtfL5_RuM9EowSs7DEnee-IEFVFmxbkeD8jIT0
-    short-id: '!!str 95c7'
-  server: 216.57.108.20
-  servername: yahoo.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ec75f351-4428-4e57-ae4a-f8e546da2be7
-  xudp: true
 - name: 🇩🇪DE_6|1.0MB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi

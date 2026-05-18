@@ -1,4 +1,38 @@
 proxies:
+- name: 🇰🇷KR_1|1.8MB/s
+  password: test.+
+  port: 30446
+  server: testkr3.ssv.vc
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: test
+- name: 🇰🇷KR_2|1000KB/s
+  network: ws
+  port: 18080
+  server: 183.105.184.203
+  servername: urg0.edge-node-us.danfeng.bond
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: urg0.edge-node-us.danfeng.bond
+    path: /danfeng?ed
+  xudp: true
+- name: 🇰🇷KR_3|1.2MB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 7778
+  server: 146.56.113.221
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳+@WangCai2
 - name: KR_speednode_0018
   port: 1090
   server: 121.169.46.116

@@ -254,9 +254,18 @@ proxies:
   tls: true
   type: vless
   uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+- flow: xtls-rprx-vision
+  name: 'C - 🇯🇵 JP 26 TG: @nodpai'
+  port: 12482
+  security: tls
+  server: jpvless.yydzx.xyz
+  servername: jpvless.yydzx.xyz
+  tls: true
+  type: vless
+  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
 - alterId: 2
   cipher: auto
-  name: 'C - 🇯🇵 JP 26 TG: @nodpai'
+  name: 'C - 🇯🇵 JP 27 TG: @nodpai'
   port: 30809
   server: v9.hdacd.com
   type: vmess

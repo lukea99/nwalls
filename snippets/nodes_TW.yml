@@ -1,7 +1,7 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 'B - 🇹🇼 TW 04 TG: @nodpai'
+  name: 'B - 🇹🇼 TW 02 TG: @nodpai'
   port: 30811
   server: v11.zgtfqs.click
   type: vmess

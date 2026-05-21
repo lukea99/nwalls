@@ -1,69 +1,92 @@
 proxies:
-- client-fingerprint: chrome
-  name: 🇩🇪DE_5|1.5MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: '8443'
-  server: 85.239.39.144
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M Build/NRD90M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 🇩🇪DE_6|2.3MB/s
+- name: 🇩🇪DE_3|1.0MB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 2096
-  server: 104.20.6.134
-  skip-cert-verify: true
+  server: 104.20.5.134
   sni: Koma-YT.PAGeS.Dev
-  tls: true
   type: trojan
   ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
     path: /tr
-- name: 🇩🇪DE_7|1.2MB/s
+- client-fingerprint: chrome
+  name: 🇩🇪DE_4|2.0MB/s
+  network: ws
+  password: '!!str 162534'
+  port: 8443
+  server: 185.121.134.40
+  skip-cert-verify: true
+  sni: cchh2.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: cchh2.pages.dev
+    max-early-data: 2560
+    path: /
+- name: 🇩🇪DE_5|1.3MB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 83.147.253.194
-  skip-cert-verify: true
+  port: 2087
+  server: 51.195.47.23
   sni: Koma-YT.PAGeS.Dev
-  tls: true
   type: trojan
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 🇩🇪DE_8|1.3MB/s
+    path: /trTelegram🇨🇳+@WangCai2
+- name: 🇩🇪DE_6|1.3MB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 83.147.253.55
-  skip-cert-verify: true
+  port: 8443
+  server: 46.225.31.235
   sni: Koma-YT.PAGeS.Dev
-  tls: true
   type: trojan
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 🇩🇪DE_9|1.2MB/s
+    path: /trTelegram🇨🇳+@WangCai2
+- name: 🇩🇪DE_7|1.0MB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 150.241.105.131
-  skip-cert-verify: true
+  port: 8443
+  server: 91.107.158.211
   sni: Koma-YT.PAGeS.Dev
-  tls: true
   type: trojan
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
+    path: /trTelegram🇨🇳+@WangCai2
+- name: 🇩🇪DE_8|1.2MB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 157.230.116.226
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳+@WangCai2
+- name: 🇩🇪DE_9|1.0MB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 88.99.254.252
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳+@WangCai2
+- name: 🇩🇪DE_10|1.9MB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 138.201.190.15
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳+@WangCai2

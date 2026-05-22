@@ -1,56 +1,47 @@
 proxies:
-- name: 'B - 🇯🇵 JP 01 TG: @nodpai'
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-jp-003.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-jp-003.fastervpn.world
+- client-fingerprint: firefox
+  encryption: none
+  name: 'A - 🇯🇵 JP 01 TG: @nodpai'
+  network: ws
+  port: 41493
+  security: tls
+  server: 158.178.225.153
+  servername: 020g5uxcxmqlndg.luyuju.dpdns.org
   tls: true
-  type: hysteria2
-- alterId: 0
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: 020g5uxcxmqlndg.luyuju.dpdns.org
+    path: /@Marisa_kristi
+- alterId: 2
   cipher: auto
-  name: 'B - 🇯🇵 JP 02 TG: @nodpai'
-  port: 12376
-  server: 47.245.58.91
+  name: 'A - 🇯🇵 JP 02 TG: @nodpai'
+  port: 30806
+  server: 136.110.100.253
   type: vmess
-  uuid: a3de462b-0276-4003-8f34-536b0f9d340c
-- name: 'B - 🇯🇵 JP 03 TG: @nodpai'
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  name: 'B - 🇯🇵 JP 03 TG: @nodpai'
+  port: 30806
+  server: v6.hdacd.com
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 'B - 🇯🇵 JP 04 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 154.197.80.253
+  server: 140.238.50.134
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
-  type: trojan
-  ws-opts:
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇯🇵 JP 04 TG: @nodpai'
-  network: ws
-  password: '!!str 162534'
-  port: 443
-  server: 31.57.172.187
-  skip-cert-verify: true
-  sni: cchh2.pages.dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: cchh2.pages.dev
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 'B - 🇯🇵 JP 05 TG: @nodpai'
-  network: ws
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  port: 443
-  server: 185.130.46.81
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
   type: trojan
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇯🇵 JP 06 TG: @nodpai'
+    path: /trTelegram
+- name: 'B - 🇯🇵 JP 05 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -62,7 +53,7 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇯🇵 JP 07 TG: @nodpai'
+- name: 'B - 🇯🇵 JP 06 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -74,27 +65,8 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇯🇵 JP 08 TG: @nodpai'
-  network: ws
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  port: 2053
-  server: 103.31.77.108
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇯🇵 JP 09 TG: @nodpai'
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 103.125.216.22
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
 - encryption: none
-  name: 'B - 🇯🇵 JP 10 TG: @nodpai'
+  name: 'B - 🇯🇵 JP 07 TG: @nodpai'
   network: ws
   port: 16090
   security: tls
@@ -107,6 +79,13 @@ proxies:
     headers:
       Host: dcsrzh.ccwu.cc
     path: /
+- alterId: 2
+  cipher: auto
+  name: 'C - 🇯🇵 JP 08 TG: @nodpai'
+  port: 30806
+  server: 103.182.97.25
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe

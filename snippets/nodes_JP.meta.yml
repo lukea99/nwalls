@@ -1,73 +1,27 @@
 proxies:
-- client-fingerprint: chrome
-  name: 'A - 🇯🇵 JP 01 TG: @nodpai'
+- name: 'A - 🇯🇵 JP 01 TG: @nodpai'
   network: ws
-  port: 35311
-  server: 212.50.233.25
-  servername: rolaqoubhqt.bpd67081tsq.ddns-ip.net
+  port: 443
+  security: tls
+  server: cf.130519.xyz
+  servername: gddy.hhlfy.de5.net
   skip-cert-verify: true
-  sni: rolaqoubhqt.bpd67081tsq.ddns-ip.net
-  tfo: false
   tls: true
   type: vless
-  udp: false
-  uuid: 00000000-0000-4000-8000-000000000000
+  uuid: 5b9fa73b-b549-480b-add9-c45e650d236f
   ws-opts:
     headers:
-      Host: rolaqoubhqt.bpd67081tsq.ddns-ip.net
-    path: /@Marisa_kristi
-- client-fingerprint: chrome
+      Host: gddy.hhlfy.de5.net
+    path: /fp=chrome
+- alterId: 2
+  cipher: auto
   name: 'A - 🇯🇵 JP 02 TG: @nodpai'
-  network: ws
-  port: 11650
-  server: 58.230.174.87
-  servername: rolaqoubhqt.bpd67081tsq.ddns-ip.net
-  skip-cert-verify: true
-  sni: rolaqoubhqt.bpd67081tsq.ddns-ip.net
-  tfo: false
-  tls: true
-  type: vless
-  udp: false
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: rolaqoubhqt.bpd67081tsq.ddns-ip.net
-    path: /@Marisa_kristi
-- client-fingerprint: chrome
+  port: 30806
+  server: 103.182.97.12
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- encryption: none
   name: 'A - 🇯🇵 JP 03 TG: @nodpai'
-  network: ws
-  port: 30030
-  server: 175.118.151.148
-  servername: rolaqoubhqt.bpd67081tsq.ddns-ip.net
-  skip-cert-verify: true
-  sni: rolaqoubhqt.bpd67081tsq.ddns-ip.net
-  tfo: false
-  tls: true
-  type: vless
-  udp: false
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: rolaqoubhqt.bpd67081tsq.ddns-ip.net
-    path: /@Marisa_kristi
-- client-fingerprint: chrome
-  name: 'A - 🇯🇵 JP 04 TG: @nodpai'
-  network: ws
-  port: 42841
-  server: 43.165.134.106
-  servername: rolaqoubhqt.bpd67081tsq.ddns-ip.net
-  skip-cert-verify: true
-  sni: rolaqoubhqt.bpd67081tsq.ddns-ip.net
-  tfo: false
-  tls: true
-  type: vless
-  udp: false
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: rolaqoubhqt.bpd67081tsq.ddns-ip.net
-    path: /@Marisa_kristi
-- name: 'A - 🇯🇵 JP 05 TG: @nodpai'
   network: ws
   port: 59242
   server: 47.237.100.54
@@ -78,44 +32,40 @@ proxies:
     headers:
       Host: 9cvs-zyn4r9-6gzdtuo0w.mikuru.ip-ddns.com
     path: /@Marisa_kristifp=chromesecurity=tls
-- client-fingerprint: chrome
-  name: 'B - 🇯🇵 JP 06 TG: @nodpai'
-  network: ws
-  port: 49058
-  server: 45.93.29.223
-  servername: rolaqoubhqt.bpd67081tsq.ddns-ip.net
+- down: ''
+  fingerprint: ''
+  name: 'B - 🇯🇵 JP 04 TG: @nodpai'
+  obfs: ''
+  obfs-password: ''
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-jp-003.fastervpn.world
   skip-cert-verify: true
-  sni: rolaqoubhqt.bpd67081tsq.ddns-ip.net
-  tfo: false
+  sni: vpn-jp-003.fastervpn.world
+  type: hysteria2
+  up: ''
+- name: 'B - 🇯🇵 JP 05 TG: @nodpai'
+  password: 8r<[9'l6hAO#8ZQi
+  port: 11307
+  server: 47.79.85.210
+  sni: Koma-YT.PAGeS.Dev
   tls: true
-  type: vless
-  udp: false
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: rolaqoubhqt.bpd67081tsq.ddns-ip.net
-    path: /@Marisa_kristi
+  type: trojan
 - client-fingerprint: chrome
-  encryption: none
   flow: xtls-rprx-vision
-  name: 'B - 🇯🇵 JP 07 TG: @nodpai'
+  name: 'B - 🇯🇵 JP 06 TG: @nodpai'
   port: 44073
   reality-opts:
     public-key: Z3ZGnAOdKkzJ07gR_7_0k9_iTTFP6paDOrqx1rN2LU4
-  security: reality
+    short-id: '!!str '
   server: 138.2.50.155
   servername: www.icloud.com
+  skip-cert-verify: true
   tls: true
   type: vless
+  udp: true
   uuid: 11d29ec6-be66-4f59-97c6-7cff836ea318
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇯🇵 JP 08 TG: @nodpai'
-  port: 2505
-  server: world.t.51guangtaobao.com
-  type: vmess
-  uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
-- name: 'B - 🇯🇵 JP 09 TG: @nodpai'
+- name: 'B - 🇯🇵 JP 07 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -126,39 +76,20 @@ proxies:
   type: trojan
   ws-opts:
     path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇯🇵 JP 10 TG: @nodpai'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
+- client-fingerprint: chrome
+  name: 'B - 🇯🇵 JP 08 TG: @nodpai'
+  network: tcp
   port: 443
-  server: 64.110.104.30
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
+  reality-opts:
+    public-key: y3c8_tnhCnlhBVvriVCuS02atjHExcomTZFaana3bmE
+    short-id: '!!str c1fbde78'
+  security: reality
+  server: japan.cloudpath.live
+  servername: microsoft.com
   tls: true
-  type: trojan
-  ws-opts:
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇯🇵 JP 11 TG: @nodpai'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 142.91.108.54
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    path: /trTelegram
-- name: 'B - 🇯🇵 JP 12 TG: @nodpai'
-  network: ws
-  port: 12306
-  server: 167.71.222.177
-  servername: guslef2w8oz12wv.ymj.xx.kg
   type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: guslef2w8oz12wv.ymj.xx.kg
-    path: /@Marisa_kristifp=chromesecurity=tls
-- name: 'B - 🇯🇵 JP 13 TG: @nodpai'
+  uuid: 5e1083b9-4d4f-50ef-93e7-6e966dfce1f9
+- name: 'B - 🇯🇵 JP 09 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -168,7 +99,7 @@ proxies:
   type: trojan
   ws-opts:
     path: /trTelegram
-- name: 'B - 🇯🇵 JP 14 TG: @nodpai'
+- name: 'B - 🇯🇵 JP 10 TG: @nodpai'
   network: ws
   password: 8r%3C%5B9%27l6hAO%238ZQi
   port: 42841
@@ -181,39 +112,6 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇯🇵 JP 15 TG: @nodpai'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 103.125.216.22
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    path: /trTelegram
-- name: 'B - 🇯🇵 JP 16 TG: @nodpai'
-  network: ws
-  port: 20770
-  server: 219.103.68.164
-  servername: babayaga-6i7.pages.dev
-  type: vless
-  uuid: 981fca81-5be1-41f8-ac9b-d138e8109943
-  ws-opts:
-    headers:
-      Host: babayaga-6i7.pages.dev
-    path: /?ed=2560
-- name: 'C - 🇯🇵 JP 17 TG: @nodpai'
-  network: ws
-  password: GKHWMe2R4qwNcNxu6l3KMkdd
-  port: 20770
-  server: 219.103.68.164
-  sni: vpn1.rnmcnm.com
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: vpn1.rnmcnm.com
-    path: /trj-ws
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -256,64 +154,3 @@ proxies:
         like Gecko) Chrome/63.0.3239.132 Safari/537.36
     path: /?ed=2560
   xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: JP_speednode_0014
-  port: 16874
-  server: sgvless.yydzx.xyz
-  servername: sgvless.yydzx.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: JP_speednode_0015
-  port: 16460
-  server: sgvless.yydzx.xyz
-  servername: sgvless.yydzx.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: JP_speednode_0016
-  port: 16433
-  server: sgvless.yydzx.xyz
-  servername: sgvless.yydzx.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: JP_speednode_0017
-  port: 25485
-  reality-opts:
-    public-key: VOFSjjWT0wIH3Q0ntyEZd8WwksrIAb5gPt_3PBnEASg
-    short-id: '!!str 9c5b8c53'
-  server: aws-link14.liangxin1.xyz
-  servername: www.apple.com.cn
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f869b946-ef42-4d86-8d07-3623ad6cc37e
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: JP_speednode_0018
-  port: 36574
-  reality-opts:
-    public-key: sDG-KQk1BF7V83-xnmrWDouXxpPd_ZSxKcHrJJzbols
-    short-id: '!!str 32a3650d'
-  server: aws-link13.liangxin1.xyz
-  servername: www.apple.com.cn
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f869b946-ef42-4d86-8d07-3623ad6cc37e

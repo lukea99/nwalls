@@ -1,30 +1,40 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 'A - 🇯🇵 JP 02 TG: @nodpai'
+  client-fingerprint: chrome
+  name: 'B - 🇯🇵 JP 02 TG: @nodpai'
   port: 30806
-  server: 103.182.97.12
+  server: v6.hdacd.com
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 'B - 🇯🇵 JP 05 TG: @nodpai'
+- name: 'B - 🇯🇵 JP 03 TG: @nodpai'
   password: 8r<[9'l6hAO#8ZQi
-  port: 11307
-  server: 47.79.85.210
+  port: 443
+  server: 140.83.50.165
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
-- name: 'B - 🇯🇵 JP 07 TG: @nodpai'
+- name: 'B - 🇯🇵 JP 05 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
   server: 154.197.80.253
-  skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
   ws-opts:
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇯🇵 JP 09 TG: @nodpai'
+    path: /trTelegram
+- name: 'B - 🇯🇵 JP 06 TG: @nodpai'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 142.91.108.54
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /trTelegram🇨🇳
+- name: 'B - 🇯🇵 JP 08 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -36,17 +46,33 @@ proxies:
     path: /trTelegram
 - name: 'B - 🇯🇵 JP 10 TG: @nodpai'
   network: ws
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  port: 42841
-  server: 43.165.190.11
-  skip-cert-verify: true
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 64.110.104.30
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
   ws-opts:
+    path: /trTelegram
+- alterId: 2
+  cipher: auto
+  name: 'C - 🇯🇵 JP 12 TG: @nodpai'
+  port: 30806
+  server: 103.182.97.25
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 'C - 🇯🇵 JP 13 TG: @nodpai'
+  network: ws
+  password: GKHWMe2R4qwNcNxu6l3KMkdd
+  port: 20770
+  server: 219.103.68.164
+  sni: vpn1.rnmcnm.com
+  tls: true
+  type: trojan
+  ws-opts:
     headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
+      Host: vpn1.rnmcnm.com
+    path: /trj-ws
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -71,3 +97,10 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
+- cipher: aes-256-gcm
+  name: 🇯🇵JP_1|4.9MB/s
+  password: 6c4bd474-ac23-47fc-8742-c8f990357836
+  port: 12885
+  server: ss.031.node-for-bigairport.win
+  type: ss
+  udp: true

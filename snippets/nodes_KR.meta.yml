@@ -1,73 +1,23 @@
 proxies:
 - client-fingerprint: firefox
-  encryption: none
-  fp: firefox
-  name: 🇰🇷KR_1|1.2MB/s
+  ech-opts:
+    _dns: https://dns.alidns.com/dns-query
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 🇰🇷KR_5|1.2MB/s
   network: ws
-  port: 10001
-  security: tls
-  server: 59.30.189.250
-  servername: vfa9.cdn-stream.fgfw.indevs.in
+  port: 12312
+  server: 14.52.210.173
+  servername: juzi8186.qea.ccwu.cc
   skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: vfa9.cdn-stream.fgfw.indevs.in
-    max-early-data: 2560
-    path: /danfeng
-- client-fingerprint: chrome
-  name: 🇰🇷KR_3|1.3MB/s
-  network: ws
-  port: '10909'
-  server: 58.125.244.137
-  servername: vfa9.cdn-stream.fgfw.indevs.in
-  tls: true
-  type: vless
   udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  uuid: bafacd98-136a-4530-838d-4e5c51838dac
   ws-opts:
     headers:
-      Host: vfa9.cdn-stream.fgfw.indevs.in
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; Redmi Note 4 Build/NRD90M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
-    path: /danfeng?ed=2560fp=firefox
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇰🇷KR_4|1.3MB/s
-  network: ws
-  port: '10002'
-  server: 211.199.27.72
-  servername: vfa9.cdn-stream.fgfw.indevs.in
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: vfa9.cdn-stream.fgfw.indevs.in
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile Safari/537.36
-    path: /danfeng?ed=2560fp=firefox
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇰🇷KR_5|1.1MB/s
-  network: ws
-  port: '32770'
-  server: 61.40.190.110
-  servername: vfa9.cdn-stream.fgfw.indevs.in
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: vfa9.cdn-stream.fgfw.indevs.in
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.10
-        (KHTML, like Gecko) Chrome/8.0.552.237 Safari/534.10
-    path: /danfeng?ed=2560fp=firefox
+      Host: juzi8186.qea.ccwu.cc
+    path: /
   xudp: true
 - name: KR_speednode_0022
   password: test.+

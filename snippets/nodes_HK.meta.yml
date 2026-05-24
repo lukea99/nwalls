@@ -12,15 +12,24 @@ proxies:
     path: /trTelegram @WangCai2
 - name: 'A - 🇭🇰 HK 02 TG: @nodpai'
   network: ws
+  port: 12476
+  server: 103.73.220.170
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: vfa9.cdn-stream.fgfw.indevs.in
+    path: /danfengsecurity=tls
+- name: 'B - 🇭🇰 HK 03 TG: @nodpai'
+  network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 149.104.6.78
-  skip-cert-verify: true
+  port: 443
+  server: 8.223.63.189
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
   ws-opts:
-    path: /trTelegram
+    path: /trTelegram🇨🇳 @WangCai2
 - insecure: '1'
   name: 'B - 🇭🇰 HK 04 TG: @nodpai'
   obfs: salamander
@@ -36,14 +45,13 @@ proxies:
   type: hysteria2
 - name: 'B - 🇭🇰 HK 05 TG: @nodpai'
   network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 8.223.63.189
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
+  port: 8880
+  server: 45.40.145.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
-    path: /trTelegram🇨🇳 @WangCai2
+    headers:
+      Host: vms.lifetime35.workers.dev
 - insecure: '1'
   name: 'B - 🇭🇰 HK 06 TG: @nodpai'
   obfs: salamander
@@ -57,14 +65,23 @@ proxies:
     insecure: true
     server_name: iosapps.itunes.apple.com
   type: hysteria2
-- name: 'B - 🇭🇰 HK 07 TG: @nodpai'
-  password: 8r<[9'l6hAO#8ZQi
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 'B - 🇭🇰 HK 07 TG: @nodpai'
+  network: tcp
   port: 8443
-  server: 83.229.121.78
-  sni: Koma-YT.PAGeS.Dev
+  reality-opts:
+    public-key: YVdWd-VtYIzDviaoWi-aMjNO_I9zDyyHhBs4oUFDBw4
+    short-id: '!!str 757db457'
+  security: reality
+  server: hk2.isif.7li7li.vip
+  servername: itunes.apple.com
+  spider-x: /
   tls: true
-  type: trojan
-- name: 'B - 🇭🇰 HK 08 TG: @nodpai'
+  type: vless
+  uuid: 135a7899-d6d6-40e9-a33e-d0ae87e09a7e
+- name: 'B - 🇭🇰 HK 09 TG: @nodpai'
   obfs: salamander
   obfs-password: YzgyOTkwNDk4ZTU2NTdiNA==
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
@@ -76,25 +93,8 @@ proxies:
   tfo: false
   type: hysteria2
   udp: true
-- name: 'B - 🇭🇰 HK 09 TG: @nodpai'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 213.176.92.138
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    path: /trTelegram
-- name: 'B - 🇭🇰 HK 10 TG: @nodpai'
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 8.223.63.150
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
 - insecure: '1'
-  name: 'B - 🇭🇰 HK 12 TG: @nodpai'
+  name: 'B - 🇭🇰 HK 10 TG: @nodpai'
   obfs: salamander
   obfs-password: YzgyOTkwNDk4ZTU2NTdiNA==
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
@@ -106,6 +106,13 @@ proxies:
     insecure: true
     server_name: iosapps.itunes.apple.com
   type: hysteria2
+- name: 'B - 🇭🇰 HK 12 TG: @nodpai'
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 156.225.72.253
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
 - insecure: '1'
   name: 'B - 🇭🇰 HK 13 TG: @nodpai'
   obfs: salamander
@@ -135,11 +142,25 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 'C - 🇭🇰 HK 17 TG: @nodpai'
+  name: 'C - 🇭🇰 HK 20 TG: @nodpai'
   port: 51556
   server: 103.181.164.145
+  skip-cert-verify: true
+  tfo: false
   type: vmess
+  udp: false
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- encryption: none
+  name: 'D - 🇭🇰 HK 21 TG: @nodpai'
+  network: ws
+  port: 80
+  server: 104.17.145.59
+  type: vless
+  uuid: 5aa7d17e-7dc2-46dd-9acf-c3c97440259b
+  ws-opts:
+    headers:
+      Host: sss.yaml7.ggff.net
+    path: /
 - alterId: 2
   cipher: auto
   name: 🇭🇰 香港|@ripaojiedian
@@ -183,6 +204,29 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 🇭🇰HK_1|2.0MB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 28551
+  server: 116.206.178.228
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 🇭🇰HK_2|1.1MB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 8.223.63.189
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram
 - name: HK_speednode_0020
   network: ws
   port: 32237

@@ -1,4 +1,39 @@
 proxies:
+- insecure: '1'
+  mport: 40000-49999
+  name: 'A - 🇹🇼 TW 01 TG: @nodpai'
+  obfs: salamander
+  obfs-password: YzgyOTkwNDk4ZTU2NT6iNA==
+  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
+  port: 40000
+  server: tw.9966690.xyz
+  skip-cert-verify: true
+  tls:
+    enabled: true
+    insecure: true
+    server_name: iosapps.itunes.apple.com
+  type: hysteria2
+- alpn:
+  - http%2F1.1%0A
+  client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 'C - 🇹🇼 TW 03 TG: @nodpai'
+  network: ws
+  port: 8818
+  server: 60.249.21.50
+  servername: c1mxc.api-gateway.fgfw.qzz.io
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: c1mxc.api-gateway.fgfw.qzz.io
+    path: /danfeng-2cm3?ed=2560
 - name: TW_speednode_0034
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 1443
@@ -15,59 +50,3 @@ proxies:
   type: http
   udp: true
   username: mrwdfNTD8M79LCukCieldrqZWqs=
-- alterId: 2
-  cipher: auto
-  name: 'B - 🇹🇼 TW 16 TG: @nodpai'
-  port: 30811
-  server: 61.227.198.218
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇹🇼 TW 17 TG: @nodpai'
-  port: 35034
-  server: 165.154.195.38
-  type: vmess
-  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
-- alterId: 2
-  cipher: auto
-  name: 'B - 🇹🇼 TW 18 TG: @nodpai'
-  port: 30811
-  server: v11.zgtfqs.click
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: chacha20-ietf-poly1305
-  name: 🇹🇼TW_1|1.1MB/s
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: '50099'
-  server: r3mrcg007134n4g.cybervena.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇹🇼TW_2|1.6MB/s
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: '50099'
-  server: r3mrcg001287h3p.cybervena.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇹🇼TW_3|1.2MB/s
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: '50099'
-  server: r3mrcg00129437x.cybervena.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇹🇼TW_4|1.7MB/s
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: '50099'
-  server: r3mrcg0011499tl.cybervena.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇹🇼TW_5|1.3MB/s
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: '50099'
-  server: r3mrcg007117fb8.cybervena.com
-  type: ss
-  udp: true

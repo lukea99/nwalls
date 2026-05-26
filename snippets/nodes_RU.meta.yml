@@ -1,4 +1,31 @@
 proxies:
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇷🇺RU_1|2.6MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: D0FqzTuVSzCF8IcFo64SFIpMsaGV47LW3el2GCCVoFY
+    short-id: '!!str c1a7e9b4711d5f60'
+  server: 193.168.46.180
+  servername: rruu.persik.host
+  tls: true
+  type: vless
+  udp: true
+  uuid: 380cd021-6a04-4ff4-b9a7-d1ebb7890f6a
+  xudp: true
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: RU_speednode_0024
+  port: 22231
+  server: r1.mizulina.top
+  servername: r1.mizulina.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
 - client-fingerprint: edge
   flow: xtls-rprx-vision
   name: RU_speednode_0025

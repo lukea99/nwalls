@@ -28,8 +28,8 @@ proxies:
   server: 47.76.218.163
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
+  tls: true
   type: trojan
-  udp: true
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
@@ -73,7 +73,7 @@ proxies:
   uuid: 22d4ef9c-b269-4f82-9f59-6c2c0d8ce16d
 - client-fingerprint: chrome
   encryption: none
-  name: 'B - 🇭🇰 HK 08 TG: @nodpai'
+  name: US_speednode_0035
   network: tcp
   port: 443
   reality-opts:
@@ -82,8 +82,10 @@ proxies:
   security: reality
   server: 216.57.108.24
   servername: yahoo.com
+  skip-cert-verify: false
   tls: true
   type: vless
+  udp: true
   uuid: 61bf6a18-727e-4492-ab5f-01dea4aa2df9
 - alterId: 0
   cipher: auto
@@ -150,3 +152,31 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: HK_speednode_0009
+  port: 443
+  reality-opts:
+    public-key: 8mv22T5d1KHXlT1EQiQMcgbOZpwkospsUb8WLkuDsAA
+    short-id: '!!str 7994d24409820c44'
+  server: qfaxrs.sgvless.yydzx.xyz
+  servername: deb.debian.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: HK_speednode_0010
+  port: 443
+  reality-opts:
+    public-key: 8mv22T5d1KHXlT1EQiQMcgbOZpwkospsUb8WLkuDsAA
+    short-id: '!!str 7994d24409820c44'
+  server: mx0wbu.sgvless.yydzx.xyz
+  servername: deb.debian.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280

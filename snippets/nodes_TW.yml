@@ -1,7 +1,6 @@
 proxies:
 - alterId: 2
   cipher: auto
-  client-fingerprint: chrome
   name: 'B - 🇹🇼 TW 07 TG: @nodpai'
   port: 30811
   server: 61.227.198.218

@@ -38,8 +38,11 @@ proxies:
 - alterId: 0
   cipher: auto
   name: 'A - 🇭🇰 HK 05 TG: @nodpai'
+  network: tcp
   port: 6001
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
+  skip-cert-verify: true
+  tls: false
   type: vmess
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
 - name: 'B - 🇭🇰 HK 06 TG: @nodpai'
@@ -131,21 +134,27 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  name: 🇭🇰HK_1|1.2MB/s
-  password: 6286105c-fb6d-11ef-be96-f23c93136cb3
-  port: 8300
-  server: 0a34c055-t9t1c0-tb7mup-4550.hkt.east.wctype.com
-  skip-cert-verify: true
-  sni: 0a34c055-t9t1c0-tb7mup-4550.hkt.east.wctype.com
-  type: anytls
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK_1|1021KB/s
+  network: raw
+  port: '6012'
+  server: world.t.51guangtaobao.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
-- client-fingerprint: chrome
-  name: 🇭🇰HK_2|1.6MB/s
-  password: 6286105c-fb6d-11ef-be96-f23c93136cb3
-  port: 8300
-  server: 1dfe1864-t9ylc0-tb7mup-4550.hkt.east.wctype.com
-  skip-cert-verify: true
-  sni: 1dfe1864-t9ylc0-tb7mup-4550.hkt.east.wctype.com
-  type: anytls
+  uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK_2|1.3MB/s
+  network: raw
+  port: '9002'
+  server: world.t.51guangtaobao.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
+  uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
+  xudp: true

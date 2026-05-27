@@ -149,3 +149,22 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇯🇵JP_1|3.8MB/s
+  network: xhttp
+  port: '2083'
+  server: 162.159.38.183
+  servername: de.lezzatzone.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: 406d8436-0eb9-4eb2-84fb-960e076ffba6
+  xhttp-opts:
+    host: de.lezzatzone.ir
+    mode: stream-one
+    path: /de
+  xudp: true

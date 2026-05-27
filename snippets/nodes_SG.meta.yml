@@ -6,7 +6,8 @@ proxies:
   skip-cert-verify: true
   sni: hkt05.769970.xyz
   type: hysteria2
-- encryption: none
+- client-fingerprint: chrome
+  encryption: none
   name: 'A - 🇸🇬 SG 02 TG: @nodpai'
   network: ws
   port: 2087
@@ -25,7 +26,10 @@ proxies:
   name: 'B - 🇸🇬 SG 03 TG: @nodpai'
   port: 6004
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
+  skip-cert-verify: false
+  tls: false
   type: vmess
+  udp: true
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
 - alterId: 0
   cipher: auto
@@ -97,7 +101,7 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - cipher: aes-128-gcm
-  name: 🇸🇬SG_1|2.0MB/s
+  name: 🇸🇬SG_1|3.6MB/s
   password: '!!str 666'
   plugin: v2ray-plugin
   plugin-opts:
@@ -110,46 +114,3 @@ proxies:
   skip-cert-verify: false
   type: ss
   udp: false
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇸🇬SG_2|1.6MB/s
-  network: xhttp
-  port: '443'
-  server: 198.41.223.119
-  servername: de.xn--q9jyb4c.online
-  tls: true
-  type: vless
-  udp: true
-  uuid: 406d8436-0eb9-4eb2-84fb-960e076ffba6
-  xhttp-opts:
-    mode: stream-one
-    path: /de
-  xudp: true
-- name: NN_speednode_0036
-  password: 16955d72-1794-11f0-a035-f23c95b6f51d
-  port: 3233
-  server: 4b41083b-tea5c0-tequ5b-dnss.fourtwo.cdnbytescm.com
-  tls: true
-  type: http
-  udp: true
-  username: 16955d72-1794-11f0-a035-f23c95b6f51d
-- name: NN_speednode_0037
-  password: 1b609740-eec2-11ef-8543-f23c93136cb3
-  port: 3233
-  server: b5eb2edf-te8ao0-tfnl0i-au6.fourtwo.cdnbytescm.com
-  tls: true
-  type: http
-  udp: true
-  username: 1b609740-eec2-11ef-8543-f23c93136cb3
-- alterId: '0'
-  cipher: auto
-  name: 🇸🇬SG_5|2.4MB/s
-  network: tcp
-  port: 2504
-  server: world.t.51guangtaobao.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
-  xudp: true

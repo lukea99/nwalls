@@ -89,9 +89,23 @@ proxies:
   tls: false
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
+- encryption: none
+  flow: xtls-rprx-vision
+  name: 'A - 🇭🇰 HK 01 TG: @nodpai'
+  network: tcp
+  port: 30086
+  reality-opts:
+    public-key: VoA8WXthSh6CroV4pHK7V6L5gYUw8MHTo2kIVknTXSE
+    short-id: '693b25e06841ac7f'
+  security: reality
+  server: cdn.hk2.cocoduck.org
+  servername: www.apple.com
+  tls: true
+  type: vless
+  uuid: 4dd69f91-190c-413d-88c7-2f1675a98d85
 - alterId: 0
   cipher: auto
-  name: 'A - 🇭🇰 HK 01 TG: @nodpai'
+  name: 'A - 🇭🇰 HK 02 TG: @nodpai'
   network: tcp
   port: 6001
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
@@ -99,23 +113,23 @@ proxies:
   tls: false
   type: vmess
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+- encryption: none
+  flow: xtls-rprx-vision
+  name: 'A - 🇭🇰 HK 03 TG: @nodpai'
+  network: tcp
+  port: 30394
+  reality-opts:
+    public-key: VoA8WXthSh6CroV4pHK7V6L5gYUw8MHTo2kIVknTXSE
+    short-id: '693b25e06841ac7f'
+  security: reality
+  server: cdn.hk1.cocoduck.org
+  servername: www.apple.com
+  tls: true
+  type: vless
+  uuid: 4dd69f91-190c-413d-88c7-2f1675a98d85
 - client-fingerprint: edge
   flow: xtls-rprx-vision
   name: 'A - 🇭🇰 HK 05 TG: @nodpai'
-  port: 1000
-  reality-opts:
-    public-key: fbABzUObM1ehY0C9V83p34p8ah9w2s4lDrdAiXdzGxI
-    short-id: '4b070735'
-  server: hkt-home.xn--9kqp42aims.top
-  servername: buylite.music.apple.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ceeb8370-d87a-40c7-b8b9-566716210763
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 'B - 🇭🇰 HK 08 TG: @nodpai'
   port: 443
   reality-opts:
     public-key: fbABzUObM1ehY0C9V83p34p8ah9w2s4lDrdAiXdzGxI
@@ -127,20 +141,7 @@ proxies:
   type: vless
   udp: true
   uuid: ceeb8370-d87a-40c7-b8b9-566716210763
-- insecure: '1'
-  name: 'B - 🇭🇰 HK 10 TG: @nodpai'
-  obfs: salamander
-  obfs-password: YzgyOTkwNDk4ZTU2NTdiNA==
-  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-  port: 60008
-  server: zfin.9966690.xyz
-  skip-cert-verify: true
-  tls:
-    enabled: true
-    insecure: true
-    server_name: iosapps.itunes.apple.com
-  type: hysteria2
-- name: 'B - 🇭🇰 HK 12 TG: @nodpai'
+- name: 'B - 🇭🇰 HK 08 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -151,40 +152,14 @@ proxies:
   type: trojan
   ws-opts:
     path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇭🇰 HK 13 TG: @nodpai'
+- name: 'B - 🇭🇰 HK 09 TG: @nodpai'
   password: 8r<[9'l6hAO#8ZQi
   port: 443
   server: 154.92.9.253
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
-- insecure: '1'
-  name: 'B - 🇭🇰 HK 14 TG: @nodpai'
-  obfs: salamander
-  obfs-password: YzgyOTkwNDk4ZTU2NTdiNA==
-  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-  port: 60007
-  server: zf.9966690.xyz
-  skip-cert-verify: true
-  tls:
-    enabled: true
-    insecure: true
-    server_name: iosapps.itunes.apple.com
-  type: hysteria2
-- insecure: '1'
-  name: 'B - 🇭🇰 HK 15 TG: @nodpai'
-  obfs: salamander
-  obfs-password: YzgyOTkwNDk4ZTU2NTdiNA==
-  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-  port: 60010
-  server: zfde.9966690.xyz
-  skip-cert-verify: true
-  tls:
-    enabled: true
-    insecure: true
-    server_name: iosapps.itunes.apple.com
-  type: hysteria2
-- name: 'B - 🇭🇰 HK 17 TG: @nodpai'
+- name: 'B - 🇭🇰 HK 11 TG: @nodpai'
   obfs: salamander
   obfs-password: YzgyOTkwNDk4ZTU2NTdiNA==
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
@@ -192,88 +167,90 @@ proxies:
   server: zf.9966690.xyz
   skip-cert-verify: true
   type: hysteria2
-- name: 'B - 🇭🇰 HK 19 TG: @nodpai'
+- name: 'B - 🇭🇰 HK 12 TG: @nodpai'
   network: ws
-  port: 17820
-  security: tls
-  server: s5.db-link.in
-  servername: 48afa0c5c9.shopify.com
-  tls: true
-  type: vless
-  uuid: 75d4d24d-ba8d-3676-a5c6-edd6ea6dbfb6
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  port: 443
+  server: 143.20.204.5
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
   ws-opts:
     headers:
-      Host: 48afa0c5c9.shopify.com
-    path: /db102448afa0c5c9
-- name: 'B - 🇭🇰 HK 22 TG: @nodpai'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 46639
-  server: 192.131.142.161
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    path: /trTelegram
-- name: 'B - 🇭🇰 HK 24 TG: @nodpai'
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 219.76.13.183
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-- name: 'C - 🇭🇰 HK 25 TG: @nodpai'
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 219.76.13.169
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
 - alterId: 0
   cipher: auto
-  name: 'C - 🇭🇰 HK 26 TG: @nodpai'
-  port: 51556
+  name: 'B - 🇭🇰 HK 15 TG: @nodpai'
+  network: ws
+  port: 443
+  server: cf.scpnb.top
+  servername: playstation-schema-collections-equilibrium.trycloudflare.com
+  tls: true
+  type: vmess
+  uuid: 6d28e73a-a184-4b6a-ab5a-efc2980d38fc
+  ws-opts:
+    headers:
+      Host: playstation-schema-collections-equilibrium.trycloudflare.com
+    path: /6d28e73a-a184-4b6a-ab5a-efc2980d38fc-vm
+- name: 'B - 🇭🇰 HK 17 TG: @nodpai'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: al3Xe0XdaQv7eOMs0oJoP_iDOO1kFJ2P1EjDh_e_8j8
+    short-id: 'f24d'
+  security: reality
+  server: 186.246.21.58
+  servername: yahoo.com
+  spider-x: /
+  tls: true
+  type: vless
+  uuid: 19ef5b43-c13f-4d4e-8b95-8431c50c1384
+- name: 'C - 🇭🇰 HK 18 TG: @nodpai'
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 212.192.15.182
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+- name: 'C - 🇭🇰 HK 19 TG: @nodpai'
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 176.98.181.71
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+- encryption: none
+  flow: xtls-rprx-vision
+  name: 'C - 🇭🇰 HK 20 TG: @nodpai'
+  network: tcp
+  port: 30395
+  reality-opts:
+    public-key: VoA8WXthSh6CroV4pHK7V6L5gYUw8MHTo2kIVknTXSE
+    short-id: '693b25e06841ac7f'
+  security: reality
+  server: cdn.hk5.cocoduck.org
+  servername: www.apple.com
+  tls: true
+  type: vless
+  uuid: 4dd69f91-190c-413d-88c7-2f1675a98d85
+- alterId: 0
+  cipher: auto
+  name: 'C - 🇭🇰 HK 21 TG: @nodpai'
+  port: 54022
   server: 103.181.164.145
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- encryption: none
-  flow: xtls-rprx-vision
-  name: 'A - 🇹🇼 TW 01 TG: @nodpai'
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: 2a0ONLRiBeHJdr9qCruq5tPVf8_3c4fmZsg7YQorFSE
-    short-id: '04d59340'
-  security: reality
-  server: tw1.459292.xyz
-  servername: www.python.org
-  tls: true
-  type: vless
-  uuid: 39c2e591-2ebe-4a6f-bea4-803783cd5183
-- encryption: none
-  flow: xtls-rprx-vision
-  name: 'A - 🇹🇼 TW 02 TG: @nodpai'
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: 2a0ONLRiBeHJdr9qCruq5tPVf8_3c4fmZsg7YQorFSE
-    short-id: '04d59340'
-  security: reality
-  server: tw1.459292.xyz
-  servername: www.python.org
-  tls: true
-  type: vless
-  uuid: f6836112-e9f3-4803-a366-5606ac214324
-- name: 'A - 🇹🇼 TW 03 TG: @nodpai'
-  password: 94a5dea9-6175-4cd1-8f0b-786bde8eaf9b
+- name: 'A - 🇹🇼 TW 01 TG: @nodpai'
+  password: 522c2107-f297-4420-bd56-ec82b175aa2d
   port: 8080
-  server: tw40.453521.xyz
+  server: 5gzdx.769970.xyz
   skip-cert-verify: true
-  sni: tw40.453521.xyz
+  sni: 5gzdx.769970.xyz
   type: hysteria2
 - encryption: none
   flow: xtls-rprx-vision
-  name: 'A - 🇹🇼 TW 04 TG: @nodpai'
+  name: 'A - 🇹🇼 TW 02 TG: @nodpai'
   network: tcp
   port: 8443
   reality-opts:
@@ -285,20 +262,20 @@ proxies:
   tls: true
   type: vless
   uuid: 94a5dea9-6175-4cd1-8f0b-786bde8eaf9b
-- encryption: none
-  flow: xtls-rprx-vision
-  name: 'A - 🇹🇼 TW 05 TG: @nodpai'
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: 2a0ONLRiBeHJdr9qCruq5tPVf8_3c4fmZsg7YQorFSE
-    short-id: '04d59340'
-  security: reality
-  server: tw06.459292.xyz
-  servername: www.python.org
-  tls: true
-  type: vless
-  uuid: aecd8c25-fd16-42a3-aefb-89c89557828f
+- name: 'A - 🇹🇼 TW 04 TG: @nodpai'
+  password: 64c5b7d0-87aa-45eb-9721-3602325fa106
+  port: 8080
+  server: 5gzdx.769970.xyz
+  skip-cert-verify: true
+  sni: 5gzdx.769970.xyz
+  type: hysteria2
+- name: 'A - 🇹🇼 TW 05 TG: @nodpai'
+  password: 64c5b7d0-87aa-45eb-9721-3602325fa106
+  port: 8080
+  server: tw40.453521.xyz
+  skip-cert-verify: true
+  sni: tw40.453521.xyz
+  type: hysteria2
 - encryption: none
   flow: xtls-rprx-vision
   name: 'A - 🇹🇼 TW 06 TG: @nodpai'
@@ -308,119 +285,35 @@ proxies:
     public-key: 2a0ONLRiBeHJdr9qCruq5tPVf8_3c4fmZsg7YQorFSE
     short-id: '04d59340'
   security: reality
-  server: tw1.459292.xyz
-  servername: www.python.org
-  tls: true
-  type: vless
-  uuid: 505cb813-5647-4898-918c-cde760d515a8
-- name: 'A - 🇹🇼 TW 07 TG: @nodpai'
-  password: f6836112-e9f3-4803-a366-5606ac214324
-  port: 8080
-  server: tw40.453521.xyz
-  skip-cert-verify: true
-  sni: tw40.453521.xyz
-  type: hysteria2
-- encryption: none
-  flow: xtls-rprx-vision
-  name: 'A - 🇹🇼 TW 08 TG: @nodpai'
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: 2a0ONLRiBeHJdr9qCruq5tPVf8_3c4fmZsg7YQorFSE
-    short-id: '04d59340'
-  security: reality
-  server: tw4.453521.xyz
-  servername: www.python.org
-  tls: true
-  type: vless
-  uuid: 15893455-4d21-4338-a273-01aed1d77fa2
-- name: 'A - 🇹🇼 TW 09 TG: @nodpai'
-  password: 522c2107-f297-4420-bd56-ec82b175aa2d
-  port: 8080
-  server: tw40.453521.xyz
-  skip-cert-verify: true
-  sni: tw40.453521.xyz
-  type: hysteria2
-- name: 'A - 🇹🇼 TW 10 TG: @nodpai'
-  password: 505cb813-5647-4898-918c-cde760d515a8
-  port: 8080
-  server: tw40.453521.xyz
-  skip-cert-verify: true
-  sni: tw40.453521.xyz
-  type: hysteria2
-- name: 'A - 🇹🇼 TW 11 TG: @nodpai'
-  password: 3f2d3497-6843-46f1-aa34-5469dc953259
-  port: 8080
-  server: tw40.453521.xyz
-  skip-cert-verify: true
-  sni: tw40.453521.xyz
-  type: hysteria2
-- name: 'A - 🇹🇼 TW 12 TG: @nodpai'
-  password: 39c2e591-2ebe-4a6f-bea4-803783cd5183
-  port: 8080
-  server: 5gzdx.769970.xyz
-  skip-cert-verify: true
-  sni: 5gzdx.769970.xyz
-  type: hysteria2
-- name: 'A - 🇹🇼 TW 13 TG: @nodpai'
-  password: 505cb813-5647-4898-918c-cde760d515a8
-  port: 8080
-  server: 5gzdx.769970.xyz
-  skip-cert-verify: true
-  sni: 5gzdx.769970.xyz
-  type: hysteria2
-- name: 'A - 🇹🇼 TW 14 TG: @nodpai'
-  password: 64c5b7d0-87aa-45eb-9721-3602325fa106
-  port: 8080
-  server: tw40.453521.xyz
-  skip-cert-verify: true
-  sni: tw40.453521.xyz
-  type: hysteria2
-- name: 'A - 🇹🇼 TW 15 TG: @nodpai'
-  password: 8r<[9'l6hAO#8ZQi
-  port: 16443
-  server: 114.32.9.249
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-- name: 'B - 🇹🇼 TW 16 TG: @nodpai'
-  password: df1a0967-5b79-41ec-8d12-915e9056c6e2
-  port: 8080
-  server: 5gzdx.769970.xyz
-  skip-cert-verify: true
-  sni: 5gzdx.769970.xyz
-  type: hysteria2
-- encryption: none
-  flow: xtls-rprx-vision
-  name: 'B - 🇹🇼 TW 17 TG: @nodpai'
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: 2a0ONLRiBeHJdr9qCruq5tPVf8_3c4fmZsg7YQorFSE
-    short-id: '04d59340'
-  security: reality
   server: tw06.459292.xyz
   servername: www.python.org
   tls: true
   type: vless
-  uuid: df1a0967-5b79-41ec-8d12-915e9056c6e2
-- name: 'B - 🇹🇼 TW 18 TG: @nodpai'
+  uuid: 64c5b7d0-87aa-45eb-9721-3602325fa106
+- encryption: none
+  flow: xtls-rprx-vision
+  name: 'A - 🇹🇼 TW 07 TG: @nodpai'
+  network: tcp
+  port: 22574
+  reality-opts:
+    public-key: VoA8WXthSh6CroV4pHK7V6L5gYUw8MHTo2kIVknTXSE
+    short-id: '693b25e06841ac7f'
+  security: reality
+  server: cdn.tw3.cocoduck.org
+  servername: www.apple.com
+  tls: true
+  type: vless
+  uuid: 4dd69f91-190c-413d-88c7-2f1675a98d85
+- name: 'A - 🇹🇼 TW 08 TG: @nodpai'
   password: aecd8c25-fd16-42a3-aefb-89c89557828f
   port: 8080
   server: 5gzdx.769970.xyz
   skip-cert-verify: true
   sni: 5gzdx.769970.xyz
   type: hysteria2
-- name: 'B - 🇹🇼 TW 19 TG: @nodpai'
-  password: c90cedc3-8d7f-4c7d-8bd7-d011d694aef3
-  port: 8080
-  server: 5gzdx.769970.xyz
-  skip-cert-verify: true
-  sni: 5gzdx.769970.xyz
-  type: hysteria2
 - encryption: none
   flow: xtls-rprx-vision
-  name: 'B - 🇹🇼 TW 21 TG: @nodpai'
+  name: 'A - 🇹🇼 TW 09 TG: @nodpai'
   network: tcp
   port: 8443
   reality-opts:
@@ -432,23 +325,121 @@ proxies:
   tls: true
   type: vless
   uuid: 522c2107-f297-4420-bd56-ec82b175aa2d
+- name: 'B - 🇹🇼 TW 10 TG: @nodpai'
+  password: 94a5dea9-6175-4cd1-8f0b-786bde8eaf9b
+  port: 8080
+  server: 5gzdx.769970.xyz
+  skip-cert-verify: true
+  sni: 5gzdx.769970.xyz
+  type: hysteria2
 - encryption: none
   flow: xtls-rprx-vision
-  name: 'B - 🇹🇼 TW 22 TG: @nodpai'
+  name: 'B - 🇹🇼 TW 11 TG: @nodpai'
   network: tcp
   port: 8443
   reality-opts:
     public-key: 2a0ONLRiBeHJdr9qCruq5tPVf8_3c4fmZsg7YQorFSE
     short-id: '04d59340'
   security: reality
-  server: tw4.453521.xyz
+  server: tw1.459292.xyz
   servername: www.python.org
   tls: true
   type: vless
-  uuid: 64c5b7d0-87aa-45eb-9721-3602325fa106
+  uuid: 3f2d3497-6843-46f1-aa34-5469dc953259
 - encryption: none
   flow: xtls-rprx-vision
-  name: 'B - 🇹🇼 TW 23 TG: @nodpai'
+  name: 'B - 🇹🇼 TW 12 TG: @nodpai'
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: 2a0ONLRiBeHJdr9qCruq5tPVf8_3c4fmZsg7YQorFSE
+    short-id: '04d59340'
+  security: reality
+  server: tw1.459292.xyz
+  servername: www.python.org
+  tls: true
+  type: vless
+  uuid: aecd8c25-fd16-42a3-aefb-89c89557828f
+- name: 'B - 🇹🇼 TW 13 TG: @nodpai'
+  password: c90cedc3-8d7f-4c7d-8bd7-d011d694aef3
+  port: 8080
+  server: 5gzdx.769970.xyz
+  skip-cert-verify: true
+  sni: 5gzdx.769970.xyz
+  type: hysteria2
+- encryption: none
+  flow: xtls-rprx-vision
+  name: 'B - 🇹🇼 TW 14 TG: @nodpai'
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: 2a0ONLRiBeHJdr9qCruq5tPVf8_3c4fmZsg7YQorFSE
+    short-id: '04d59340'
+  security: reality
+  server: tw1.459292.xyz
+  servername: www.python.org
+  tls: true
+  type: vless
+  uuid: c90cedc3-8d7f-4c7d-8bd7-d011d694aef3
+- encryption: none
+  flow: xtls-rprx-vision
+  name: 'B - 🇹🇼 TW 15 TG: @nodpai'
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: 2a0ONLRiBeHJdr9qCruq5tPVf8_3c4fmZsg7YQorFSE
+    short-id: '04d59340'
+  security: reality
+  server: tw1.459292.xyz
+  servername: www.python.org
+  tls: true
+  type: vless
+  uuid: f6836112-e9f3-4803-a366-5606ac214324
+- name: 'B - 🇹🇼 TW 16 TG: @nodpai'
+  password: f6836112-e9f3-4803-a366-5606ac214324
+  port: 8080
+  server: 5gzdx.769970.xyz
+  skip-cert-verify: true
+  sni: 5gzdx.769970.xyz
+  type: hysteria2
+- name: 'B - 🇹🇼 TW 17 TG: @nodpai'
+  password: 3f2d3497-6843-46f1-aa34-5469dc953259
+  port: 8080
+  server: 5gzdx.769970.xyz
+  skip-cert-verify: true
+  sni: 5gzdx.769970.xyz
+  type: hysteria2
+- encryption: none
+  flow: xtls-rprx-vision
+  name: 'B - 🇹🇼 TW 18 TG: @nodpai'
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: 2a0ONLRiBeHJdr9qCruq5tPVf8_3c4fmZsg7YQorFSE
+    short-id: '04d59340'
+  security: reality
+  server: tw1.459292.xyz
+  servername: www.python.org
+  tls: true
+  type: vless
+  uuid: df1a0967-5b79-41ec-8d12-915e9056c6e2
+- encryption: none
+  flow: xtls-rprx-vision
+  name: 'B - 🇹🇼 TW 19 TG: @nodpai'
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: 2a0ONLRiBeHJdr9qCruq5tPVf8_3c4fmZsg7YQorFSE
+    short-id: '04d59340'
+  security: reality
+  server: tw1.459292.xyz
+  servername: www.python.org
+  tls: true
+  type: vless
+  uuid: 522c2107-f297-4420-bd56-ec82b175aa2d
+- encryption: none
+  flow: xtls-rprx-vision
+  name: 'B - 🇹🇼 TW 20 TG: @nodpai'
   network: tcp
   port: 8443
   reality-opts:
@@ -459,7 +450,49 @@ proxies:
   servername: www.python.org
   tls: true
   type: vless
-  uuid: 39c2e591-2ebe-4a6f-bea4-803783cd5183
+  uuid: c90cedc3-8d7f-4c7d-8bd7-d011d694aef3
+- encryption: none
+  flow: xtls-rprx-vision
+  name: 'B - 🇹🇼 TW 21 TG: @nodpai'
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: 2a0ONLRiBeHJdr9qCruq5tPVf8_3c4fmZsg7YQorFSE
+    short-id: '04d59340'
+  security: reality
+  server: tw5.453521.xyz
+  servername: www.python.org
+  tls: true
+  type: vless
+  uuid: 94a5dea9-6175-4cd1-8f0b-786bde8eaf9b
+- encryption: none
+  name: 'B - 🇹🇼 TW 22 TG: @nodpai'
+  network: ws
+  port: 43
+  security: tls
+  server: 220.128.110.108
+  servername: pagescm.freen6.cc.cd
+  tls: true
+  type: vless
+  uuid: ae0dd58e-e222-40bf-84ae-365a97532737
+  ws-opts:
+    headers:
+      Host: pagescm.freen6.cc.cd
+    path: /tags/details
+- encryption: none
+  flow: xtls-rprx-vision
+  name: 'B - 🇹🇼 TW 23 TG: @nodpai'
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: 2a0ONLRiBeHJdr9qCruq5tPVf8_3c4fmZsg7YQorFSE
+    short-id: '04d59340'
+  security: reality
+  server: tw4.453521.xyz
+  servername: www.python.org
+  tls: true
+  type: vless
+  uuid: f6836112-e9f3-4803-a366-5606ac214324
 - encryption: none
   flow: xtls-rprx-vision
   name: 'B - 🇹🇼 TW 24 TG: @nodpai'
@@ -473,17 +506,10 @@ proxies:
   servername: www.python.org
   tls: true
   type: vless
-  uuid: 505cb813-5647-4898-918c-cde760d515a8
-- name: 'B - 🇹🇼 TW 25 TG: @nodpai'
-  password: gcuCpQfaiVeDBdWG
-  port: 19128
-  server: jpbgp.netvigor.cc
-  sni: yazhou10.dynu.net
-  tls: true
-  type: trojan
+  uuid: f6836112-e9f3-4803-a366-5606ac214324
 - encryption: none
   flow: xtls-rprx-vision
-  name: 'B - 🇹🇼 TW 26 TG: @nodpai'
+  name: 'B - 🇹🇼 TW 25 TG: @nodpai'
   network: tcp
   port: 8443
   reality-opts:
@@ -495,29 +521,93 @@ proxies:
   tls: true
   type: vless
   uuid: 15893455-4d21-4338-a273-01aed1d77fa2
+- encryption: none
+  flow: xtls-rprx-vision
+  name: 'C - 🇹🇼 TW 26 TG: @nodpai'
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: 2a0ONLRiBeHJdr9qCruq5tPVf8_3c4fmZsg7YQorFSE
+    short-id: '04d59340'
+  security: reality
+  server: tw5.453521.xyz
+  servername: www.python.org
+  tls: true
+  type: vless
+  uuid: 15893455-4d21-4338-a273-01aed1d77fa2
+- encryption: none
+  flow: xtls-rprx-vision
+  name: 'C - 🇹🇼 TW 27 TG: @nodpai'
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: 2a0ONLRiBeHJdr9qCruq5tPVf8_3c4fmZsg7YQorFSE
+    short-id: '04d59340'
+  security: reality
+  server: tw5.453521.xyz
+  servername: www.python.org
+  tls: true
+  type: vless
+  uuid: 64c5b7d0-87aa-45eb-9721-3602325fa106
 - name: 'A - 🇯🇵 JP 01 TG: @nodpai'
-  password: 15893455-4d21-4338-a273-01aed1d77fa2
-  port: 8080
-  server: hyfnjp03.769970.xyz
+  obfs: salamander
+  obfs-password: ZTBjNDA0YTVhNTFkMzFlOQ==
+  password: 505cb813-5647-4898-918c-cde760d515a8
+  port: 60000
+  server: hyfnjp01.769970.xyz
   skip-cert-verify: true
-  sni: hyfnjp03.769970.xyz
+  sni: hyfnjp01.769970.xyz
   type: hysteria2
 - name: 'A - 🇯🇵 JP 02 TG: @nodpai'
+  obfs: salamander
+  obfs-password: ZTBjNDA0YTVhNTFkMzFlOQ==
+  password: 3f2d3497-6843-46f1-aa34-5469dc953259
+  port: 60000
+  server: hyfnjp01.769970.xyz
+  skip-cert-verify: true
+  sni: hyfnjp01.769970.xyz
+  type: hysteria2
+- name: 'A - 🇯🇵 JP 03 TG: @nodpai'
+  obfs: salamander
+  obfs-password: ZTBjNDA0YTVhNTFkMzFlOQ==
+  password: 94a5dea9-6175-4cd1-8f0b-786bde8eaf9b
+  port: 60000
+  server: hyfnjp01.769970.xyz
+  skip-cert-verify: true
+  sni: hyfnjp01.769970.xyz
+  type: hysteria2
+- name: 'A - 🇯🇵 JP 04 TG: @nodpai'
   password: 522c2107-f297-4420-bd56-ec82b175aa2d
   port: 8080
   server: hyfnjp03.769970.xyz
   skip-cert-verify: true
   sni: hyfnjp03.769970.xyz
   type: hysteria2
-- name: 'A - 🇯🇵 JP 03 TG: @nodpai'
+- name: 'A - 🇯🇵 JP 05 TG: @nodpai'
   password: 94a5dea9-6175-4cd1-8f0b-786bde8eaf9b
   port: 8080
-  server: jp06.459292.xyz
+  server: hyfnjp03.769970.xyz
   skip-cert-verify: true
-  sni: jp06.459292.xyz
+  sni: hyfnjp03.769970.xyz
   type: hysteria2
-- name: 'A - 🇯🇵 JP 04 TG: @nodpai'
-  password: f6836112-e9f3-4803-a366-5606ac214324
+- name: 'A - 🇯🇵 JP 06 TG: @nodpai'
+  password: 15893455-4d21-4338-a273-01aed1d77fa2
+  port: 8080
+  server: hyfnjp03.769970.xyz
+  skip-cert-verify: true
+  sni: hyfnjp03.769970.xyz
+  type: hysteria2
+- name: 'A - 🇯🇵 JP 07 TG: @nodpai'
+  obfs: salamander
+  obfs-password: ZTBjNDA0YTVhNTFkMzFlOQ==
+  password: 522c2107-f297-4420-bd56-ec82b175aa2d
+  port: 60000
+  server: hyfnjp01.769970.xyz
+  skip-cert-verify: true
+  sni: hyfnjp01.769970.xyz
+  type: hysteria2
+- name: 'A - 🇯🇵 JP 08 TG: @nodpai'
+  password: df1a0967-5b79-41ec-8d12-915e9056c6e2
   port: 8080
   server: hyfnjp03.769970.xyz
   skip-cert-verify: true
@@ -525,49 +615,23 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: 'A - 🇯🇵 JP 05 TG: @nodpai'
+  name: 'A - 🇯🇵 JP 09 TG: @nodpai'
   password: 6nne3n3cuvhyvdyo
   port: 14817
   server: jp.zlr.dpdns.org
   sni: jp.zlr.dpdns.org
   type: hysteria2
-- name: 'A - 🇯🇵 JP 06 TG: @nodpai'
-  password: 505cb813-5647-4898-918c-cde760d515a8
-  port: 8080
-  server: hyfnjp03.769970.xyz
-  skip-cert-verify: true
-  sni: hyfnjp03.769970.xyz
-  type: hysteria2
-- name: 'A - 🇯🇵 JP 07 TG: @nodpai'
-  password: df1a0967-5b79-41ec-8d12-915e9056c6e2
-  port: 8080
-  server: jp06.459292.xyz
-  skip-cert-verify: true
-  sni: jp06.459292.xyz
-  type: hysteria2
-- name: 'A - 🇯🇵 JP 08 TG: @nodpai'
-  password: 3f2d3497-6843-46f1-aa34-5469dc953259
-  port: 8080
-  server: hyfnjp03.769970.xyz
-  skip-cert-verify: true
-  sni: hyfnjp03.769970.xyz
-  type: hysteria2
-- name: 'A - 🇯🇵 JP 09 TG: @nodpai'
-  password: c90cedc3-8d7f-4c7d-8bd7-d011d694aef3
-  port: 8080
-  server: jp06.459292.xyz
-  skip-cert-verify: true
-  sni: jp06.459292.xyz
-  type: hysteria2
 - name: 'A - 🇯🇵 JP 10 TG: @nodpai'
-  password: c90cedc3-8d7f-4c7d-8bd7-d011d694aef3
-  port: 8080
-  server: hyfnjp03.769970.xyz
+  obfs: salamander
+  obfs-password: ZTBjNDA0YTVhNTFkMzFlOQ==
+  password: 64c5b7d0-87aa-45eb-9721-3602325fa106
+  port: 60000
+  server: hyfnjp01.769970.xyz
   skip-cert-verify: true
-  sni: hyfnjp03.769970.xyz
+  sni: hyfnjp01.769970.xyz
   type: hysteria2
 - name: 'A - 🇯🇵 JP 11 TG: @nodpai'
-  password: df1a0967-5b79-41ec-8d12-915e9056c6e2
+  password: aecd8c25-fd16-42a3-aefb-89c89557828f
   port: 8080
   server: hyfnjp03.769970.xyz
   skip-cert-verify: true
@@ -576,72 +640,50 @@ proxies:
 - name: 'A - 🇯🇵 JP 12 TG: @nodpai'
   obfs: salamander
   obfs-password: ZTBjNDA0YTVhNTFkMzFlOQ==
-  password: 505cb813-5647-4898-918c-cde760d515a8
+  password: c90cedc3-8d7f-4c7d-8bd7-d011d694aef3
   port: 60000
-  server: jp03.769970.xyz
+  server: hyfnjp01.769970.xyz
   skip-cert-verify: true
-  sni: jp03.769970.xyz
+  sni: hyfnjp01.769970.xyz
   type: hysteria2
 - name: 'A - 🇯🇵 JP 13 TG: @nodpai'
-  obfs: salamander
-  obfs-password: ZTBjNDA0YTVhNTFkMzFlOQ==
-  password: aecd8c25-fd16-42a3-aefb-89c89557828f
-  port: 60000
-  server: jp03.769970.xyz
-  skip-cert-verify: true
-  sni: jp03.769970.xyz
-  type: hysteria2
-- name: 'A - 🇯🇵 JP 14 TG: @nodpai'
-  obfs: salamander
-  obfs-password: ZTBjNDA0YTVhNTFkMzFlOQ==
-  password: 522c2107-f297-4420-bd56-ec82b175aa2d
-  port: 60000
-  server: jp03.769970.xyz
-  skip-cert-verify: true
-  sni: jp03.769970.xyz
-  type: hysteria2
-- name: 'A - 🇯🇵 JP 15 TG: @nodpai'
-  obfs: salamander
-  obfs-password: ZTBjNDA0YTVhNTFkMzFlOQ==
-  password: f6836112-e9f3-4803-a366-5606ac214324
-  port: 60000
-  server: jp03.769970.xyz
-  skip-cert-verify: true
-  sni: jp03.769970.xyz
-  type: hysteria2
-- name: 'A - 🇯🇵 JP 16 TG: @nodpai'
-  obfs: salamander
-  obfs-password: ZTBjNDA0YTVhNTFkMzFlOQ==
-  password: 94a5dea9-6175-4cd1-8f0b-786bde8eaf9b
-  port: 60000
-  server: jp03.769970.xyz
-  skip-cert-verify: true
-  sni: jp03.769970.xyz
-  type: hysteria2
-- name: 'A - 🇯🇵 JP 17 TG: @nodpai'
-  password: aecd8c25-fd16-42a3-aefb-89c89557828f
-  port: 8080
-  server: hyfnjp03.769970.xyz
-  skip-cert-verify: true
-  sni: hyfnjp03.769970.xyz
-  type: hysteria2
-- name: 'A - 🇯🇵 JP 18 TG: @nodpai'
   password: 64c5b7d0-87aa-45eb-9721-3602325fa106
   port: 8080
   server: hyfnjp03.769970.xyz
   skip-cert-verify: true
   sni: hyfnjp03.769970.xyz
   type: hysteria2
-- name: 'A - 🇯🇵 JP 19 TG: @nodpai'
+- name: 'A - 🇯🇵 JP 14 TG: @nodpai'
+  password: 3f2d3497-6843-46f1-aa34-5469dc953259
+  port: 8080
+  server: hyfnjp03.769970.xyz
+  skip-cert-verify: true
+  sni: hyfnjp03.769970.xyz
+  type: hysteria2
+- name: 'A - 🇯🇵 JP 15 TG: @nodpai'
   obfs: salamander
   obfs-password: ZTBjNDA0YTVhNTFkMzFlOQ==
-  password: df1a0967-5b79-41ec-8d12-915e9056c6e2
+  password: aecd8c25-fd16-42a3-aefb-89c89557828f
   port: 60000
-  server: jp03.769970.xyz
+  server: hyfnjp01.769970.xyz
   skip-cert-verify: true
-  sni: jp03.769970.xyz
+  sni: hyfnjp01.769970.xyz
   type: hysteria2
-- name: 'A - 🇯🇵 JP 20 TG: @nodpai'
+- encryption: none
+  name: 'A - 🇯🇵 JP 16 TG: @nodpai'
+  network: tcp
+  port: 33622
+  reality-opts:
+    public-key: 93BUtSkrduYjhQ4a55hLRtcS2q3Z68Pe8F-TCvaFvAY
+    short-id: 'ad4e153ee69c'
+  security: reality
+  server: jp.zlr.dpdns.org
+  servername: www.oracle.com
+  spider-x: /9IJY14R7Rd5Reib
+  tls: true
+  type: vless
+  uuid: 13c11a12-d260-4b42-87e0-2fe39ce6fc6d
+- name: 'A - 🇯🇵 JP 17 TG: @nodpai'
   password: 9d0f6021-e1e3-47cd-a18e-722dd7f1c2ee
   port: 443
   ports: 55000-56000
@@ -649,223 +691,248 @@ proxies:
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
-- name: 'B - 🇯🇵 JP 21 TG: @nodpai'
+- encryption: none
+  flow: xtls-rprx-vision
+  name: 'A - 🇯🇵 JP 18 TG: @nodpai'
+  network: tcp
+  port: 25641
+  reality-opts:
+    public-key: VoA8WXthSh6CroV4pHK7V6L5gYUw8MHTo2kIVknTXSE
+    short-id: '693b25e06841ac7f'
+  security: reality
+  server: cdn.jp1.cocoduck.org
+  servername: www.apple.com
+  tls: true
+  type: vless
+  uuid: 4dd69f91-190c-413d-88c7-2f1675a98d85
+- name: 'B - 🇯🇵 JP 19 TG: @nodpai'
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 149.28.21.222
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+- name: 'B - 🇯🇵 JP 20 TG: @nodpai'
   password: 8r<[9'l6hAO#8ZQi
   port: 8443
   server: 140.83.34.214
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
-- name: 'B - 🇯🇵 JP 22 TG: @nodpai'
-  network: ws
+- name: 'B - 🇯🇵 JP 21 TG: @nodpai'
   password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 64.110.104.30
+  port: 2083
+  server: 64.176.38.23
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
-  ws-opts:
-    path: /trTelegram
-- insecure: '1'
-  name: 'B - 🇯🇵 JP 23 TG: @nodpai'
-  obfs: salamander
-  obfs-password: YzgyOTkwNDk42TU23T365A==
-  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-  port: 60017
-  server: zf.9966690.xyz
-  skip-cert-verify: true
-  tls:
-    enabled: true
-    insecure: true
-    server_name: iosapps.itunes.apple.com
-  type: hysteria2
-- name: 'B - 🇯🇵 JP 24 TG: @nodpai'
-  network: ws
+- alterId: 2
+  cipher: auto
+  name: 'B - 🇯🇵 JP 22 TG: @nodpai'
+  port: 30806
+  server: v6.hdacd.com
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 'B - 🇯🇵 JP 23 TG: @nodpai'
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 161.248.254.27
-  skip-cert-verify: true
+  server: 140.238.50.134
   sni: Koma-YT.PAGeS.Dev
   tls: true
+  type: trojan
+- name: 'B - 🇯🇵 JP 24 TG: @nodpai'
+  password: 8r<[9'l6hAO#8ZQi
+  port: 41607
+  server: 45.159.48.37
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+- name: 'B - 🇯🇵 JP 26 TG: @nodpai'
+  network: ws
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  port: 2053
+  server: 103.31.77.108
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
   type: trojan
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇯🇵 JP 25 TG: @nodpai'
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 168.138.46.67
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-- insecure: '1'
-  name: 'B - 🇯🇵 JP 26 TG: @nodpai'
-  obfs: salamander
-  obfs-password: YzgyOTkwNDk42TU23T365A==
-  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-  port: 60020
-  server: zfde.9966690.xyz
-  skip-cert-verify: true
-  tls:
-    enabled: true
-    insecure: true
-    server_name: iosapps.itunes.apple.com
-  type: hysteria2
 - name: 'A - 🇸🇬 SG 01 TG: @nodpai'
-  password: 64c5b7d0-87aa-45eb-9721-3602325fa106
-  port: 8080
-  server: sg04.459292.xyz
-  skip-cert-verify: true
-  sni: sg04.459292.xyz
-  type: hysteria2
-- name: 'A - 🇸🇬 SG 02 TG: @nodpai'
-  password: c90cedc3-8d7f-4c7d-8bd7-d011d694aef3
-  port: 8080
-  server: sg04.459292.xyz
-  skip-cert-verify: true
-  sni: sg04.459292.xyz
-  type: hysteria2
-- name: 'A - 🇸🇬 SG 03 TG: @nodpai'
-  password: 94a5dea9-6175-4cd1-8f0b-786bde8eaf9b
-  port: 8080
-  server: sg12.769970.xyz
-  skip-cert-verify: true
-  sni: sg12.769970.xyz
-  type: hysteria2
-- name: 'A - 🇸🇬 SG 04 TG: @nodpai'
-  password: df1a0967-5b79-41ec-8d12-915e9056c6e2
-  port: 8080
-  server: sg12.769970.xyz
-  skip-cert-verify: true
-  sni: sg12.769970.xyz
-  type: hysteria2
-- name: 'A - 🇸🇬 SG 05 TG: @nodpai'
-  password: f6836112-e9f3-4803-a366-5606ac214324
-  port: 8080
-  server: sg12.769970.xyz
-  skip-cert-verify: true
-  sni: sg12.769970.xyz
-  type: hysteria2
-- name: 'A - 🇸🇬 SG 06 TG: @nodpai'
-  password: 522c2107-f297-4420-bd56-ec82b175aa2d
-  port: 8080
-  server: sg11.769970.xyz
-  skip-cert-verify: true
-  sni: sg11.769970.xyz
-  type: hysteria2
-- name: 'A - 🇸🇬 SG 07 TG: @nodpai'
-  password: c90cedc3-8d7f-4c7d-8bd7-d011d694aef3
-  port: 8080
-  server: sg12.769970.xyz
-  skip-cert-verify: true
-  sni: sg12.769970.xyz
-  type: hysteria2
-- name: 'A - 🇸🇬 SG 08 TG: @nodpai'
-  password: 39c2e591-2ebe-4a6f-bea4-803783cd5183
-  port: 8080
-  server: sg11.769970.xyz
-  skip-cert-verify: true
-  sni: sg11.769970.xyz
-  type: hysteria2
-- name: 'A - 🇸🇬 SG 09 TG: @nodpai'
-  password: 39c2e591-2ebe-4a6f-bea4-803783cd5183
-  port: 8080
-  server: sg12.769970.xyz
-  skip-cert-verify: true
-  sni: sg12.769970.xyz
-  type: hysteria2
-- name: 'A - 🇸🇬 SG 10 TG: @nodpai'
-  password: f6836112-e9f3-4803-a366-5606ac214324
-  port: 8080
-  server: sg11.769970.xyz
-  skip-cert-verify: true
-  sni: sg11.769970.xyz
-  type: hysteria2
-- name: 'A - 🇸🇬 SG 11 TG: @nodpai'
   password: 3f2d3497-6843-46f1-aa34-5469dc953259
   port: 8080
-  server: sg06.453521.xyz
+  server: hkmax03.769970.xyz
   skip-cert-verify: true
-  sni: sg06.453521.xyz
+  sni: hkmax03.769970.xyz
+  type: hysteria2
+- name: 'A - 🇸🇬 SG 02 TG: @nodpai'
+  password: 64c5b7d0-87aa-45eb-9721-3602325fa106
+  port: 8080
+  server: hkmax02.459292.xyz
+  skip-cert-verify: true
+  sni: hkmax02.459292.xyz
+  type: hysteria2
+- name: 'A - 🇸🇬 SG 03 TG: @nodpai'
+  password: 15893455-4d21-4338-a273-01aed1d77fa2
+  port: 8080
+  server: hkmax03.769970.xyz
+  skip-cert-verify: true
+  sni: hkmax03.769970.xyz
+  type: hysteria2
+- name: 'A - 🇸🇬 SG 04 TG: @nodpai'
+  password: c90cedc3-8d7f-4c7d-8bd7-d011d694aef3
+  port: 8080
+  server: sg15.769970.xyz
+  skip-cert-verify: true
+  sni: sg15.769970.xyz
+  type: hysteria2
+- name: 'A - 🇸🇬 SG 05 TG: @nodpai'
+  password: 3f2d3497-6843-46f1-aa34-5469dc953259
+  port: 8080
+  server: hkmax02.459292.xyz
+  skip-cert-verify: true
+  sni: hkmax02.459292.xyz
+  type: hysteria2
+- name: 'A - 🇸🇬 SG 06 TG: @nodpai'
+  password: 64c5b7d0-87aa-45eb-9721-3602325fa106
+  port: 8080
+  server: hkmax03.769970.xyz
+  skip-cert-verify: true
+  sni: hkmax03.769970.xyz
+  type: hysteria2
+- name: 'A - 🇸🇬 SG 07 TG: @nodpai'
+  password: aecd8c25-fd16-42a3-aefb-89c89557828f
+  port: 8080
+  server: sg15.769970.xyz
+  skip-cert-verify: true
+  sni: sg15.769970.xyz
+  type: hysteria2
+- name: 'A - 🇸🇬 SG 08 TG: @nodpai'
+  password: 505cb813-5647-4898-918c-cde760d515a8
+  port: 8080
+  server: hkmax02.459292.xyz
+  skip-cert-verify: true
+  sni: hkmax02.459292.xyz
+  type: hysteria2
+- name: 'A - 🇸🇬 SG 09 TG: @nodpai'
+  password: 15893455-4d21-4338-a273-01aed1d77fa2
+  port: 8080
+  server: sg15.769970.xyz
+  skip-cert-verify: true
+  sni: sg15.769970.xyz
+  type: hysteria2
+- name: 'A - 🇸🇬 SG 10 TG: @nodpai'
+  password: 505cb813-5647-4898-918c-cde760d515a8
+  port: 8080
+  server: hkmax03.769970.xyz
+  skip-cert-verify: true
+  sni: hkmax03.769970.xyz
+  type: hysteria2
+- name: 'A - 🇸🇬 SG 11 TG: @nodpai'
+  password: 94a5dea9-6175-4cd1-8f0b-786bde8eaf9b
+  port: 8080
+  server: hkmax03.769970.xyz
+  skip-cert-verify: true
+  sni: hkmax03.769970.xyz
   type: hysteria2
 - name: 'A - 🇸🇬 SG 12 TG: @nodpai'
+  password: 3f2d3497-6843-46f1-aa34-5469dc953259
+  port: 8080
+  server: sg13.769970.xyz
+  skip-cert-verify: true
+  sni: sg13.769970.xyz
+  type: hysteria2
+- name: 'A - 🇸🇬 SG 13 TG: @nodpai'
+  password: df1a0967-5b79-41ec-8d12-915e9056c6e2
+  port: 8080
+  server: sg15.769970.xyz
+  skip-cert-verify: true
+  sni: sg15.769970.xyz
+  type: hysteria2
+- name: 'A - 🇸🇬 SG 14 TG: @nodpai'
   password: 522c2107-f297-4420-bd56-ec82b175aa2d
+  port: 8080
+  server: hkmax03.769970.xyz
+  skip-cert-verify: true
+  sni: hkmax03.769970.xyz
+  type: hysteria2
+- name: 'A - 🇸🇬 SG 15 TG: @nodpai'
+  password: df1a0967-5b79-41ec-8d12-915e9056c6e2
   port: 8080
   server: sg05.453521.xyz
   sni: sg05.453521.xyz
   type: hysteria2
-- name: 'A - 🇸🇬 SG 13 TG: @nodpai'
-  password: 522c2107-f297-4420-bd56-ec82b175aa2d
-  port: 8080
-  server: sg06.453521.xyz
-  skip-cert-verify: true
-  sni: sg06.453521.xyz
-  type: hysteria2
-- name: 'A - 🇸🇬 SG 14 TG: @nodpai'
-  password: 64c5b7d0-87aa-45eb-9721-3602325fa106
-  port: 8080
-  server: sg06.453521.xyz
-  skip-cert-verify: true
-  sni: sg06.453521.xyz
-  type: hysteria2
-- name: 'A - 🇸🇬 SG 15 TG: @nodpai'
+- encryption: none
+  name: 'A - 🇸🇬 SG 16 TG: @nodpai'
+  network: ws
+  port: 443
+  security: tls
+  server: ali.nonull.pp.ua
+  servername: pagescm.freen19.cc.cd
+  tls: true
+  type: vless
+  uuid: ae0dd58e-e222-40bf-84ae-365a97532737
+  ws-opts:
+    headers:
+      Host: pagescm.freen19.cc.cd
+    path: /go.html
+- name: 'A - 🇸🇬 SG 17 TG: @nodpai'
   password: aecd8c25-fd16-42a3-aefb-89c89557828f
   port: 8080
   server: sg05.453521.xyz
   sni: sg05.453521.xyz
   type: hysteria2
-- name: 'A - 🇸🇬 SG 16 TG: @nodpai'
-  password: 64c5b7d0-87aa-45eb-9721-3602325fa106
-  port: 8080
-  server: sg21.453521.xyz
-  sni: sg21.453521.xyz
-  type: hysteria2
-- name: 'A - 🇸🇬 SG 17 TG: @nodpai'
-  password: f6836112-e9f3-4803-a366-5606ac214324
-  port: 8080
-  server: sg05.453521.xyz
-  sni: sg05.453521.xyz
-  type: hysteria2
 - name: 'A - 🇸🇬 SG 18 TG: @nodpai'
-  password: 39c2e591-2ebe-4a6f-bea4-803783cd5183
-  port: 8080
-  server: sg05.453521.xyz
-  sni: sg05.453521.xyz
-  type: hysteria2
-- name: 'B - 🇸🇬 SG 20 TG: @nodpai'
+  network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 92.243.75.253
+  server: 43.168.16.112
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
-- name: 'B - 🇸🇬 SG 21 TG: @nodpai'
+  ws-opts:
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 'A - 🇸🇬 SG 19 TG: @nodpai'
+  network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 140.245.59.102
+  port: 443
+  server: 18.143.76.130
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
+  ws-opts:
+    path: /trTelegram🇨🇳
+- encryption: none
+  name: 'A - 🇸🇬 SG 20 TG: @nodpai'
+  network: ws
+  port: 443
+  security: tls
+  server: 104.26.8.156
+  servername: pagescm.freen35.cc.cd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: ae0dd58e-e222-40bf-84ae-365a97532737
+  ws-opts:
+    headers:
+      Host: pagescm.freen35.cc.cd
+    path: /setting/torrent/task
 - name: 'B - 🇸🇬 SG 22 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 14706
-  server: 8.222.195.24
-  skip-cert-verify: true
+  port: 443
+  server: 188.239.9.91
   sni: Koma-YT.PAGeS.Dev
+  tls: true
   type: trojan
-  udp: true
   ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
+    path: /trTelegram
 - name: 'B - 🇸🇬 SG 23 TG: @nodpai'
   network: ws
   password: 8r%3C%5B9%27l6hAO%238ZQi
   port: 443
-  server: 159.89.207.154
+  server: 159.223.85.214
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
@@ -874,50 +941,61 @@ proxies:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
 - name: 'B - 🇸🇬 SG 24 TG: @nodpai'
-  network: ws
-  password: 8r%3C%5B9%27l6hAO%238ZQi
+  password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 188.166.247.45
-  skip-cert-verify: true
+  server: 139.99.124.165
   sni: Koma-YT.PAGeS.Dev
+  tls: true
   type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳
 - name: 'B - 🇸🇬 SG 25 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 164.52.2.98
-  skip-cert-verify: true
+  server: 47.82.160.100
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
   ws-opts:
-    path: /trTelegram🇨🇳
-- name: 'C - 🇸🇬 SG 26 TG: @nodpai'
-  network: ws
-  port: 443
-  server: 172.64.32.41
-  servername: pagescm.freen34.cc.cd
-  skip-cert-verify: true
+    path: /trTelegram
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 'C - 🇸🇬 SG 26 TG: @nodpai'
+  network: tcp
+  port: 39645
+  reality-opts:
+    public-key: x7VqpFP7_PrY4ebNw8hi8Ec5Tm5Upmt5JOdrN1M9VnQ
+    short-id: '2b3b0b93'
+  security: reality
+  server: aws-link8.liangxin1.xyz
+  servername: iosapps.itunes.apple.com
   tls: true
   type: vless
-  udp: true
-  uuid: ae0dd58e-e222-40bf-84ae-365a97532737
-  ws-opts:
-    headers:
-      Host: pagescm.freen34.cc.cd
-    path: /contact/pages
-  xudp: true
-- name: 'B - 🇺🇸 US 01 TG: @nodpai'
+  uuid: d5f2f986-a1f5-4052-afc7-530b4ebc1e34
+- encryption: none
+  name: 'A - 🇺🇸 US 01 TG: @nodpai'
+  network: tcp
+  port: 34936
+  reality-opts:
+    public-key: zxY5bJsCec4cw1ZT5sowvJs5mdQX-qZxZ6mGn5e6ZRM
+    short-id: '05'
+  security: reality
+  server: uswp.zlr.dpdns.org
+  servername: www.nvidia.com
+  spider-x: /LiDEpxfQegxM07C
+  tls: true
+  type: vless
+  uuid: 038edeaf-6496-4f58-8c0a-c6a7bf385c08
+- name: 'B - 🇺🇸 US 02 TG: @nodpai'
+  network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 104.18.109.147
+  port: 2096
+  server: 172.64.147.106
+  sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
-- name: 'B - 🇺🇸 US 02 TG: @nodpai'
+  ws-opts:
+    path: /tr
+- name: 'B - 🇺🇸 US 03 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -927,72 +1005,132 @@ proxies:
   type: trojan
   ws-opts:
     path: /trTelegram
-- name: 'B - 🇺🇸 US 03 TG: @nodpai'
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 159.246.55.253
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
 - name: 'B - 🇺🇸 US 04 TG: @nodpai'
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 129.146.137.214
+  server: 108.162.193.253
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
 - name: 'B - 🇺🇸 US 05 TG: @nodpai'
   password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 166.62.104.253
+  port: 8443
+  server: 107.174.198.228
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
 - name: 'B - 🇺🇸 US 06 TG: @nodpai'
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 80.93.202.253
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
+  obfs: salamander
+  obfs-password: ZTBjNDA0YTVhNTFkMzFlOQ==
+  password: 94a5dea9-6175-4cd1-8f0b-786bde8eaf9b
+  port: 20000
+  server: hkmax003.459292.xyz
+  skip-cert-verify: true
+  sni: hkmax003.459292.xyz
+  type: hysteria2
 - name: 'B - 🇺🇸 US 07 TG: @nodpai'
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 45.40.148.253
+  server: 160.153.136.253
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
 - name: 'B - 🇺🇸 US 08 TG: @nodpai'
-  network: ws
-  password: 433e785b-2077-47f7-a43d-985f63dd18d1
-  port: 18080
-  server: 175.192.103.88
-  sni: vpn.rnmcnm.com
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 50.62.91.253
+  sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
-  ws-opts:
-    path: /trojan
 - name: 'B - 🇺🇸 US 09 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 50.62.89.253
-  skip-cert-verify: true
+  server: 162.251.82.253
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
   ws-opts:
-    path: /trTelegram🇨🇳 @WangCai2
+    path: /trTelegram
 - name: 'B - 🇺🇸 US 10 TG: @nodpai'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 130.250.137.253
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /tr
+- name: 'B - 🇺🇸 US 11 TG: @nodpai'
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 104.238.70.253
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+- name: 'B - 🇺🇸 US 12 TG: @nodpai'
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 166.62.112.253
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+- name: 'B - 🇺🇸 US 13 TG: @nodpai'
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 67.215.241.35
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+- name: 'B - 🇺🇸 US 14 TG: @nodpai'
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 84.32.44.218
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+- name: 'B - 🇺🇸 US 15 TG: @nodpai'
+  network: ws
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  port: 443
+  server: 94.183.185.151
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 'B - 🇺🇸 US 16 TG: @nodpai'
   obfs: salamander
   obfs-password: ZTBjNDA0YTVhNTFkMzFlOQ==
-  password: f6836112-e9f3-4803-a366-5606ac214324
+  password: df1a0967-5b79-41ec-8d12-915e9056c6e2
   port: 20000
   server: us03.459292.xyz
   skip-cert-verify: true
   sni: us03.459292.xyz
   type: hysteria2
-- name: 'B - 🇺🇸 US 11 TG: @nodpai'
+- name: 'B - 🇺🇸 US 17 TG: @nodpai'
+  network: ws
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  port: 2096
+  server: 104.20.6.134
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /tr
+- name: 'B - 🇺🇸 US 18 TG: @nodpai'
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 150.136.105.229
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+- name: 'B - 🇺🇸 US 19 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -1005,139 +1143,92 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇺🇸 US 12 TG: @nodpai'
-  obfs: salamander
-  obfs-password: ZTBjNDA0YTVhNTFkMzFlOQ==
-  password: 522c2107-f297-4420-bd56-ec82b175aa2d
-  port: 20000
-  server: us03.459292.xyz
-  skip-cert-verify: true
-  sni: us03.459292.xyz
-  type: hysteria2
-- name: 'B - 🇺🇸 US 13 TG: @nodpai'
+- name: 'B - 🇺🇸 US 20 TG: @nodpai'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 104.167.196.91
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /trTelegram🇨🇳+@WangCai2
+- name: 'B - 🇺🇸 US 21 TG: @nodpai'
   password: 8r<[9'l6hAO#8ZQi
   port: 443
   server: 162.245.191.118
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
-- name: 'B - 🇺🇸 US 14 TG: @nodpai'
+- name: 'B - 🇺🇸 US 22 TG: @nodpai'
   password: 8r<[9'l6hAO#8ZQi
   port: 443
   server: 77.110.114.56
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
-- name: 'B - 🇺🇸 US 15 TG: @nodpai'
-  network: ws
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  port: 443
-  server: 159.255.32.249
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇺🇸 US 16 TG: @nodpai'
+- name: 'B - 🇺🇸 US 23 TG: @nodpai'
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 77.110.127.36
+  server: 150.241.108.49
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
-- name: 'B - 🇺🇸 US 17 TG: @nodpai'
-  network: ws
-  password: 8r%3C%5B9%27l6hAO%238ZQi
+- name: 'B - 🇺🇸 US 24 TG: @nodpai'
+  password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 185.186.245.90
-  skip-cert-verify: true
+  server: 192.9.250.241
   sni: Koma-YT.PAGeS.Dev
+  tls: true
   type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram
-- name: 'B - 🇺🇸 US 18 TG: @nodpai'
+- name: 'B - 🇺🇸 US 25 TG: @nodpai'
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 184.169.181.217
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+- name: 'B - 🇺🇸 US 26 TG: @nodpai'
   password: 8r<[9'l6hAO#8ZQi
   port: 443
   server: 64.176.219.210
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
-- name: 'B - 🇺🇸 US 19 TG: @nodpai'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 144.31.57.146
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    path: /trTelegram
-- name: 'B - 🇺🇸 US 20 TG: @nodpai'
-  network: ws
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  port: 443
-  server: 64.188.98.29
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇺🇸 US 21 TG: @nodpai'
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 64.188.89.147
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-- name: 'B - 🇺🇸 US 22 TG: @nodpai'
+- name: 'B - 🇺🇸 US 27 TG: @nodpai'
   password: 8r<[9'l6hAO#8ZQi
   port: 443
   server: 216.144.231.47
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
-- name: 'B - 🇺🇸 US 23 TG: @nodpai'
-  network: ws
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  port: 8443
-  server: 144.31.82.175
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram
-- name: 'B - 🇺🇸 US 24 TG: @nodpai'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2053
-  server: 78.40.211.147
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    path: /trTelegram
-- name: 'B - 🇺🇸 US 25 TG: @nodpai'
+- name: 'B - 🇺🇸 US 28 TG: @nodpai'
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 50.228.203.26
+  server: 142.93.176.217
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
 - alterId: 2
   cipher: auto
-  name: 'C - 🇺🇸 US 26 TG: @nodpai'
-  port: 30829
-  server: v29.hdacd.com
+  name: 'C - 🇺🇸 US 29 TG: @nodpai'
+  port: 30804
+  server: v4.hdacd.com
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 'C - 🇺🇸 US 30 TG: @nodpai'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 34.136.119.149
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram
 - name: ⛳46@oneclickvpnkeys
   password: 9994536d-4824-45f9-bdc9-ccde0443f3fa
   port: 35561
@@ -1201,7 +1292,7 @@ proxies:
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 2008
-  server: 13.231.74.103
+  server: 3.112.12.209
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -1209,7 +1300,7 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 4327
-  server: 95.40.61.5
+  server: 35.77.230.224
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -1225,71 +1316,71 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 4633
-  server: 13.114.188.23
+  server: 54.248.176.41
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 日本2|@ripaojiedian
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
-  port: 11541
-  server: 52.199.67.57
+  port: 3135
+  server: 95.40.49.62
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 日本3|@ripaojiedian
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
-  port: 3135
-  server: 18.167.167.26
+  port: 11541
+  server: 3.112.12.209
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 新加坡|@ripaojiedian
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
-  port: 1180
-  server: 52.199.67.57
+  port: 3842
+  server: 95.40.28.136
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 新加坡2|@ripaojiedian
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
-  port: 3842
-  server: 18.167.167.26
+  port: 2511
+  server: 13.115.88.193
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 10478
-  server: 13.114.188.23
+  port: 443
+  server: 140.235.140.105
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 美国|@ripaojiedian
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
-  port: 6604
-  server: 52.199.67.57
+  port: 5224
+  server: 95.40.28.136
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
-  port: 5224
-  server: 43.207.110.128
+  port: 6604
+  server: 16.163.157.10
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 22057
-  server: 13.114.188.23
+  port: 17801
+  server: 18.166.178.81
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan

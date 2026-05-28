@@ -92,60 +92,20 @@ proxies:
 - alterId: 0
   cipher: auto
   name: 'A - 🇭🇰 HK 01 TG: @nodpai'
-  port: 11101
-  server: dotu-hkv1.kunlun03dns.com
-  type: vmess
-  udp: true
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- alterId: 0
-  cipher: auto
-  name: 'A - 🇭🇰 HK 02 TG: @nodpai'
-  port: 11102
-  server: dotu-hkv1.kunlun03dns.com
-  type: vmess
-  udp: true
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- alterId: 0
-  cipher: auto
-  name: 'A - 🇭🇰 HK 03 TG: @nodpai'
-  port: 11103
-  server: dotu-hkv1.kunlun03dns.com
-  type: vmess
-  udp: true
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- alterId: 0
-  cipher: auto
-  name: 'A - 🇭🇰 HK 04 TG: @nodpai'
-  port: 11105
-  server: dotu-hkv1.kunlun03dns.com
-  type: vmess
-  udp: true
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- alterId: 0
-  cipher: auto
-  name: 'A - 🇭🇰 HK 08 TG: @nodpai'
-  network: tcp
   port: 6001
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /ABCDE
-  name: 'B - 🇭🇰 HK 10 TG: @nodpai'
-  network: http
-  port: 55386
-  server: 103.127.243.60
-  skip-cert-verify: false
-  tls: false
-  type: vmess
   udp: true
-  uuid: 22d4ef9c-b269-4f82-9f59-6c2c0d8ce16d
+  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+- alterId: 2
+  cipher: auto
+  name: 'C - 🇭🇰 HK 11 TG: @nodpai'
+  port: 30809
+  server: v9.hdacd.com
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
   name: 'C - 🇭🇰 HK 12 TG: @nodpai'
@@ -157,23 +117,9 @@ proxies:
   - ''
   alterId: '0'
   cipher: auto
-  name: 'A - 🇹🇼 TW 01 TG: @nodpai'
-  network: tcp
-  port: 11113
-  server: dotu-twv1.kunlun03dns.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-  xudp: true
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
   name: 'A - 🇹🇼 TW 02 TG: @nodpai'
   network: tcp
-  port: 11111
+  port: 11114
   server: dotu-twv1.kunlun03dns.com
   skip-cert-verify: false
   tls: false
@@ -187,7 +133,21 @@ proxies:
   cipher: auto
   name: 'A - 🇹🇼 TW 04 TG: @nodpai'
   network: tcp
-  port: 11112
+  port: 11113
+  server: dotu-twv1.kunlun03dns.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+  xudp: true
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 'A - 🇹🇼 TW 05 TG: @nodpai'
+  network: tcp
+  port: 11111
   server: dotu-twv1.kunlun03dns.com
   skip-cert-verify: false
   tls: false
@@ -201,7 +161,7 @@ proxies:
   cipher: auto
   name: 'B - 🇹🇼 TW 06 TG: @nodpai'
   network: tcp
-  port: 11114
+  port: 11112
   server: dotu-twv1.kunlun03dns.com
   skip-cert-verify: false
   tls: false
@@ -209,34 +169,20 @@ proxies:
   udp: true
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
   xudp: true
-- alterId: 2
-  cipher: auto
-  name: 'B - 🇹🇼 TW 07 TG: @nodpai'
-  port: 30811
-  server: v11.zgtfqs.click
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 'B - 🇹🇼 TW 10 TG: @nodpai'
+  password: gcuCpQfaiVeDBdWG
+  port: 19128
+  server: jpbgp.netvigor.cc
+  sni: yazhou10.dynu.net
+  tls: true
+  type: trojan
 - alpn:
   - ''
   alterId: '0'
   cipher: auto
-  name: 'A - 🇯🇵 JP 01 TG: @nodpai'
+  name: 'A - 🇯🇵 JP 02 TG: @nodpai'
   network: tcp
   port: 11122
-  server: dotu-jpv1.kunlun03dns.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-  xudp: true
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 'A - 🇯🇵 JP 03 TG: @nodpai'
-  network: tcp
-  port: 11120
   server: dotu-jpv1.kunlun03dns.com
   skip-cert-verify: false
   tls: false
@@ -258,9 +204,23 @@ proxies:
   udp: true
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
   xudp: true
-- alterId: 2
+- alpn:
+  - ''
+  alterId: '0'
   cipher: auto
   name: 'B - 🇯🇵 JP 06 TG: @nodpai'
+  network: tcp
+  port: 11120
+  server: dotu-jpv1.kunlun03dns.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+  xudp: true
+- alterId: 2
+  cipher: auto
+  name: 'B - 🇯🇵 JP 08 TG: @nodpai'
   port: 30806
   server: v6.hdacd.com
   type: vmess
@@ -269,7 +229,7 @@ proxies:
   - ''
   alterId: '0'
   cipher: auto
-  name: 'B - 🇯🇵 JP 07 TG: @nodpai'
+  name: 'B - 🇯🇵 JP 09 TG: @nodpai'
   network: tcp
   port: 11121
   server: dotu-jpv1.kunlun03dns.com
@@ -281,7 +241,7 @@ proxies:
   xudp: true
 - alterId: 0
   cipher: auto
-  name: 'A - 🇸🇬 SG 01 TG: @nodpai'
+  name: 'A - 🇸🇬 SG 02 TG: @nodpai'
   port: 11137
   server: dotu-sgv1.kunlun03dns.com
   type: vmess
@@ -289,23 +249,7 @@ proxies:
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 0
   cipher: auto
-  name: 'A - 🇸🇬 SG 02 TG: @nodpai'
-  port: 11138
-  server: dotu-sgv1.kunlun03dns.com
-  type: vmess
-  udp: true
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- alterId: 0
-  cipher: auto
   name: 'A - 🇸🇬 SG 03 TG: @nodpai'
-  port: 11136
-  server: dotu-sgv1.kunlun03dns.com
-  type: vmess
-  udp: true
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- alterId: 0
-  cipher: auto
-  name: 'A - 🇸🇬 SG 04 TG: @nodpai'
   port: 11135
   server: dotu-sgv1.kunlun03dns.com
   type: vmess
@@ -313,7 +257,23 @@ proxies:
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 0
   cipher: auto
-  name: 'A - 🇸🇬 SG 05 TG: @nodpai'
+  name: 'A - 🇸🇬 SG 04 TG: @nodpai'
+  port: 11138
+  server: dotu-sgv1.kunlun03dns.com
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
+  name: 'A - 🇸🇬 SG 06 TG: @nodpai'
+  port: 11136
+  server: dotu-sgv1.kunlun03dns.com
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
+  name: 'A - 🇸🇬 SG 08 TG: @nodpai'
   port: 6004
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
   skip-cert-verify: false
@@ -321,26 +281,43 @@ proxies:
   type: vmess
   udp: true
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- name: 'B - 🇸🇬 SG 10 TG: @nodpai'
-  password: gcuCpQfaiVeDBdWG
-  port: 19128
-  server: 211.76.176.98
-  sni: yazhou10.dynu.net
+- name: 'B - 🇸🇬 SG 11 TG: @nodpai'
+  password: d30ab83dbde4480082048fb315bedebd
+  port: 443
+  server: 5.180.78.22
+  skip-cert-verify: true
+  sni: 5.180.78.22
   tls: true
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 'A - 🇺🇸 US 01 TG: @nodpai'
-  port: 11128
-  server: dotu-usv1.kunlun03dns.com
+  name: 'B - 🇺🇸 US 05 TG: @nodpai'
+  port: 180
+  server: 82.198.246.214
   type: vmess
-  udp: true
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇺🇸 US 09 TG: @nodpai'
+  port: 180
+  server: 82.198.246.37
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇺🇸 US 11 TG: @nodpai'
+  network: ws
+  port: 49632
+  server: 45.63.7.19
+  type: vmess
+  uuid: 05f2bbe3-f29a-480f-ebfb-0deebb80741d
+  ws-opts:
+    path: /05f2bbe3-f29a-480f-ebfb-0deebb80741d
 - alpn:
   - ''
   alterId: '0'
   cipher: auto
-  name: 'A - 🇺🇸 US 03 TG: @nodpai'
+  name: 'B - 🇺🇸 US 14 TG: @nodpai'
   network: tcp
   port: 11129
   server: dotu-usv1.kunlun03dns.com
@@ -354,7 +331,7 @@ proxies:
   - ''
   alterId: '0'
   cipher: auto
-  name: 'A - 🇺🇸 US 05 TG: @nodpai'
+  name: 'B - 🇺🇸 US 15 TG: @nodpai'
   network: tcp
   port: 11130
   server: dotu-usv1.kunlun03dns.com
@@ -364,11 +341,19 @@ proxies:
   udp: true
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
   xudp: true
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇺🇸 US 16 TG: @nodpai'
+  port: 11128
+  server: dotu-usv1.kunlun03dns.com
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alpn:
   - ''
   alterId: '0'
   cipher: auto
-  name: 'B - 🇺🇸 US 06 TG: @nodpai'
+  name: 'B - 🇺🇸 US 17 TG: @nodpai'
   network: tcp
   port: 11127
   server: dotu-usv1.kunlun03dns.com
@@ -378,44 +363,11 @@ proxies:
   udp: true
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
   xudp: true
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇺🇸 US 08 TG: @nodpai'
-  port: 180
-  server: 82.198.246.214
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇺🇸 US 12 TG: @nodpai'
-  port: 180
-  server: 82.198.246.37
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国4|@ripaojiedian
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 'B - 🇺🇸 US 17 TG: @nodpai'
+- name: KR_speednode_0029
   network: ws
   password: 433e785b-2077-47f7-a43d-985f63dd18d1
-  port: 16010
-  server: 121.154.249.1
-  sni: vpn.rnmcnm.com
-  tls: true
-  type: trojan
-  ws-opts:
-    path: /trojan
-- name: KR_speednode_0030
-  network: ws
-  password: 433e785b-2077-47f7-a43d-985f63dd18d1
-  port: 12345
-  server: 59.30.42.194
+  port: 30303
+  server: 121.191.33.84
   skip-cert-verify: false
   sni: vpn.rnmcnm.com
   type: trojan
@@ -437,7 +389,7 @@ proxies:
     headers:
       Host: vpn.rnmcnm.com
     path: /trojan
-- name: 'B - 🇺🇸 US 23 TG: @nodpai'
+- name: 'B - 🇺🇸 US 26 TG: @nodpai'
   network: ws
   password: 433e785b-2077-47f7-a43d-985f63dd18d1
   port: 18080
@@ -447,7 +399,20 @@ proxies:
   type: trojan
   ws-opts:
     path: /trojan
-- name: 'B - 🇺🇸 US 24 TG: @nodpai'
+- name: KR_speednode_0030
+  network: ws
+  password: 433e785b-2077-47f7-a43d-985f63dd18d1
+  port: 12345
+  server: 59.30.42.194
+  skip-cert-verify: false
+  sni: vpn.rnmcnm.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: vpn.rnmcnm.com
+    path: /trojan
+- name: 'B - 🇺🇸 US 29 TG: @nodpai'
   network: ws
   password: 433e785b-2077-47f7-a43d-985f63dd18d1
   port: 32603
@@ -457,7 +422,7 @@ proxies:
   type: trojan
   ws-opts:
     path: /trojan
-- name: 'B - 🇺🇸 US 25 TG: @nodpai'
+- name: 'C - 🇺🇸 US 30 TG: @nodpai'
   network: ws
   password: 433e785b-2077-47f7-a43d-985f63dd18d1
   port: 12000
@@ -467,30 +432,38 @@ proxies:
   type: trojan
   ws-opts:
     path: /trojan
+- alterId: 0
+  cipher: auto
+  name: 'C - 🇺🇸 US 31 TG: @nodpai'
+  network: tcp
+  port: 48111
+  server: 129.146.143.80
+  type: vmess
+  uuid: d4603cc2-e0ee-4651-83f5-1db5b7168177
 - alterId: 2
   cipher: auto
-  name: 'C - 🇺🇸 US 27 TG: @nodpai'
+  name: 'C - 🇺🇸 US 32 TG: @nodpai'
   port: 30824
   server: v24.hdacd.com
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
-  name: 'C - 🇺🇸 US 28 TG: @nodpai'
-  port: 30829
-  server: v29.hdacd.com
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  name: 'C - 🇺🇸 US 29 TG: @nodpai'
+  name: 'C - 🇺🇸 US 34 TG: @nodpai'
   port: 30804
   server: v4.hdacd.com
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  name: 'B - 🇬🇧 GB 02 TG: @nodpai'
+  port: 30836
+  server: 103.182.97.244
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: 'A - 🇰🇷 KR 01 TG: @nodpai'
+  name: 'B - 🇰🇷 KR 03 TG: @nodpai'
   port: 11145
   server: dotu-krv1.kunlun03dns.com
   type: vmess
@@ -500,7 +473,7 @@ proxies:
   - ''
   alterId: '0'
   cipher: auto
-  name: 'A - 🇰🇷 KR 02 TG: @nodpai'
+  name: 'B - 🇰🇷 KR 04 TG: @nodpai'
   network: tcp
   port: 11143
   server: dotu-krv1.kunlun03dns.com
@@ -512,7 +485,7 @@ proxies:
   xudp: true
 - alterId: 0
   cipher: auto
-  name: 'A - 🇰🇷 KR 03 TG: @nodpai'
+  name: 'B - 🇰🇷 KR 05 TG: @nodpai'
   port: 11144
   server: dotu-krv1.kunlun03dns.com
   type: vmess
@@ -520,7 +493,7 @@ proxies:
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 0
   cipher: auto
-  name: 'A - 🇰🇷 KR 04 TG: @nodpai'
+  name: 'B - 🇰🇷 KR 06 TG: @nodpai'
   port: 11146
   server: dotu-krv1.kunlun03dns.com
   type: vmess
@@ -545,7 +518,7 @@ proxies:
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 2008
-  server: 3.112.12.209
+  server: 52.69.114.14
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -553,7 +526,7 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 4327
-  server: 35.77.230.224
+  server: 54.168.196.137
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -568,16 +541,16 @@ proxies:
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 4633
-  server: 54.248.176.41
+  port: 4099
+  server: 13.231.225.85
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 日本2|@ripaojiedian
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
-  port: 3135
-  server: 95.40.49.62
+  port: 8066
+  server: 16.163.29.124
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -585,58 +558,67 @@ proxies:
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 11541
-  server: 3.112.12.209
+  server: 16.163.29.124
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 新加坡|@ripaojiedian
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
-  port: 3842
-  server: 95.40.28.136
+  port: 4840
+  server: 95.40.114.115
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 新加坡2|@ripaojiedian
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
-  port: 2511
-  server: 13.115.88.193
+  port: 3842
+  server: 16.163.29.124
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 443
-  server: 140.235.140.105
+  port: 39756
+  server: 35.78.121.219
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 美国|@ripaojiedian
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
-  port: 5224
-  server: 95.40.28.136
+  port: 2663
+  server: 95.40.114.115
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
-  port: 6604
-  server: 16.163.157.10
+  port: 2663
+  server: 52.69.114.14
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 17801
-  server: 18.166.178.81
+  port: 2702
+  server: 43.206.155.159
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国4|@ripaojiedian
+  port: 180
+  server: 82.198.246.250
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
   name: 🇺🇸 美国5|@ripaojiedian
@@ -714,19 +696,6 @@ proxies:
   udp: true
   uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
   xudp: true
-- name: KR_speednode_0029
-  network: ws
-  password: 433e785b-2077-47f7-a43d-985f63dd18d1
-  port: 30303
-  server: 121.191.33.84
-  skip-cert-verify: false
-  sni: vpn.rnmcnm.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: vpn.rnmcnm.com
-    path: /trojan
 - name: KR_speednode_0032
   network: ws
   password: 433e785b-2077-47f7-a43d-985f63dd18d1

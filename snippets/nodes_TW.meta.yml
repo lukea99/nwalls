@@ -1,35 +1,7 @@
 proxies:
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 'A - 🇹🇼 TW 01 TG: @nodpai'
-  network: tcp
-  port: 11113
-  server: dotu-twv1.kunlun03dns.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-  xudp: true
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 'A - 🇹🇼 TW 02 TG: @nodpai'
-  network: tcp
-  port: 11111
-  server: dotu-twv1.kunlun03dns.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-  xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 'A - 🇹🇼 TW 03 TG: @nodpai'
+  name: 'A - 🇹🇼 TW 01 TG: @nodpai'
   network: tcp
   port: 18799
   reality-opts:
@@ -46,9 +18,9 @@ proxies:
   - ''
   alterId: '0'
   cipher: auto
-  name: 'A - 🇹🇼 TW 04 TG: @nodpai'
+  name: 'A - 🇹🇼 TW 02 TG: @nodpai'
   network: tcp
-  port: 11112
+  port: 11114
   server: dotu-twv1.kunlun03dns.com
   skip-cert-verify: false
   tls: false
@@ -58,7 +30,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 'B - 🇹🇼 TW 05 TG: @nodpai'
+  name: 'A - 🇹🇼 TW 03 TG: @nodpai'
   network: tcp
   port: 10511
   reality-opts:
@@ -75,9 +47,9 @@ proxies:
   - ''
   alterId: '0'
   cipher: auto
-  name: 'B - 🇹🇼 TW 06 TG: @nodpai'
+  name: 'A - 🇹🇼 TW 04 TG: @nodpai'
   network: tcp
-  port: 11114
+  port: 11113
   server: dotu-twv1.kunlun03dns.com
   skip-cert-verify: false
   tls: false
@@ -85,13 +57,34 @@ proxies:
   udp: true
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
   xudp: true
-- alterId: 2
+- alpn:
+  - ''
+  alterId: '0'
   cipher: auto
-  name: 'B - 🇹🇼 TW 07 TG: @nodpai'
-  port: 30811
-  server: v11.zgtfqs.click
+  name: 'A - 🇹🇼 TW 05 TG: @nodpai'
+  network: tcp
+  port: 11111
+  server: dotu-twv1.kunlun03dns.com
+  skip-cert-verify: false
+  tls: false
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+  xudp: true
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 'B - 🇹🇼 TW 06 TG: @nodpai'
+  network: tcp
+  port: 11112
+  server: dotu-twv1.kunlun03dns.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+  xudp: true
 - name: 'B - 🇹🇼 TW 08 TG: @nodpai'
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
@@ -114,3 +107,10 @@ proxies:
   tls: true
   type: vless
   uuid: 231a569a-55f0-4d31-94ac-dbe4bed3efdb
+- name: 'B - 🇹🇼 TW 10 TG: @nodpai'
+  password: gcuCpQfaiVeDBdWG
+  port: 19128
+  server: jpbgp.netvigor.cc
+  sni: yazhou10.dynu.net
+  tls: true
+  type: trojan

@@ -1,38 +1,81 @@
 proxies:
-- alpn:
-  - http/1.1
-  client-fingerprint: randomized
+- encryption: none
   name: 'A - 🇩🇪 DE 01 TG: @nodpai'
   network: ws
-  port: 443
-  security: tls
-  server: 104.17.38.42
-  servername: nginx-f.pages.dev
-  tls: true
+  port: 80
+  server: cloudflare.182682.xyz
   type: vless
-  uuid: 0905460d-6edc-4a82-8ec8-6b76090b41c8
+  uuid: 93526fcb-8dbf-442e-a656-eb304f1da4ef
   ws-opts:
     headers:
-      Host: nginx-f.pages.dev
-    path: /?ed=2560
+      Host: lucky-voice-d6f3.difat89954-0c6.workers.dev
+    path: /?ed=2048
 - client-fingerprint: qq
   flow: xtls-rprx-vision
   name: 'A - 🇩🇪 DE 02 TG: @nodpai'
   network: tcp
   port: 443
   security: tls
-  server: 87.120.93.243
+  server: 87.120.93.131
+  servername: sub.sbrf-cdn342.ru
+  tls: true
+  type: vless
+  uuid: 91e120bc-159a-4390-b4e1-197b19602ea0
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 'A - 🇩🇪 DE 03 TG: @nodpai'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: JbVabf_OI9mnt7gzn9hIj_8h7yyDzAqDP6XfhvhULjU
+    short-id: '!!str f37fb7531c60780d'
+  security: reality
+  server: 2.26.54.52
+  servername: germanyplay.stardevs.top
+  spider-x: /
+  tls: true
+  type: vless
+  uuid: f00984ef-f57e-41db-9182-b25f7bc3a1e2
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 'A - 🇩🇪 DE 04 TG: @nodpai'
+  network: tcp
+  port: 443
+  security: tls
+  server: 87.120.126.205
   servername: sub.sbrf-cdn342.ru
   tls: true
   type: vless
   uuid: 91e120bc-159a-4390-b4e1-197b19602ea0
 - client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: 'B - 🇩🇪 DE 03 TG: @nodpai'
+  name: 'A - 🇩🇪 DE 05 TG: @nodpai'
   network: tcp
   port: 443
   security: tls
-  server: 5.178.101.149
+  server: 87.120.93.25
+  servername: sub.sbrf-cdn342.ru
+  tls: true
+  type: vless
+  uuid: 91e120bc-159a-4390-b4e1-197b19602ea0
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 'B - 🇩🇪 DE 06 TG: @nodpai'
+  network: tcp
+  port: 443
+  security: tls
+  server: 87.120.93.146
+  servername: sub.sbrf-cdn342.ru
+  tls: true
+  type: vless
+  uuid: 91e120bc-159a-4390-b4e1-197b19602ea0
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 'B - 🇩🇪 DE 07 TG: @nodpai'
+  network: tcp
+  port: 443
+  security: tls
+  server: 87.120.93.147
   servername: sub.sbrf-cdn342.ru
   tls: true
   type: vless
@@ -50,10 +93,36 @@ proxies:
   type: vless
   udp: true
   uuid: 21c1132b-068c-46fb-880e-3268f6a30e7f
-- name: 'B - 🇩🇪 DE 06 TG: @nodpai'
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 'B - 🇩🇪 DE 09 TG: @nodpai'
+  network: tcp
   port: 443
-  server: vpn-de-002.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-de-002.fastervpn.world
-  type: hysteria2
+  security: tls
+  server: 5.178.101.149
+  servername: sub.sbrf-cdn342.ru
+  tls: true
+  type: vless
+  uuid: 91e120bc-159a-4390-b4e1-197b19602ea0
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 'B - 🇩🇪 DE 10 TG: @nodpai'
+  network: tcp
+  port: 443
+  security: tls
+  server: 87.120.93.244
+  servername: sub.sbrf-cdn342.ru
+  tls: true
+  type: vless
+  uuid: 91e120bc-159a-4390-b4e1-197b19602ea0
+- encryption: none
+  name: 'B - 🇩🇪 DE 11 TG: @nodpai'
+  network: ws
+  port: 80
+  server: 199.232.57.91
+  type: vless
+  uuid: 69ac30ba-c264-4350-87fe-62e132032e16
+  ws-opts:
+    headers:
+      Host: nleiyajji.global.ssl.fastly.net
+    path: /

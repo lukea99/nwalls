@@ -1,7 +1,27 @@
 proxies:
+- name: 'A - 🇷🇺 RU 01 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 31.12.75.50
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime21.workers.dev
+    path: /?ed=2560
+- encryption: none
+  name: 'A - 🇷🇺 RU 02 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 176.124.223.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime38.workers.dev
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 'B - 🇷🇺 RU 02 TG: @nodpai'
+  name: 'A - 🇷🇺 RU 03 TG: @nodpai'
   network: tcp
   port: 443
   reality-opts:
@@ -14,20 +34,6 @@ proxies:
   tls: true
   type: vless
   uuid: 18afb896-6e4b-403b-b804-714b09b517e5
-- client-fingerprint: chrome
-  name: 'B - 🇷🇺 RU 03 TG: @nodpai'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: cVCzyZ7hxqDXuv6uf4VDOmI2IOUdVVjoLGiclNiwuRc
-    short-id: '!!str af0e'
-  security: reality
-  server: 85.193.91.14
-  servername: yahoo.com
-  spider-x: /
-  tls: true
-  type: vless
-  uuid: 3c40e1d2-80d1-4fe2-82e6-064e38bdf7e5
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision

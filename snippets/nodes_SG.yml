@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 'A - 🇸🇬 SG 13 TG: @nodpai'
+  name: 🇸🇬SG_1|1.3MB/s
   port: 6004
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
   skip-cert-verify: false
@@ -12,63 +12,80 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: 'B - 🇸🇬 SG 22 TG: @nodpai'
-  network: ws
-  password: Mitivpn
-  port: 2053
-  server: 104.17.121.71
-  skip-cert-verify: true
-  sni: dash.hitgram.ir
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: dash.hitgram.ir
-    path: /?ed=2048
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 'B - 🇸🇬 SG 24 TG: @nodpai'
-  network: ws
-  password: Mitivpn
-  port: 2053
-  server: 45.130.125.76
-  sni: dash.hitgram.ir
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: dash.hitgram.ir
-    path: /?ed=2048
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 'B - 🇸🇬 SG 27 TG: @nodpai'
+  name: 'B - 🇸🇬 SG 05 TG: @nodpai'
   network: ws
   password: Mitivpn
   port: 443
-  server: 104.17.121.71
+  server: 216.24.57.7
   skip-cert-verify: true
-  sni: cdn.hitgram.ir
+  sni: www.hitgram.ir
   tls: true
   type: trojan
   ws-opts:
     headers:
-      Host: cdn.hitgram.ir
+      Host: www.hitgram.ir
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 'B - 🇸🇬 SG 28 TG: @nodpai'
-  network: ws
-  port: 33402
-  server: yd3.ainivp.com
-  tls: true
+  client-fingerprint: chrome
+  name: 'B - 🇸🇬 SG 06 TG: @nodpai'
+  port: 11135
+  server: dotu-sgv1.kunlun03dns.com
   type: vmess
-  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 'B - 🇸🇬 SG 07 TG: @nodpai'
+  network: ws
+  password: Mitivpn
+  port: 443
+  server: 216.24.57.251
+  skip-cert-verify: true
+  sni: www.hitgram.ir
+  tls: true
+  type: trojan
   ws-opts:
     headers:
-      Host: yd3.ainivp.com
-    path: /ray
+      Host: www.hitgram.ir
+    path: /?ed=2048
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 'B - 🇸🇬 SG 08 TG: @nodpai'
+  network: ws
+  password: Mitivpn
+  port: 443
+  server: 208.103.161.33
+  skip-cert-verify: true
+  sni: www.hitgram.ir
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.hitgram.ir
+    path: /?ed=2048
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 'B - 🇸🇬 SG 09 TG: @nodpai'
+  network: ws
+  password: Mitivpn
+  port: 443
+  server: www.hitgram.ir
+  sni: www.hitgram.ir
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /?ed=2048
+- name: 'B - 🇸🇬 SG 10 TG: @nodpai'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 41771
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: sg.01.naiun.bilibili.com
+  tls: true
+  type: trojan
 - name: 新加坡|@ripaojiedian
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
@@ -93,44 +110,10 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇸🇬SG_1|2.1MB/s
-  network: ws
-  password: mitivpn
-  port: '2096'
-  server: 104.18.32.47
-  skip-cert-verify: true
-  sni: www.app-cloud.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.132 Safari/537.36
-    path: /?ed=2048
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇸🇬SG_2|2.8MB/s
-  network: ws
-  password: mitivpn
-  port: '8443'
-  server: 104.18.32.47
-  skip-cert-verify: true
-  sni: www.app-cloud.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; CPH1607 Build/MMB29M; wv) AppleWebKit/537.36
-        (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile Safari/537.36
-    path: /?ed=2048
-- alterId: 0
+- alterId: '0'
   cipher: auto
-  name: 🇸🇬SG_3|1.6MB/s
-  network: raw
+  name: 🇸🇬SG_2|2.5MB/s
+  network: tcp
   port: '6004'
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
   skip-cert-verify: false

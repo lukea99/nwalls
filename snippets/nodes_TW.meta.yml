@@ -1,24 +1,29 @@
 proxies:
+- name: 'B - 🇹🇼 TW 01 TG: @nodpai'
+  password: f58cd113-a3b1-319d-a993-331481731e82
+  port: 32544
+  server: a.twodnwnpoe.xyz
+  skip-cert-verify: true
+  sni: water.waittomorrow.top
+  tls: true
+  type: trojan
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 'B - 🇹🇼 TW 01 TG: @nodpai'
-  port: 11111
-  server: dotu-twv1.kunlun03dns.com
-  type: vmess
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
   name: 'B - 🇹🇼 TW 02 TG: @nodpai'
-  port: 11113
-  server: dotu-twv1.kunlun03dns.com
+  network: ws
+  port: 33404
+  server: yd3.ainivp.com
+  tls: true
   type: vmess
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
+  ws-opts:
+    headers:
+      Host: yd3.ainivp.com
+    path: /ray
 - alterId: 0
   cipher: auto
   name: 'B - 🇹🇼 TW 03 TG: @nodpai'
-  port: 11112
+  port: 11113
   server: dotu-twv1.kunlun03dns.com
   type: vmess
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
@@ -26,34 +31,9 @@ proxies:
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: vpn-tw-002.fastervpn.world
+  servername: vpn-tw-002.fastervpn.world
   skip-cert-verify: true
   sni: vpn-tw-002.fastervpn.world
+  tfo: false
   type: hysteria2
-- name: 'B - 🇹🇼 TW 05 TG: @nodpai'
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 44380
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: tw.01.naiun.bilibili.com
-  tls: true
-  type: trojan
-- client-fingerprint: chrome
-  name: 'B - 🇹🇼 TW 06 TG: @nodpai'
-  password: gcuCpQfaiVeDBdWG
-  port: 19128
-  server: 211.76.176.98
-  sni: yazhou10.dynu.net
-  tls: true
-  type: trojan
-- alpn:
-  - h3
-  congestion-controller: bbr
-  disable-sni: false
-  name: 'B - 🇹🇼 TW 07 TG: @nodpai'
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27105
-  reduce-rtt: false
-  server: m61wz8.yydzx.xyz
-  sni: m61wz8.yydzx.xyz
-  type: tuic
-  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  udp: true

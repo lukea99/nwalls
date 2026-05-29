@@ -8,28 +8,66 @@ proxies:
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK_1|1.1MB/s
-  port: 6001
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
-  skip-cert-verify: true
-  tls: false
+  client-fingerprint: chrome
+  name: 'A - 🇭🇰 HK 02 TG: @nodpai'
+  port: 11103
+  server: dotu-hkv1.kunlun03dns.com
   type: vmess
-  udp: true
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- name: 'A - 🇭🇰 HK 03 TG: @nodpai'
-  password: c1785de0-212f-11ef-92aa-f23c9164ca5d
-  port: 5228
-  server: fc26ffd1-t9zts0-tfpsin-1q3dm.cm4.oshuawei.com
-  sni: fc26ffd1-t9zts0-tfpsin-1q3dm.cm4.oshuawei.com
-  tls: true
-  type: http
-  username: c1785de0-212f-11ef-92aa-f23c9164ca5d
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 0
   cipher: auto
-  name: 'B - 🇭🇰 HK 04 TG: @nodpai'
+  country: 🏁ZZ
+  delay: 207
+  h2-opts: {}
+  http-opts: {}
+  name: 'A - 🇭🇰 HK 03 TG: @nodpai'
+  network: tcp
+  port: 11101
+  server: dotu-hkv1.kunlun03dns.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
+  name: 'A - 🇭🇰 HK 04 TG: @nodpai'
+  port: 6001
+  server: gtm-sg-cc54q7d1q01.365cloud0285.com
+  type: vmess
+  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+- name: 'B - 🇭🇰 HK 05 TG: @nodpai'
+  password: f58cd113-a3b1-319d-a993-331481731e82
+  port: 52225
+  server: a.twodnwnpoe.xyz
+  servername: i.comfortableyou.top
+  skip-cert-verify: true
+  sni: i.comfortableyou.top
+  tfo: false
+  type: trojan
+  udp: false
+- name: 'B - 🇭🇰 HK 06 TG: @nodpai'
+  password: f58cd113-a3b1-319d-a993-331481731e82
+  port: 40017
+  server: a.twodnwnpoe.xyz
+  servername: water.waittomorrow.top
+  skip-cert-verify: true
+  sni: water.waittomorrow.top
+  tfo: false
+  type: trojan
+  udp: false
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇭🇰 HK 07 TG: @nodpai'
+  port: 11122
+  server: dotu-jpv1.kunlun03dns.com
+  type: vmess
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇭🇰 HK 08 TG: @nodpai'
   network: ws
   port: 33414
   server: cu7.ainivp.com
+  servername: cu7.ainivp.com
   tls: true
   type: vmess
   uuid: 9204afcd-026e-781f-1abc-c03efabd1344
@@ -39,209 +77,47 @@ proxies:
     path: /ray
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 'B - 🇭🇰 HK 05 TG: @nodpai'
-  port: 11138
-  server: dotu-sgv1.kunlun03dns.com
-  type: vmess
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇭🇰 HK 06 TG: @nodpai'
-  network: ws
-  port: 33407
-  server: yd3.ainivp.com
-  tls: true
-  type: vmess
-  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
-  ws-opts:
-    headers:
-      Host: yd3.ainivp.com
-    path: /ray
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇭🇰 HK 07 TG: @nodpai'
-  port: 11145
+  name: 'B - 🇭🇰 HK 09 TG: @nodpai'
+  port: 11144
   server: dotu-krv1.kunlun03dns.com
   type: vmess
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- name: 'B - 🇭🇰 HK 10 TG: @nodpai'
+  password: f58cd113-a3b1-319d-a993-331481731e82
+  port: 40015
+  server: a.twodnwnpoe.xyz
+  servername: 1.lossyesterday.xyz
+  skip-cert-verify: true
+  sni: 1.lossyesterday.xyz
+  tfo: false
+  type: trojan
+  udp: false
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 'B - 🇭🇰 HK 08 TG: @nodpai'
-  port: 11137
-  server: dotu-sgv1.kunlun03dns.com
+  name: 'B - 🇭🇰 HK 11 TG: @nodpai'
+  port: 11119
+  server: dotu-jpv1.kunlun03dns.com
   type: vmess
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- name: 'B - 🇭🇰 HK 09 TG: @nodpai'
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 46883
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: ru.01.naiun.bilibili.com
-  tls: true
-  type: trojan
-- name: 'B - 🇭🇰 HK 10 TG: @nodpai'
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 48772
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: ua.01.naiun.bilibili.com
-  tls: true
-  type: trojan
-- name: 'B - 🇭🇰 HK 11 TG: @nodpai'
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 41818
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: mm.01.naiun.bilibili.com
-  tls: true
-  type: trojan
 - name: 'B - 🇭🇰 HK 12 TG: @nodpai'
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 44945
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: pk.01.naiun.bilibili.com
+  password: c1785de0-212f-11ef-92aa-f23c9164ca5d
+  port: 5228
+  server: fc26ffd1-t9zts0-tfpsin-1q3dm.cm4.oshuawei.com
+  sni: fc26ffd1-t9zts0-tfpsin-1q3dm.cm4.oshuawei.com
   tls: true
-  type: trojan
+  type: http
+  username: c1785de0-212f-11ef-92aa-f23c9164ca5d
 - name: 'B - 🇭🇰 HK 13 TG: @nodpai'
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
   port: 48697
   server: 90081bb25c.node.tro.cac.cab
+  servername: gh.01.naiun.bilibili.com
   skip-cert-verify: true
   sni: gh.01.naiun.bilibili.com
-  tls: true
+  tfo: false
   type: trojan
+  udp: false
 - name: 'B - 🇭🇰 HK 14 TG: @nodpai'
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 42141
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: pe.01.naiun.bilibili.com
-  tls: true
-  type: trojan
-- name: 'B - 🇭🇰 HK 15 TG: @nodpai'
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 42693
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: za.01.naiun.bilibili.com
-  tls: true
-  type: trojan
-- name: 'B - 🇭🇰 HK 16 TG: @nodpai'
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 41399
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: tr.01.naiun.bilibili.com
-  tls: true
-  type: trojan
-- name: 'B - 🇭🇰 HK 17 TG: @nodpai'
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 40567
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: id.01.naiun.bilibili.com
-  tls: true
-  type: trojan
-- name: 'B - 🇭🇰 HK 18 TG: @nodpai'
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 43645
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: vn.01.naiun.bilibili.com
-  tls: true
-  type: trojan
-- name: 'B - 🇭🇰 HK 19 TG: @nodpai'
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 46424
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: de.01.naiun.bilibili.com
-  tls: true
-  type: trojan
-- name: 'B - 🇭🇰 HK 20 TG: @nodpai'
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 41943
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: az.01.naiun.bilibili.com
-  tls: true
-  type: trojan
-- name: 'B - 🇭🇰 HK 21 TG: @nodpai'
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 41523
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: my.01.naiun.bilibili.com
-  tls: true
-  type: trojan
-- name: 'B - 🇭🇰 HK 22 TG: @nodpai'
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 43592
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: il.01.naiun.bilibili.com
-  tls: true
-  type: trojan
-- name: 'B - 🇭🇰 HK 23 TG: @nodpai'
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 45553
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: ch.01.naiun.bilibili.com
-  tls: true
-  type: trojan
-- name: 'B - 🇭🇰 HK 24 TG: @nodpai'
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 47377
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: ng.01.naiun.bilibili.com
-  tls: true
-  type: trojan
-- name: 'B - 🇭🇰 HK 25 TG: @nodpai'
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 42427
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: gl.01.naiun.bilibili.com
-  tls: true
-  type: trojan
-- name: 'B - 🇭🇰 HK 26 TG: @nodpai'
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 40406
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: nz.01.naiun.bilibili.com
-  tls: true
-  type: trojan
-- name: 'B - 🇭🇰 HK 27 TG: @nodpai'
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 44542
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: in.01.naiun.bilibili.com
-  tls: true
-  type: trojan
-- name: 'B - 🇭🇰 HK 28 TG: @nodpai'
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 44375
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: br.01.naiun.bilibili.com
-  tls: true
-  type: trojan
-- name: 'B - 🇭🇰 HK 29 TG: @nodpai'
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 42209
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: ca.01.naiun.bilibili.com
-  tls: true
-  type: trojan
-- name: 'B - 🇭🇰 HK 30 TG: @nodpai'
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
   port: 47909
   server: 90081bb25c.node.tro.cac.cab
@@ -249,86 +125,43 @@ proxies:
   sni: is.01.naiun.bilibili.com
   tls: true
   type: trojan
-- name: 'B - 🇭🇰 HK 31 TG: @nodpai'
+- name: 'B - 🇭🇰 HK 15 TG: @nodpai'
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 47632
+  port: 46424
   server: 90081bb25c.node.tro.cac.cab
   skip-cert-verify: true
-  sni: ph.01.naiun.bilibili.com
+  sni: de.01.naiun.bilibili.com
   tls: true
   type: trojan
-- name: 'B - 🇭🇰 HK 32 TG: @nodpai'
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 49306
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: gb.01.naiun.bilibili.com
-  tls: true
-  type: trojan
-- name: 'B - 🇭🇰 HK 33 TG: @nodpai'
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 41960
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: au.01.naiun.bilibili.com
-  tls: true
-  type: trojan
-- name: 'B - 🇭🇰 HK 34 TG: @nodpai'
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 45846
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: eg.01.naiun.bilibili.com
-  tls: true
-  type: trojan
-- name: 'B - 🇭🇰 HK 35 TG: @nodpai'
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 48566
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: ae.01.naiun.bilibili.com
-  tls: true
-  type: trojan
-- name: 'B - 🇭🇰 HK 36 TG: @nodpai'
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 46298
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: kz.01.naiun.bilibili.com
-  tls: true
-  type: trojan
-- name: 'B - 🇭🇰 HK 37 TG: @nodpai'
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 46572
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: kr.01.naiun.bilibili.com
-  tls: true
-  type: trojan
-- name: 'B - 🇭🇰 HK 38 TG: @nodpai'
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 41874
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: it.01.naiun.bilibili.com
-  tls: true
-  type: trojan
-- name: 'B - 🇭🇰 HK 39 TG: @nodpai'
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 44776
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: ar.01.naiun.bilibili.com
-  tls: true
-  type: trojan
-- name: 'B - 🇭🇰 HK 40 TG: @nodpai'
+- name: 'B - 🇭🇰 HK 16 TG: @nodpai'
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
   port: 45619
   server: 90081bb25c.node.tro.cac.cab
+  servername: fr.01.naiun.bilibili.com
   skip-cert-verify: true
   sni: fr.01.naiun.bilibili.com
-  tls: true
+  tfo: false
   type: trojan
+  udp: false
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇭🇰 HK 17 TG: @nodpai'
+  port: 11145
+  server: dotu-krv1.kunlun03dns.com
+  type: vmess
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇭🇰 HK 18 TG: @nodpai'
+  network: ws
+  port: 10034
+  server: 1b267619c4812cc46ee281747884ca50.qos.onl
+  type: vmess
+  uuid: 52f9cbfb-5bb3-3dd3-b947-725e365c59f3
+  ws-opts:
+    headers:
+      Host: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
+    path: /
 - alterId: 2
   cipher: auto
   name: 🇭🇰 香港|@ripaojiedian
@@ -372,15 +205,3 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: '0'
-  cipher: auto
-  name: 🇭🇰HK_2|2.6MB/s
-  network: tcp
-  port: '6001'
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-  xudp: true

@@ -1,4 +1,16 @@
 proxies:
+- name: 'B - 🇰🇷 KR 02 TG: @nodpai'
+  network: ws
+  password: rYuChHcwQZskq9E0zdoR
+  port: 35342
+  server: 119.195.0.158
+  sni: vpn5.rnmcnm.com
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: vpn5.rnmcnm.com
+    path: /ws-79dffb8106db
 - alpn:
   - ''
   alterId: 0

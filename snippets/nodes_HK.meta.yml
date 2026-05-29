@@ -1,61 +1,62 @@
 proxies:
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 'B - 🇭🇰 HK 01 TG: @nodpai'
+  port: 13413
+  reality-opts:
+    public-key: epgveXEcUs0sbs4jV_1KldTkZGnWUHfMKcs0XNyP41Y
+    short-id: '!!str a1b2c3d4'
+  security: reality
+  server: zzhk4.ainivp.com
+  servername: www.microsoft.com
+  tls: true
+  type: vless
+  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
 - alterId: 0
   cipher: auto
-  name: 'B - 🇭🇰 HK 01 TG: @nodpai'
+  name: 'B - 🇭🇰 HK 02 TG: @nodpai'
   port: 6001
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
   type: vmess
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇭🇰 HK 02 TG: @nodpai'
-  network: ws
-  port: 33414
-  server: cu7.ainivp.com
-  servername: cu7.ainivp.com
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 'B - 🇭🇰 HK 03 TG: @nodpai'
+  network: tcp
+  port: 10011
+  reality-opts:
+    public-key: 82bbZIdU-0s8fydncIhp9_sNDYQQH9ZY_7RVI5apXnk
+    short-id: '!!str 447f3a05ace2b748'
+  security: reality
+  server: 103.123.162.50
+  servername: www.microsoft.com
   tls: true
-  type: vmess
-  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
-  ws-opts:
-    headers:
-      Host: cu7.ainivp.com
-    path: /ray
+  type: vless
+  uuid: 17011a43-97e2-44b0-b0da-a2ea151ad75c
 - name: 'B - 🇭🇰 HK 04 TG: @nodpai'
   password: c1785de0-212f-11ef-92aa-f23c9164ca5d
   port: 5228
   server: fc26ffd1-t9zts0-tfpsin-1q3dm.cm4.oshuawei.com
-  sni: fc26ffd1-t9zts0-tfpsin-1q3dm.cm4.oshuawei.com
   tls: true
   type: http
   username: c1785de0-212f-11ef-92aa-f23c9164ca5d
 - alterId: 0
   cipher: auto
+  client-fingerprint: chrome
   name: 'B - 🇭🇰 HK 05 TG: @nodpai'
-  port: 11137
-  server: dotu-sgv1.kunlun03dns.com
-  type: vmess
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇭🇰 HK 06 TG: @nodpai'
   network: ws
-  port: 33407
-  server: yd3.ainivp.com
-  servername: yd3.ainivp.com
+  port: 443
+  server: cf.scpnb.top
+  servername: graph-keep-beds-catalog.trycloudflare.com
   tls: true
   type: vmess
-  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
+  uuid: 7fd8d1db-96ec-4e46-80a8-74ad9472384e
   ws-opts:
     headers:
-      Host: yd3.ainivp.com
-    path: /ray
-- alterId: 0
-  cipher: auto
-  name: 'C - 🇭🇰 HK 07 TG: @nodpai'
-  port: 54022
-  server: 103.181.164.145
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+      Host: graph-keep-beds-catalog.trycloudflare.com
+    path: /7fd8d1db-96ec-4e46-80a8-74ad9472384e-vm
 - alterId: 2
   cipher: auto
   name: 🇭🇰 香港|@ripaojiedian

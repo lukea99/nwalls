@@ -1,73 +1,78 @@
 proxies:
+- name: 'A - 🇯🇵 JP 02 TG: @nodpai'
+  password: 0b869f32-657e-11ee-a90c-f23c9313b177
+  port: 3443
+  server: 9bbaef12-ta0g00-taad0h-24c4.tkydc3.cdnbytescm.com
+  sni: 9bbaef12-ta0g00-taad0h-24c4.tkydc3.cdnbytescm.com
+  tls: true
+  type: http
+  username: 0b869f32-657e-11ee-a90c-f23c9313b177
 - alterId: 0
   cipher: auto
-  name: 'A - 🇯🇵 JP 01 TG: @nodpai'
+  name: 'A - 🇯🇵 JP 03 TG: @nodpai'
   port: 6003
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
   type: vmess
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 'A - 🇯🇵 JP 02 TG: @nodpai'
-  port: 13102
-  reality-opts:
-    public-key: epgveXEcUs0sbs4jV_1KldTkZGnWUHfMKcs0XNyP41Y
-    short-id: '!!str a1b2c3d4'
-  security: reality
-  server: zzjp2.ainivp.com
-  servername: www.microsoft.com
-  tls: true
-  type: vless
-  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
+- alterId: 2
+  cipher: auto
+  name: 'B - 🇯🇵 JP 04 TG: @nodpai'
+  port: 30806
+  server: v6.hdacd.com
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
   name: 'B - 🇯🇵 JP 05 TG: @nodpai'
-  port: 11121
-  server: dotu-jpv1.kunlun03dns.com
+  network: ws
+  port: 45228
+  server: 109.61.109.204
+  servername: imafake.locker
+  tls: true
   type: vmess
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+  uuid: d0e97ee2-c6de-48f8-bd4a-8e63a9cd9e89
+  ws-opts:
+    headers:
+      Host: imafake.locker
+    path: /speedtest
 - alterId: 0
   cipher: auto
+  client-fingerprint: chrome
   name: 'B - 🇯🇵 JP 06 TG: @nodpai'
   network: ws
-  port: 33203
-  server: cu2.ainivp.com
+  port: 35240
+  server: 109.61.109.204
+  servername: imafake.locker
   tls: true
   type: vmess
-  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
+  uuid: 35f332d0-0b05-4cc6-91cb-ec0d4465055f
   ws-opts:
     headers:
-      Host: cu2.ainivp.com
-    path: /ray
-- client-fingerprint: chrome
-  encryption: none
-  name: 'B - 🇯🇵 JP 07 TG: @nodpai'
-  network: tcp
-  port: 16095
-  reality-opts:
-    public-key: 2ymLL-wvVJD_06Iq5nFW2WiOOc11vwdQG2YTpyXB_Ho
-    short-id: '!!str 036e33ea30e6f971'
-  security: reality
-  server: 161.33.3.84
-  servername: www.amd.com
-  spider-x: /PQYV5jqDoUnRier
-  tls: true
-  type: vless
-  uuid: 250c2a19-6957-48f1-9208-c6eb3324b8d5
+      Host: imafake.locker
+    path: /speedtest
 - alterId: 0
   cipher: auto
-  name: 'B - 🇯🇵 JP 08 TG: @nodpai'
+  client-fingerprint: chrome
+  name: 'B - 🇯🇵 JP 07 TG: @nodpai'
   network: ws
-  port: 33108
-  server: cu6.ainivp.com
+  port: 19241
+  server: 109.61.109.204
+  servername: imafake.locker
   tls: true
   type: vmess
-  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
+  uuid: fa8f8911-2e9b-494e-9a8d-f80239ee2214
   ws-opts:
     headers:
-      Host: cu6.ainivp.com
-    path: /ray
+      Host: imafake.locker
+    path: /speedtest
+- name: 'B - 🇯🇵 JP 08 TG: @nodpai'
+  password: 55cce5a4-56b7-11ee-af82-f23c9164ca5d
+  port: 443
+  server: e9b9c37c-t9zts0-tcw58g-1p0be.jp.oshuawei.com
+  sni: e9b9c37c-t9zts0-tcw58g-1p0be.jp.oshuawei.com
+  tls: true
+  type: http
+  username: 55cce5a4-56b7-11ee-af82-f23c9164ca5d
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe

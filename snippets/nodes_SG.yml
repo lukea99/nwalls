@@ -1,24 +1,63 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 'A - 🇸🇬 SG 01 TG: @nodpai'
+  name: 'A - 🇸🇬 SG 02 TG: @nodpai'
   port: 6004
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
   type: vmess
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- name: 'B - 🇸🇬 SG 05 TG: @nodpai'
+- alterId: 0
+  cipher: auto
+  name: 'A - 🇸🇬 SG 04 TG: @nodpai'
   network: ws
-  password: trojan
-  port: 12596
-  server: 213.35.108.135
+  port: 10034
+  server: 6654c734ccab8f440ff0825eb443dc7f.qos.onl
+  type: vmess
+  uuid: 52f9cbfb-5bb3-3dd3-b947-725e365c59f3
+  ws-opts:
+    headers:
+      Host: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇸🇬 SG 05 TG: @nodpai'
+  network: ws
+  port: 10123
+  server: 6654c734ccab8f440ff0825eb443dc7f.qos.onl
+  type: vmess
+  uuid: 52f9cbfb-5bb3-3dd3-b947-725e365c59f3
+  ws-opts:
+    headers:
+      Host: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
+    path: /
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 'B - 🇸🇬 SG 06 TG: @nodpai'
+  network: ws
+  password: Mitivpn
+  port: 443
+  server: 5.10.214.251
   skip-cert-verify: true
-  sni: store.timimi.dpdns.org
+  sni: cdn.hitgram.ir
   tls: true
   type: trojan
   ws-opts:
     headers:
-      Host: store.timimi.dpdns.org
-    path: /?ed=2560
+      Host: cdn.hitgram.ir
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇸🇬 SG 07 TG: @nodpai'
+  network: ws
+  port: 10034
+  server: 1b267619c4812cc46ee281747884ca50.qos.onl
+  type: vmess
+  uuid: 52f9cbfb-5bb3-3dd3-b947-725e365c59f3
+  ws-opts:
+    headers:
+      Host: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
+    path: /
 - name: 新加坡|@ripaojiedian
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae

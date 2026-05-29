@@ -1,19 +1,30 @@
 proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 'A - 🇸🇬 SG 01 TG: @nodpai'
+  port: 35593
+  reality-opts:
+    public-key: AavBPGGJUpyGWiriV_Fbx-SrAvR5t-9mHeQY8uIltyo
+    short-id: '!!str 41b9cb10b696'
+  security: reality
+  server: appvless.tnjxaon.cn
+  servername: www.tue.nl
+  tls: true
+  type: vless
+  uuid: 1f81303d-bdb7-4cf9-8bef-f4f8cd9562ff
 - alterId: 0
   cipher: auto
-  name: 'A - 🇸🇬 SG 01 TG: @nodpai'
+  name: 'A - 🇸🇬 SG 02 TG: @nodpai'
   port: 6004
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
   type: vmess
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- encryption: none
-  name: 'B - 🇸🇬 SG 02 TG: @nodpai'
+- name: 'A - 🇸🇬 SG 03 TG: @nodpai'
   network: ws
   port: 443
   security: tls
-  server: 104.25.242.61
+  server: 172.66.3.201
   servername: juzi.qea.ccwu.cc
-  skip-cert-verify: true
   tls: true
   type: vless
   uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
@@ -21,35 +32,58 @@ proxies:
     headers:
       Host: juzi.qea.ccwu.cc
     path: /
-- name: 'B - 🇸🇬 SG 04 TG: @nodpai'
-  obfs: salamander
-  obfs-password: YzgyOTkwNDk4ZTU2NTd65A==
-  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-  port: 50000
-  server: sg.9966690.xyz
-  skip-cert-verify: true
-  type: hysteria2
-- name: 'B - 🇸🇬 SG 05 TG: @nodpai'
+- alterId: 0
+  cipher: auto
+  name: 'A - 🇸🇬 SG 04 TG: @nodpai'
   network: ws
-  password: trojan
-  port: 12596
-  server: 213.35.108.135
+  port: 10034
+  server: 6654c734ccab8f440ff0825eb443dc7f.qos.onl
+  type: vmess
+  uuid: 52f9cbfb-5bb3-3dd3-b947-725e365c59f3
+  ws-opts:
+    headers:
+      Host: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇸🇬 SG 05 TG: @nodpai'
+  network: ws
+  port: 10123
+  server: 6654c734ccab8f440ff0825eb443dc7f.qos.onl
+  type: vmess
+  uuid: 52f9cbfb-5bb3-3dd3-b947-725e365c59f3
+  ws-opts:
+    headers:
+      Host: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
+    path: /
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 'B - 🇸🇬 SG 06 TG: @nodpai'
+  network: ws
+  password: Mitivpn
+  port: 443
+  server: 5.10.214.251
   skip-cert-verify: true
-  sni: store.timimi.dpdns.org
+  sni: cdn.hitgram.ir
   tls: true
   type: trojan
   ws-opts:
     headers:
-      Host: store.timimi.dpdns.org
-    path: /?ed=2560
-- name: 'C - 🇸🇬 SG 06 TG: @nodpai'
-  obfs: salamander
-  obfs-password: YzgyOTkwNDk4ZTU2NTd65A==
-  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-  port: 10000
-  server: sg.9966690.xyz
-  skip-cert-verify: true
-  type: hysteria2
+      Host: cdn.hitgram.ir
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇸🇬 SG 07 TG: @nodpai'
+  network: ws
+  port: 10034
+  server: 1b267619c4812cc46ee281747884ca50.qos.onl
+  type: vmess
+  uuid: 52f9cbfb-5bb3-3dd3-b947-725e365c59f3
+  ws-opts:
+    headers:
+      Host: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
+    path: /
 - name: 新加坡|@ripaojiedian
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae

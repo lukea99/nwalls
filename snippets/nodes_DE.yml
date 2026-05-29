@@ -1,4 +1,16 @@
 proxies:
+- alterId: 0
+  cipher: chacha20-poly1305
+  name: 'B - 🇩🇪 DE 03 TG: @nodpai'
+  network: ws
+  port: 80
+  server: speedtest.org
+  type: vmess
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  ws-opts:
+    headers:
+      Host: de2.ping-game.ir
+    path: /IOebhLMhl1CTbFHbL95myfRX2
 - alpn:
   - http/1.1
   client-fingerprint: chrome

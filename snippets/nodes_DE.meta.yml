@@ -1,31 +1,7 @@
 proxies:
-- insecure: '1'
-  mport: 40000-49999
-  name: 'A - 🇩🇪 DE 01 TG: @nodpai'
-  obfs: salamander
-  obfs-password: YzgyOTowNDk4ZTU2NTdiNA==
-  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-  port: 40000
-  server: de-by10fuo0kw.9966690.xyz
-  skip-cert-verify: true
-  tls:
-    enabled: true
-    insecure: true
-    server_name: iosapps.itunes.apple.com
-  type: hysteria2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 'B - 🇩🇪 DE 02 TG: @nodpai'
-  port: 443
-  security: tls
-  server: 87.120.93.240
-  servername: sub.sbrf-cdn342.ru
-  tls: true
-  type: vless
-  uuid: 91e120bc-159a-4390-b4e1-197b19602ea0
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 'B - 🇩🇪 DE 03 TG: @nodpai'
+- flow: xtls-rprx-vision
+  name: 'B - 🇩🇪 DE 01 TG: @nodpai'
+  network: tcp
   port: 443
   security: tls
   server: 87.120.93.242
@@ -33,15 +9,119 @@ proxies:
   tls: true
   type: vless
   uuid: 91e120bc-159a-4390-b4e1-197b19602ea0
+- alpn:
+  - h3
+  auth-str: github.com/Alvin9999-newpac/fanqiang
+  down: '55'
+  name: 🇩🇪DE_4|1.9MB/s
+  port: 10066
+  protocol: udp
+  server: 62.210.29.98
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria
+  up: '11'
+- alterId: 0
+  cipher: chacha20-poly1305
+  name: 'B - 🇩🇪 DE 03 TG: @nodpai'
+  network: ws
+  port: 80
+  server: speedtest.org
+  type: vmess
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  ws-opts:
+    headers:
+      Host: de2.ping-game.ir
+    path: /IOebhLMhl1CTbFHbL95myfRX2
 - client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
   name: 'B - 🇩🇪 DE 04 TG: @nodpai'
-  port: 8443
+  network: tcp
+  port: 9443
   security: tls
-  server: 178.215.238.148
-  servername: eh.vk.com
+  server: bero-3.bexum.fun
+  servername: bero-3.bexum.fun
   tls: true
   type: vless
-  uuid: 21c1132b-068c-46fb-880e-3268f6a30e7f
+  uuid: e7902151-e2e1-4d29-a84b-86f0d5d91b65
+- encryption: none
+  name: 'B - 🇩🇪 DE 05 TG: @nodpai'
+  network: ws
+  port: 80
+  server: 204.168.234.22
+  type: vless
+  uuid: 997b5119-c015-4203-b402-0eb0f60b77c3
+  ws-opts:
+    headers:
+      Host: nobody.fastspeed.ir
+    path: /ws
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 'B - 🇩🇪 DE 06 TG: @nodpai'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
+    short-id: '!!str 23'
+  security: reality
+  server: lav1.pineappled.org
+  servername: www.apple.com
+  spider-x: /
+  tls: true
+  type: vless
+  uuid: b931b922-6129-42bb-9c1c-d51371d18980
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  down: '1000'
+  name: 'B - 🇩🇪 DE 07 TG: @nodpai'
+  port: 20088
+  protocol: udp
+  server: 5.83.129.153
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  up: '500'
+- client-fingerprint: chrome
+  encryption: none
+  name: 'B - 🇩🇪 DE 08 TG: @nodpai'
+  network: ws
+  port: 2096
+  security: tls
+  server: 104.17.231.69
+  servername: FiLEMAnageR.thESTaYleR.iR
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: af47392c-2a72-44da-bab4-545a3bce4958
+  ws-opts:
+    headers:
+      Host: FiLEMAnageR.thESTaYleR.iR
+    path: /e12JtBu9rVXrhCqy
+- encryption: none
+  name: 'B - 🇩🇪 DE 09 TG: @nodpai'
+  network: ws
+  port: 2095
+  server: cdn.applly.ir
+  type: vless
+  uuid: 723b503c-9b84-4d3b-b605-3b3a486c36af
+  ws-opts:
+    headers:
+      Host: my.app20.ir
+    path: /
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  down: 1000 Mbps
+  name: 'C - 🇩🇪 DE 10 TG: @nodpai'
+  port: 54177
+  server: 5.83.129.90
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  up: 500 Mbps
 - alpn:
   - http/1.1
   client-fingerprint: chrome
@@ -80,15 +160,3 @@ proxies:
   port: 443
   server: 35.159.110.250
   type: ss
-- alpn:
-  - h3
-  auth-str: github.com/Alvin9999-newpac/fanqiang
-  down: '55'
-  name: 🇩🇪DE_4|1.9MB/s
-  port: 10066
-  protocol: udp
-  server: 62.210.29.98
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria
-  up: '11'

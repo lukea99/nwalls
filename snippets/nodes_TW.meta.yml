@@ -1,66 +1,16 @@
 proxies:
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 'A - 🇹🇼 TW 01 TG: @nodpai'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: IqsN_cPeCP6oEXtYQMMWBiUim-r9lxq7YGj_mE3992g
-    short-id: '!!str e6d59aff03e5b0'
-  security: reality
-  server: tw4.miyazono-kaori.com
-  servername: dlcdnets.asus.com
-  tls: true
-  type: vless
-  uuid: 4086c00a-67a4-4d96-9c5f-2f177f26cb51
 - alterId: 2
   cipher: auto
-  name: 'B - 🇹🇼 TW 02 TG: @nodpai'
+  name: 'B - 🇹🇼 TW 01 TG: @nodpai'
   port: 30811
   server: v11.zgtfqs.click
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇹🇼 TW 03 TG: @nodpai'
-  network: ws
-  port: 33404
-  server: yd3.ainivp.com
+- name: 'B - 🇹🇼 TW 02 TG: @nodpai'
+  password: gcuCpQfaiVeDBdWG
+  port: 19128
+  server: jpbgp.netvigor.cc
+  skip-cert-verify: true
+  sni: yazhou10.dynu.net
   tls: true
-  type: vmess
-  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
-  ws-opts:
-    headers:
-      Host: yd3.ainivp.com
-    path: /ray
-- client-fingerprint: edge
-  encryption: none
-  fp: edge
-  name: 'B - 🇹🇼 TW 04 TG: @nodpai'
-  network: ws
-  port: 2053
-  security: tls
-  server: xmm.130209.xyz
-  servername: taiwanv6.xiaomaimai.qzz.io
-  skip-cert-verify: false
-  sni: taiwanv6.xiaomaimai.qzz.io
-  tls: true
-  type: vless
-  uuid: 924106da-29ec-4822-bd13-703021e2a4f8
-  ws-opts:
-    headers:
-      Host: taiwanv6.xiaomaimai.qzz.io
-    path: /api/v2/check_update
-- alpn:
-  - h3
-  congestion-controller: bbr
-  disable-sni: false
-  name: 'B - 🇹🇼 TW 05 TG: @nodpai'
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27105
-  reduce-rtt: false
-  server: m61wz8.yydzx.xyz
-  sni: m61wz8.yydzx.xyz
-  type: tuic
-  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  type: trojan

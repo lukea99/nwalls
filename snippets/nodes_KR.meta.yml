@@ -1,6 +1,5 @@
 proxies:
 - client-fingerprint: chrome
-  encryption: none
   name: 'B - 🇰🇷 KR 01 TG: @nodpai'
   network: tcp
   port: 443

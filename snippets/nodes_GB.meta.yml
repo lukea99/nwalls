@@ -1,4 +1,22 @@
 proxies:
+- encryption: none
+  name: 🇬🇧GB_1|2.0MB/s
+  network: tcp
+  port: '2052'
+  server: 82.40.62.106
+  type: vless
+  udp: true
+  uuid: b5bd7d6d-5ab9-4965-bccc-32acdbc4f714
+  xudp: true
+- encryption: none
+  name: 🇬🇧GB_2|1.2MB/s
+  network: tcp
+  port: '2082'
+  server: 82.40.62.106
+  type: vless
+  udp: true
+  uuid: b5bd7d6d-5ab9-4965-bccc-32acdbc4f714
+  xudp: true
 - alpn:
   - ''
   alterId: '0'

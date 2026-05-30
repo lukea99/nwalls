@@ -1,69 +1,13 @@
 proxies:
-- name: 'A - 🇺🇸 US 01 TG: @nodpai'
-  password: 8f3a2b1c9d4e5f6a7b8c9d0e1f2a3b4c
-  port: 8443
-  server: 202.91.33.175
-  skip-cert-verify: true
-  tls: true
-  type: trojan
-- insecure: '1'
-  mport: 10000-19999
-  name: 'A - 🇺🇸 US 02 TG: @nodpai'
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-  port: 10000
-  server: usp-hdl9n8ovau.9966690.xyz
-  skip-cert-verify: true
-  tls:
-    enabled: true
-    insecure: true
-    server_name: iosapps.itunes.apple.com
-  type: hysteria2
-- client-fingerprint: chrome
-  name: 🇺🇸US_14|1.7MB/s
-  network: raw
-  password: 8f3a2b1c9d4e5f6a7b8c9d0e1f2a3b4c
-  port: '8443'
-  server: link.honghongai.top
-  skip-cert-verify: false
-  tls: true
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 'A - 🇺🇸 US 04 TG: @nodpai'
-  port: 180
-  server: 82.198.246.37
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: 🇺🇸US_2|1.5MB/s
-  network: grpc
-  port: '443'
-  reality-opts:
-    public-key: MchbHn3bpJaqAX-oqnNXYiXrbUTN0n-K203T8YGr8D4
-    short-id: '!!str 0ae20b3e5e2c0bc2'
-  security: reality
-  server: stone.quietgrove.forum
-  servername: stone.quietgrove.forum
-  tls: true
-  type: vless
-  udp: true
-  uuid: 482757f6-9a0a-46ea-a8e4-9beaece46697
-  xudp: true
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇺🇸 US 06 TG: @nodpai'
+  name: 'A - 🇺🇸 US 01 TG: @nodpai'
   port: 180
   server: 82.198.246.214
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - encryption: none
-  name: 'B - 🇺🇸 US 07 TG: @nodpai'
+  name: 'B - 🇺🇸 US 02 TG: @nodpai'
   network: ws
   port: 443
   security: tls
@@ -78,10 +22,8 @@ proxies:
       Host: picassooo.info
     path: /aymdlws
 - client-fingerprint: edge
-  encryption: none
   flow: xtls-rprx-vision
   name: RU_speednode_0038
-  network: tcp
   port: 22231
   security: tls
   server: 85.234.114.53
@@ -91,9 +33,7 @@ proxies:
   type: vless
   udp: true
   uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-- client-fingerprint: edge
-  encryption: none
-  name: 'B - 🇺🇸 US 09 TG: @nodpai'
+- name: 'B - 🇺🇸 US 04 TG: @nodpai'
   network: ws
   port: 2053
   security: tls
@@ -105,11 +45,32 @@ proxies:
   ws-opts:
     headers:
       Host: usa.hybe.cc.cd
-    path: /api/v2/check_update
-- client-fingerprint: chrome
+    path: /api/v2/check_updatefp=edge
+- multiplexing: MULTIPLEXING_LOW
+  name: 'B - 🇺🇸 US 05 TG: @nodpai'
+  password: dongtaiwang.com
+  port: 34567
+  server: 157.254.223.44
+  transport: TCP
+  type: mieru
+  username: dongtaiwang.com
+- client-fingerprint: edge
   encryption: none
   flow: xtls-rprx-vision
-  name: 'B - 🇺🇸 US 10 TG: @nodpai'
+  name: RU_speednode_0036
+  network: tcp
+  port: 443
+  security: tls
+  server: 85.234.114.53
+  servername: r1.mizulina.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 'B - 🇺🇸 US 07 TG: @nodpai'
   network: tcp
   port: 54254
   reality-opts:
@@ -131,21 +92,42 @@ proxies:
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - client-fingerprint: chrome
+  encryption: none
   flow: xtls-rprx-vision
-  name: 'B - 🇺🇸 US 12 TG: @nodpai'
-  port: 12443
+  name: RU_speednode_0037
+  network: tcp
+  port: 22231
   security: tls
-  server: 31.58.87.71
-  servername: sun6-21.userapi.com
+  server: r1.mizulina.top
+  servername: r1.mizulina.top
+  skip-cert-verify: false
   tls: true
   type: vless
-  uuid: ea484535-0170-4ec8-bb3c-a9dbaa7412d7
-- name: 'B - 🇺🇸 US 13 TG: @nodpai'
+  udp: true
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+  xudp: true
+- name: 'B - 🇺🇸 US 11 TG: @nodpai'
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
   port: 41943
   server: 90081bb25c.node.tro.cac.cab
   skip-cert-verify: true
   sni: az.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: 'B - 🇺🇸 US 12 TG: @nodpai'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 48697
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: gh.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: 'B - 🇺🇸 US 13 TG: @nodpai'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 46424
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: de.01.naiun.bilibili.com
   tls: true
   type: trojan
 - name: 'B - 🇺🇸 US 14 TG: @nodpai'
@@ -158,29 +140,13 @@ proxies:
   type: trojan
 - name: 'B - 🇺🇸 US 15 TG: @nodpai'
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 48697
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: gh.01.naiun.bilibili.com
-  tls: true
-  type: trojan
-- name: 'B - 🇺🇸 US 16 TG: @nodpai'
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 46424
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: de.01.naiun.bilibili.com
-  tls: true
-  type: trojan
-- name: 'B - 🇺🇸 US 17 TG: @nodpai'
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
   port: 45619
   server: 90081bb25c.node.tro.cac.cab
   skip-cert-verify: true
   sni: fr.01.naiun.bilibili.com
   tls: true
   type: trojan
-- name: 'B - 🇺🇸 US 18 TG: @nodpai'
+- name: 'B - 🇺🇸 US 16 TG: @nodpai'
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
   port: 47909
   server: 90081bb25c.node.tro.cac.cab
@@ -188,10 +154,25 @@ proxies:
   sni: is.01.naiun.bilibili.com
   tls: true
   type: trojan
+- name: 'B - 🇺🇸 US 17 TG: @nodpai'
+  network: ws
+  password: 433e785b-2077-47f7-a43d-985f63dd18d1
+  port: 18080
+  server: 175.192.103.88
+  sni: vpn.rnmcnm.com
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /trojan
+- name: 'B - 🇺🇸 US 19 TG: @nodpai'
+  port: 47518
+  server: de-on-demand.not-a-projects.xyz
+  type: vless
+  uuid: 25263c14-6cb5-499b-b462-dd498deecfe7
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 'B - 🇺🇸 US 19 TG: @nodpai'
+  name: 'B - 🇺🇸 US 20 TG: @nodpai'
   network: tcp
   port: 443
   reality-opts:
@@ -200,16 +181,55 @@ proxies:
   security: reality
   server: 37.46.18.128
   servername: www.amd.com
-  spider-x: /
   tls: true
   type: vless
   uuid: 3c53398c-977f-442d-b7d0-bf92979e5c05
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸US_10|2.4MB/s
+  network: ws
+  port: 443
+  server: cf.scpnb.top
+  servername: vienna-bread-threats-amendment.trycloudflare.com
+  tls: true
+  type: vmess
+  uuid: 7c84ae69-f0b3-47dc-83c5-e7b5f00f5bed
+  ws-opts:
+    headers:
+      Host: vienna-bread-threats-amendment.trycloudflare.com
+    path: /7c84ae69-f0b3-47dc-83c5-e7b5f00f5bed-vm
+- client-fingerprint: randomized
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇷🇺RU_1|2.1MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: APwi9yR-ezZtFU6xj2a3SBoXvEoWOoiRuZSit0N9xWI
+  security: reality
+  server: 185.139.214.254
+  servername: cloudcdn-m9-15.cdn.yandex.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: c55a51d9-48bd-11f1-941f-54db13ea7d40
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision-udp443
+  name: 'B - 🇺🇸 US 23 TG: @nodpai'
+  network: tcp
+  port: 443
+  security: tls
+  server: s881.ccgfw.top
+  servername: s881.ccgfw.top
+  tls: true
+  type: vless
+  uuid: 7402e534-54dc-34cc-ac5b-c85ac6e236fd
 - alpn:
   - h2
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: 'B - 🇺🇸 US 20 TG: @nodpai'
+  name: 'B - 🇺🇸 US 24 TG: @nodpai'
   network: ws
   port: 443
   security: tls
@@ -223,7 +243,7 @@ proxies:
       Host: hzR36-Cdn.sOreN-ApP.coM.
     path: /
 - encryption: none
-  name: 'B - 🇺🇸 US 21 TG: @nodpai'
+  name: 'B - 🇺🇸 US 25 TG: @nodpai'
   network: ws
   port: 443
   security: tls
@@ -239,20 +259,20 @@ proxies:
     path: /aymdlws
 - alterId: 2
   cipher: auto
-  name: 'C - 🇺🇸 US 22 TG: @nodpai'
+  name: 'C - 🇺🇸 US 26 TG: @nodpai'
   port: 30824
   server: v24.hdacd.com
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
-  name: 'C - 🇺🇸 US 24 TG: @nodpai'
+  name: 'C - 🇺🇸 US 28 TG: @nodpai'
   port: 30829
   server: v29.hdacd.com
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - encryption: none
-  name: 'C - 🇺🇸 US 25 TG: @nodpai'
+  name: 'C - 🇺🇸 US 29 TG: @nodpai'
   network: ws
   port: 443
   security: tls
@@ -266,27 +286,34 @@ proxies:
     headers:
       Host: picassooo.info
     path: /aymdlws
+- alterId: 2
+  cipher: auto
+  name: 'C - 🇺🇸 US 30 TG: @nodpai'
+  port: 30804
+  server: v4.hdacd.com
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 美国|@ripaojiedian
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 2663
-  server: 95.40.114.115
+  server: 18.163.128.27
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
-  port: 2663
-  server: 52.69.114.14
+  port: 6604
+  server: 54.238.76.39
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 2702
-  server: 43.206.155.159
+  port: 17801
+  server: 43.199.229.84
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -337,6 +364,23 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
         Gecko) Chrome/46.0.2490.80 Safari/537.36
     path: /?ed=mitivpn
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 🇺🇸US_2|1.5MB/s
+  network: grpc
+  port: '443'
+  reality-opts:
+    public-key: MchbHn3bpJaqAX-oqnNXYiXrbUTN0n-K203T8YGr8D4
+    short-id: '!!str 0ae20b3e5e2c0bc2'
+  server: stone.quietgrove.forum
+  servername: stone.quietgrove.forum
+  tls: true
+  type: vless
+  udp: true
+  uuid: 482757f6-9a0a-46ea-a8e4-9beaece46697
+  xudp: true
 - alpn:
   - h2
   - http/1.1
@@ -355,19 +399,6 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/63.0.3239.132 Safari/537.36
     path: /?ed=mitivpn
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: RU_speednode_0037
-  network: tcp
-  port: 22231
-  server: r1.mizulina.top
-  servername: r1.mizulina.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-  xudp: true
 - alterId: '0'
   cipher: auto
   name: 🇺🇸US_5|1.2MB/s
@@ -440,20 +471,6 @@ proxies:
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
   xudp: true
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸US_10|2.4MB/s
-  network: ws
-  port: 443
-  server: cf.scpnb.top
-  servername: vienna-bread-threats-amendment.trycloudflare.com
-  tls: true
-  type: vmess
-  uuid: 7c84ae69-f0b3-47dc-83c5-e7b5f00f5bed
-  ws-opts:
-    headers:
-      Host: vienna-bread-threats-amendment.trycloudflare.com
-    path: /7c84ae69-f0b3-47dc-83c5-e7b5f00f5bed-vm
 - name: 🇺🇸US_11|2.6MB/s
   network: tcp
   password: 8f3a2b1c9d4e5f6a7b8c9d0e1f2a3b4c
@@ -480,6 +497,15 @@ proxies:
     host: ads.x5.ru
     path: /api/v3/f29479507adb
   xudp: true
+- client-fingerprint: chrome
+  name: 🇺🇸US_14|1.7MB/s
+  network: raw
+  password: 8f3a2b1c9d4e5f6a7b8c9d0e1f2a3b4c
+  port: '8443'
+  server: link.honghongai.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
 - alpn:
   - h2
   - http/1.1
